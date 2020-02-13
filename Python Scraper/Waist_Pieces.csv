@@ -1,0 +1,145 @@
+Bone Coil Alpha +,9,Horn Maestro 1,Partbreaker 1,114,Level 3,None,None,2,0,2,0,2
+Bone Coil Beta +,9,Horn Maestro 1,,114,Level 3,Level 1,None,2,0,2,0,2
+Alloy Coil Alpha +,9, Poison Resistance 2,Windproof 1,114,Level 3,None,None,-2,0,-2,-2,0
+Alloy Coil Beta +,9, Poison Resistance 1,Windproof 1,114,Level 4,None,None,-2,0,-2,-2,0
+Direwolf Coil,9,Cliffhanger 1,,130,None,None,None,2,0,0,2,0
+Vespoid Coil Alpha +,9, Paralysis Resistance 2,Quick Sheath 1,116,Level 3,None,None,-2,1,1,1,2
+Vespoid Coil Beta +,9, Paralysis Resistance 2,,116,Level 3,Level 1,None,-2,1,1,1,2
+Hornetaur Coil Alpha +,9, Weakness Exploit 1,Hunger Resistance 1,116,Level 2,None,None,-1,-1,0,0,2
+Hornetaur Coil Beta +,9, Weakness Exploit 1,,116,Level 1,Level 4,None,-1,-1,0,0,2
+Jagras Coil Alpha +,9, Recovery Up 1,Speed Eating 1,116,Level 1,Level 2,None,-2,2,-1,-1,1
+Jagras Coil Beta +,9, Recovery Up 1,,116,Level 4,Level 1,None,-2,2,-1,-1,1
+Tzitzi Coil Alpha +,9, Wide-Range 2,Water Attack 2,116,Level 2,None,None,0,0,-3,-2,0
+Tzitzi Coil Beta +,9,Wide-Range 2,,116,Level 4,Level 1,None,0,0,-3,-2,0
+Girros Coil Alpha +,9,Effluvial Expert 1,Paralysis Attack 2,116,Level 3,None,None,0,-3,2,0,1
+Girros Coil Beta +,9,Effluvial Expert 1,,116,Level 4,Level 2,None,0,-3,2,0,1
+Dodogama Coil Alpha +,9, Artillery 2,Blast Resistance 1,120,Level 2,Level 1,None,2,0,-3,0,2
+Dodogama Coil Beta +,9, Artillery 2,,120,Level 4,Level 1,None,2,0,-3,0,2
+Kulu Coil Alpha +,9, Item Prolonger 2,Critical Eye 1,116,Level 3,None,None,0,-3,0,1,0
+Kulu Coil Beta +,9, Item Prolonger 2,,116,Level 1,Level 4,None,0,-3,0,1,0
+Pukei Coil Alpha +,9, Item Prolonger 1,Poison Attack 2,118,Level 3,None,None,0,3,-3,0,1
+Pukei Coil Beta +,9, Item Prolonger 1,Poison Attack 1,118,Level 4,Level 1,None,0,3,-3,0,1
+Pukei Lagoon Coil Alpha +,9, Water Attack 2,Partbreaker 1,132,Level 2,None,None,0,3,-2,-3,0
+Pukei Lagoon Coil Beta +,9, Water Attack 1,Partbreaker 1,132,Level 4,None,None,0,3,-2,-3,0
+Barroth Coil Alpha +,9, Agitator 2,Guard 1,118,Level 1,None,None,-3,-1,3,-1,0
+Barroth Coil Beta +,9, Agitator 2,,118,Level 4,None,None,-3,-1,3,-1,0
+Jyura Coil Alpha +,9, Ice Resistance 2,Latent Power 1,118,Level 3,None,None,-1,2,-3,0,0
+Jyura Coil Beta +,9, Ice Resistance 2,,118,Level 4,Level 1,None,-1,2,-3,0,0
+Beo Coil Alpha +,9,Health Boost 2,Earplugs 2,118,Level 2,None,None,-3,0,-2,3,2
+Beo Coil Beta +,9,Health Boost 2,Earplugs 1,118,Level 4,Level 1,None,-3,0,-2,3,2
+Kadachi Coil Alpha +,9, Thunder Attack 2,Thunder Resistance 1,120,Level 1,Level 3,None,0,-3,3,0,0
+Kadachi Coil Beta +,9, Health Boost 2,Earplugs 1,120,Level 4,Level 1,None,-3,0,-2,3,2
+Viper Kadachi Coil Alpha +,9, Constitution 1,Quick Sheath 1,132,Level 2,None,None,1,3,-3,-2,1
+Viper Kadachi Coil Beta +,9, Constitution 1,,132,Level 4,Level 1,None,1,3,-3,-2,1
+High Metal Coil Alpha +,9, Capacity Boost 1,Defense Boost 2,128,Level 2,Level 2,None,0,-1,-2,3,0
+High Metal Coil Beta +,9, Capacity Boost 1,Defense Boost 1,128,Level 2,Level 4,None,0,-1,-2,3,0
+Banbaro Coil Alpha +,9,Mushroomancer 1,Offensive Guard 1,130,Level 3,None,None,-2,2,-1,3,-3
+Banbaro Coil Beta +,9,Mushroomancer 1,,130,Level 4,Level 1,None,-2,2,-1,3,-3
+Anja Coil Alpha +,9, Fire Resistance 2,Artillery 1,132,Level 1,Level 3,None,3,-3,-1,-1,0
+Anja Coil Beta +,9, Fire Resistance 2,,132,Level 2,Level 4,None,3,-3,-1,-1,0
+Rathian Coil Alpha +,9, Poison Resistance 2,Health Boost 1,130,Level 3,Level 2,None,-2,0,-2,0,-3
+Rathian Coil Beta +,9, Poison Resistance 1,Health Boost 1,130,Level 4,Level 2,None,2,0,-2,0,-3
+Rath Heart Coil Alpha +,9,Handicraft 1,Poison Resistance 2,132,Level 3,None,None,3,0,-3,0,-4
+Rath Heart Coil Beta +,9,Handicraft 1,Poison Resistance 1,132,Level 4,None,None,3,0,-3,0,-4
+Lumu Coil Alpha +,9, Divine Blessing 2,Windproof 1,130,Level 2,Level 2,None,-3,2,0,1,0
+Lumu Coil Beta +,9, Divine Blessing 1,Windproof 1,130,Level 4,Level 1,None,-3,2,0,1,0
+Lumu Phantasm Coil Alpha +,9,Sleep Attack 2,Wide-Range 1,132,Level 2,None,None,-3,-3,2,1,1
+Lumu Phantasm Coil Beta +,9,Sleep Attack 2,,132,Level 4,None,None,-3,-3,2,1,1
+Baan Coil Alpha +,9, Guard 2,Sleep Resistance 2,134,Level 1,None,None,0,2,0,-1,-2
+Baan Coil Beta +,9, Guard 2,,132,Level 4,None,None,0,2,0,-1,-2
+Artian Coil Alpha +,10, Tool Specialist 2,Critical Eye 1,142,Level 1,Level 1,None,1,-2,-2,2,3
+Artian Coil Beta +,10, Tool Specialist 1,Critical Eye 1,142,Level 4,Level 1,None,1,-2,-2,2,3
+Clockwork Coil Alpha +,10, Partbreaker 2,Sleep Functionality 1,142,Level 2,None,None,2,2,2,-1,-1
+Clockwork Coil Beta +,10, Partbreaker 2,,142,Level 4,Level 1,None,2,2,2,-1,-1
+Ingot Coil Alpha +,10,Windproof 2,Free Elem/Ammo up 1,136,Level 2,None,None,-2,0,3,-1,0
+Ingot Coil Beta +,10,Windproof 1,Free Elem/Ammo up 1,136,Level 4,Level 1,None,-2,0,3,-1,0
+Barioth Faulds Alpha +,10, Quick Sheath 1,Recovery Up 1,138,Level 3,None,None,-3,2,-2,3,0
+Barioth Faulds Beta +,10, Quick Sheath 1,,138,Level 4,None,None,-3,2,-2,3,0
+Nargacuga Faulds Alpha +,10,Evade Window 2,Stamina Surge 1,140,Level 1,None,None,-2,2,-3,0,0
+Nargacuga Faulds Beta +,10,Evade Window 1,Stamina Surge 1,140,Level 4,None,None,-2,2,-3,0,0
+Glavenus Faulds Alpha +,10, Maximum Might 2,Normal Shots 1,142,Level 1,Level 1,None,3,-3,1,-1,-1
+Glavenus Faulds Beta +,10, Maximum Might 2,,142,Level 4,None,None,3,-3,1,-1,-1
+Black Belt Tassets Alpha +,11,Recovery Up 2,Marathon Runner 1,150,Level 3,None,None,1,1,1,1,2
+Black Belt Tassets Beta +,11,Recovery Up 2,,150,Level 4,Level 1,None,1,1,1,1,2
+Tigrex Tassets Alpha +,10,Earplugs 1,Free Meal 1,142,Level 1,Level 3,None,2,0,-3,0,-2
+Tigrex Tassets Beta +,10,Earplugs 1,,142,Level 4,Level 1,Level 2,2,0,-3,0,-2
+Brachydios Faulds Alpha +,10,Blast Attack 2,Stamina Thief 1,142,Level 3,None,None,3,-2,1,-3,1
+Brachydios Faulds Beta +,10,Blast Attack 2,,142,Level 4,Level 2,None,3,-2,1,-3,1
+Uragaan Coil Alpha +,10, Partbreaker 1,Guard 1,144,Level 1,Level 2,None,4,-3,1,-2,-2
+Uragaan Coil Beta +,10, Partbreaker 1,,144,Level 4,Level 2,None,4,-3,1,-2,-2
+Diablos Coil Alpha +,10,Marathon Runner 2,Critical Draw 1,140,Level 2,None,None,3,-2,0,-3,2
+Diablos Coil Beta +,10,Marathon Runner 2,,140,Level 4,Level 1,None,3,-2,0,-3,2
+Rath Soul Coil Alpha +,11,Windproof 2,Piercing Shots 1,148,Level 3,None,None,3,2,2,-3,-4
+Rath Soul Coil Beta +,11,Windproof 2,,148,Level 4,Level 2,None,3,2,3,-3,-4
+Odogaron Coil Alpha +,10, Critical Eye 1,Speed Sharpening 1,140,Level 2,None,None,2,2,-2,-3,0
+Odogaron Coil Beta +,10, Critical Eye 2,,140,Level 2,Level 4,None,2,2,-2,-3,0
+Fulgur Coil Alpha +,11, Weakness Exploit 2,Item Prolonger 1,146,Level 1,None,None,-1,-1,2,-3,0
+Fulgur Coil Beta +,11, Weakness Exploit 1,Item Prolonger 1,146,Level 4,Level 1,None,-1,-1,2,-3,0
+Rathalos Coil Alpha +,10, Fire Attack 2,Focus 2,140,Level 2,None,None,3,1,-2,1,-3
+Rathalos Coil Beta +,10, Fire Attack 2,,140,Level 4,Level 2,None,3,1,-2,1,-3
+Legiana Coil Alpha +,10, Ice Attack 2,Windproof 2,140,Level 2,None,None,-1,2,-3,3,0
+Legiana Coil Beta +,10, Ice Attack 2,Windproof 1,140,Level 4,Level 1,None,-1,2,-3,3,0
+Hoarcry Coil Alpha +,11, Evade Extender 2,Focus 1,146,Level 1,Level 1,None,-3,2,-1,3,0
+Hoarcry Coil Beta +,11, Evade Extender 2,,146,Level 4,None,None,-3,2,-1,3,0
+Lavasioth Coil Alpha +,10, Quick Sheath 2,Recovery Up 2,140,Level 1,None,None,3,-3,1,-2,2
+Lavasioth Coil Beta +,10, Quick Sheath 2,Recovery Up 1,140,Level 4,None,None,3,-3,1,-2,2
+Acidic Glavenus Coil Alpha +,11,Handicraft 2,Iron Skin 2,150,Level 2,None,None,-3,2,-1,2,-1
+Acidic Glavenus Coil Beta +,11,Handicraft 2,,150,Level 4,None,None,-3,2,-1,2,-1
+Death Garon Coil Alpha +,11,Dragon Attack 2,Latent Power 1,148,Level 2,Level 1,None,-2,-3,-2,-2,4
+Death Garon Coil Beta +,11,Dragon Attack 2,,148,Level 2,Level 4,None,-2,-3,-2,-2,4
+Diablos Nero Coil Alpha +,11, Slugger 2,Partbreaker 1,148,Level 2,None,None,2,-3,0,-4,2
+Diablos Nero Coil Beta +,11, Slugger 2,,148,Level 4,Level 1,None,2,-3,0,-4,2
+Dober Coil Alpha +,11,Attack Boost 2,Stun Resistance 2,152,Level 2,Level 1,None,-2,0,-1,-1,4
+Dober Coil Beta +,11,Attack Boost 1,Stun Resistance 1,152,Level 4,Level 2,None,-2,0,-1,-1,4
+Damascus Coil Alpha +,11,Focus 1,Guard 1,152,Level 2,Level 3,None,4,-2,0,0,0
+Damascus Coil Beta +,11,Focus 1,,152,Level 3,Level 1,Level 4,4,-2,0,0,0
+Pride Coil Alpha +,11,Bombardier 2,Critical Draw 1,154,Level 3,None,None,3,1,-2,-4,-2
+Pride Coil Beta +,11,Bombardier 2,,154,Level 4,Level 2,None,3,1,-2,-4,2
+Rimeguard Coil Alpha +,12,Flinch Free 1,Coalescence 1,154,Level 2,Level 1,None,-3,2,-1,4,-1
+Rimeguard Coil Beta +,12,Flinch Free 1,,154,Level 4,Level 1,None,-3,2,-1,4,-1
+Zorah Spine Alpha +,12,Tremor Resistance 1,Artillery 1,160,Level 3,Level 2,None,4,-3,-1,-2,-3
+Zorah Spine Beta +,12,Tremor Resistance 1,,160,Level 3,Level 4,None,4,-3,-1,-2,-3
+Shara Ishvalda Coil Alpha +,12,Health Boost 2,Recovery Up 1,162,Level 3,Level 2,None,0,-2,3,-3,0
+Shara Ishvalda Coil Beta +,12,Health Boost 2,,162,Level 3,Level 4,None,0,-2,3,-3,0
+Tentacle Coil Alpha +,12, Constitution 2,Stamina Surge 1,158,Level 1,Level 1,Level 1,-3,4,3,0,-2
+Tentacle Coil Beta +,12, Constitution 1,Stamina Surge 1,158,Level 4,Level 1,Level 1,-3,4,3,0,-2
+Kirin Hoop Alpha +,12,Blight Resistance 2,Free Elm/Ammo Up 1,154,Level 2,None,None,-3,-2,4,-3,2
+Kirin Hoop Beta +,12,Blight Resistance 2,,154,Level 4,Level 1,Level 1,-3,-2,4,-2,2
+Kushala Cocoon Alpha +,12,Ice Attack 1,Evade Extender 1,156,Level 2,None,None,0,2,-3,4,-2
+Kushala Cocoon Beta +,12,Ice Attack 1,,156,Level 4,Level 1,None,0,2,-3,4,-2
+Kaiser Coil Alpha +,12,Blast Attack 2,Weakness Exploit 1,156,Level 3,None,None,3,-3,1,-3,1
+Kaiser Coil Beta +,12,Blast Attack 2,,156,Level 4,Level 1,Level 2,3,-3,1,-3,1
+Fellshroud Coil Alpha +,12,Speed Eating 2,Peak Performance 1,156,Level 2,Level 1,None,-2,4,1,1,-3
+Fellshroud Coil Beta +,12,Speed Eating 2,,156,Level 4,Level 2,None,-2,4,1,1,-3
+Esurient Faulds Alpha +,11,Stamina Thief 2,Handicraft 1,156,Level 1,None,None,2,1,-3,1,-3
+Esurient Faulds Beta +,11,Stamina Thief 2,,156,Level 4,Level 1,None,2,1,-3,1,-3
+Garuga Tassets Alpha +,11,Resentment 2,Poison Attack 2,154,Level 1,Level 1,None,2,-3,2,-2,-2
+Garuga Tassets Beta +,11,Resentment 2,,154,Level 4,Level 3,None,2,-3,2,-2,-2
+Zinogre Coil Alpha +,11,Power Prolonger 1,Thunder Attack 2,158,Level 2,None,None,-1,-1,4,-4,1
+Zinogre Coil Beta +,11,Power Prolonger 1,,158,Level 4,Level 2,None,-1,-1,4,-4,1
+Empress Coil Alpha +,12,Health Boost 2,Blast Attack 2,164,Level 2,Level 2,None,3,1,1,-3,-2
+Empress Coil Beta +,12,Health Boost 2,,164,Level 4,Level 2,None,3,1,1,-3,-2
+Guild Palace Coil Alpha +,11,Agitator 1,Resuscitate 1,154,Level 1,Level 1,None,1,2,2,1,1
+Guild Palace Coil Beta +,11,Agitator 1,Resuscitate 1,154,Level 4,Level 1,None,1,2,2,1,1
+Ruinous Coil Alpha +,12,Attack Boost 1,Earplugs 1,166,Level 2,Level 1,None,1,1,-3,1,-3
+Ruinous Coil Beta +,12,Attack Boost 2,Earplugs 1,166,Level 4,Level 1,None,1,1,-3,1,-3
+Golden Lunecoil Alpha +,12,Divine Blessing 1,Health Boost,162,Level 2,Level 2,None,3,-2,-4,0,4
+Golden Lunecoil Beta +,12,Diving Blessing 1,,162,Level 4,Level 2,None,3,-2,-4,0,4
+Silver Solcoil Alpha +,12,Windproof 2,Critical Boost 1,164,Level 1,Level 1,None,4,-3,-2,-2,3
+Silver Solcoil Beta +,12,Windproof 1,Critical Boost 1,164,Level 4,Level 1,None,4,-3,-2,-2,3
+Golden Obi Alpha +,11,Weakness Exploit 1,Handicraft 1,158,Level 3,Level 1,None,2,0,3,-5,2
+Golden Obi Beta +,11,Weakness Exploit 1,,158,Level 4,Level 3,None,2,0,3,-5,2
+Rex Roar Coil Alpha +,11,Recovery Up 1,Weakness Exploit 1,158,Level 2,None,None,3,-4,-2,0,0
+Rex Roar Coil Beta +,11,Recovery Up 2,Weakness Exploit 1,158,Level 4,None,None,3,-4,-2,0,0
+Guildwork Waist Alpha +,12,Forager''s Luck 1,Detector 1,162,Level 3,Level 2,None,2,1,1,2,2
+Guildwork Waist Beta +,12,Forager''s Luck 1,,162,Level 4,Level 3,None,2,1,1,2,2
+Stygian Coil Alpha +,11,Latent Power 1,Earplugs 2,160,Level 1,Level 1,Level 1,2,-4,-5,0,4
+Stygian Coil Beta +,11,Latent Power 1,Earplugs 1,160,Level 4,Level 1,Level 1,2,-4,-5,0,4
+Claire''s Torso Alpha +,12,Agitator 1,Stamina Surge 2,150,Level 4,None,None,3,2,2,3,0
+Leon''s Torso Alpha +,12,Agitator 1,Attack Boost 1,150,Level 4,None,None,3,2,2,3,0
+Banuk Coil Alpha +,12,Marathon Runner 2,Aquatic/Polar Mobility 1,160,Level 4,Level 1,Level 1,2,0,2,2,2
+Safi Crested Belt Alpha +,12,Evade Window 2,Maximum Might 1,168,Level 3,None,None,2,1,1,1,-1
+Safi Crested Belt Beta +,12,Evade Window 2,,168,Level 4,Level 1,None,2,1,1,1,-1
+Oolong Waist Alpha +,9,Constitution 1,,120,Level 1,Level 1,None,1,1,1,4,1
+Buff Waist Alpha +,11,Agitator 2,Heroics 1,154,Level 4,None,None,2,-1,0,-1,-3
+Astral Skirt Alpha +,9,Flinch Free 2,,140,Level 1,None,None,2,2,2,2,2

@@ -1,0 +1,147 @@
+Bone Vambraces Alpha +,9,Slugger 2,Attack Boost 1,114,Level 2,None,None,2,0,2,0,2
+Bone Vambraces Beta +,9,Slugger 1,,114,Level 4,Level 1,None,2,0,2,0,2
+Alloy Vambraces Alpha +,9,Defense Boost 2,Speed Sharpening 1,114,Level 3,None,None,-2,0,-2,-2,0
+Alloy Vambraces Beta +,9,Defense Boost 2,,114,Level 4,Level 1,None,-2,0,-2,-2,0
+Direwolf Vambraces,9,Attack Boost 1,,130,None,None,None,2,0,0,2,0
+Vespoid Vambraces Alpha +,9,Paralysis Attack 1,Quick Sheath 1,116,Level 3,None,None,-2,1,1,1,2
+Vespoid Vambraces Beta +,9,Paralysis Attack 1,,116,Level 4,Level 1,None,-2,1,1,1,2
+Hornetaur Vambraces Alpha +,9,Free Meal 1 Handicraft 1,,116,Level 3,None,None,-1,-1,0,0,2
+Hornetaur Vambraces Beta +,9,Free Meal 1,,116,Level 4,Level 2,None,-1,-1,0,0,2
+Kestodon Guards Alpha +,9,Affinity Sliding 1,Focus 2,116,Level 1,Level 1,None,4,0,0,0,0
+Kestodon Guards Beta +,9,Affinity Sliding 1,Focus 1,116,Level 4,Level 1,None,4,0,0,0,0
+Jagras Vambraces Alpha +,9,Evade Extender 2,Recovery Up 1,116,Level 2,None,None,-2,2,-1,-1,1
+Jagras Vambraces Beta +,9,Evade Extender 1,Recovery Up 1,116,Level 4,None,None,-2,2,-1,-1,1
+Tzitzi Vambraces Alpha +,9,Stun Resistance 2,Wide-Range 2,116,Level 2,None,None,0,0,-3,-2,0
+Tzitzi Vambraces Beta +,9,Stun Resistance 2,Wide-Range 1,116,Level 4,None,None,0,0,-3,-2,0
+Girros Vambraces Alpha +,9,Free Elem/Ammo Up 1,Effluvia Resistance 2,116,Level 1,None,None,0,-3,2,0,1
+Girros Vambraces Beta +,9,Free Elem/Ammo Up 1,Effluvia Resistance 1,116,Level 4,None,None,0,-3,2,0,1
+Dodogama Vambraces Alpha +,9,Bombardier 2,Blast Attack 1,120,Level 2,None,None,2,0,-3,0,2
+Dodogama Vambraces Beta +,9,Bombardier 1,Blast Attack 1,120,Level 4,None,None,2,0,-3,0,2
+Kulu Vambraces Alpha +,9,Critical Boost 1,Pro Transporter 1,116,Level 1,Level 1,None,0,-3,0,1,0
+Kulu Vambraces Beta +,9,Critical Boost 1,,116,Level 4,None,None,0,-3,0,1,0
+Pukei Vambraces Alpha +,9,Peak Performance 2,Survival Expert 1,118,Level 1,None,None,0,3,-3,0,1
+Pukei Vambraces Beta +,9,Peak Performance 1,Survival Expert 1,118,Level 4,None,None,0,3,-3,0,1
+Pukei Lagoon Braces Alpha +,9,Partbreaker 1,Power Prolonger 1,132,Level 1,None,None,0,3,-2,-3,0
+Pukei Lagoon Braces Beta +,9,Partbreaker 1,,132,Level 4,Level 1,None,0,3,-2,-3,0
+Barroth Vambraces Alpha +,9,Marathon Runner 1,Guard 1,118,Level 3,Level 1,None,-3,-1,3,-1,0
+Barroth Vambraces Beta +,9,Marathon Runner 1,,118,Level 4,Level 2,None,-3,-1,3,-1,0
+Jyura Vambraces Alpha +,9,Water Attack 2,Ice Resistance 1,118,Level 2,Level 1,None,-1,2,-3,0,0
+Jyura Vambraces Beta +,9,Water Attack 2,,118,Level 4,Level 2,None,-1,2,-3,0,0
+Beo Vambraces Alpha +,9,Ice Attack 2,Health Boost 1,118,Level 3,None,None,-3,0,-2,3,2
+Beo Vambraces Beta +,9,Ice Attack 2,,118,Level 4,None,None,-3,0,-2,3,2
+Kadachi Vambraces Alpha +,9,Evade Extender 2,Thunder Attack 2,120,Level 2,None,None,0,-3,3,0,0
+Kadachi Vambraces Beta +,9,Evade Extender 1,Thunder Attack 2,120,Level 4,Level 2,None,0,-3,3,0,0
+Viper Kadachi Braces Alpha +,9,Poison Attack 2,Evade Window 1,132,Level 2,None,None,1,3,-3,-2,1
+Viper Kadachi Braces Beta +,9,Poison Attack 1,Evade Window 1,132,Level 4,None,None,1,3,-3,-2,1
+High Metal Braces Alpha +,9,Defense Boost 2,Ice Attack 2,128,Level 2,Level 1,None,0,-1,-2,3,0
+High Metal Braces Beta +,9,Defense Boost 2,Ice Attack 1,128,Level 4,Level 1,None,0,-1,-2,3,0
+Banbaro Vambraces Alpha +,9,Offensive Guard 1,Health Boost 2,130,Level 2,None,None,-2,2,-1,3,-3
+Banbaro Vambraces Beta +,9,Offensive Guard 1,Health Boost 1,130,Level 4,None,None,-2,2,-1,3,-3
+Anjanath Vambraces Alpha +,9,Special Ammo Boost 1,Fire Attack 2,132,Level 2,None,None,3,-3,-1,-1,0
+Anjanath Vambraces Beta +,9,Special Ammo Boost 1,Fire Attack 1,132,Level 4,None,None,3,-3,-1,-1,0
+Fulgur Vambraces Alpha +,11,Item Prolonger 2,Thunder Attack 2,146,Level 2,None,None,-1,-1,2,-3,0
+Fulgur Vambraces Beta Plus,11,Item Prolonger 2,,146,Level 4,Level 2,None,-1,-1,2,-3,0
+Rathian Vambraces Alpha +,9,Poison Attack 2,Botanist 1,130,Level 3,None,None,2,0,-2,0,-3
+Rathian Vambraces Beta +,9,Poison Attack 2,,130,Level 4,None,None,2,0,-2,0,-3
+Rath Heart Braces Alpha +,9,Windproof 2,Handicraft 1,132,Level 2,None,None,3,0,-3,0,-4
+Rath Heart Braces Beta +,9,Windproof 2,,132,Level 4,Level 2,None,3,0,-3,0,-4
+Lumu Vambraces Alpha +,9,Artillery 2,Windproof 1,130,Level 2,Level 2,None,-3,2,0,1,0
+Lumu Vambraces Beta +,9,Artillery 1,Windproof 1,130,Level 4,Level 1,None,-3,2,0,1,0
+Lumu Phantasm Braces Alpha +,9,Maximum Might 1,Sleep Attack 1,132,Level 2,None,None,-3,-3,2,1,1
+Lumu Phantasm Braces Beta +,9,Maximum Might 1,,132,Level 4,None,None,-3,-3,2,1,1
+Baan Vambraces Alpha +,9,Sleep Attack 2,Guard 1,134,Level 2,None,None,0,2,0,-1,-2
+Baan Vambraces Beta +,9,Sleep Attack 1,Guard 1,134,Level 4,None,None,0,2,0,-1,-2
+Artian Vambraces Alpha +,10,Free Elem/Ammo Up 2,Tool Specialist 1,142,Level 1,Level 1,None,1,-2,-2,2,3
+Artian Vambraces Beta +,10,Free Elem/Ammo Up 2,,142,Level 4,None,None,1,-2,-2,2,3
+Clockwork Vambraces Alpha +,10,Bombardier 3,Tremor Resistance 1,142,Level 2,None,None,2,2,2,-1,-1
+Clockwork Vambraces Beta +,10,Bombardier 3,,142,Level 4,None,None,2,2,2,-1,-1
+Ingot Vambraces Alpha +,10,Health Boost 2,Thunder Attack 2,138,Level 2,Level 1,None,-2,0,3,-1,0
+Ingot Vambraces Beta +,10,Health Boost 2,Thunder Attack 1,138,Level 4,None,None,-2,0,3,-1,0
+Barioth Vambraces Alpha +,10,Recovery Up 2,Constitution 2,138,Level 2,None,None,-3,2,-2,3,0
+Barioth Vambraces Beta +,10,Recovery Up 2,Constitution 1,138,Level 4,None,None,-3,2,-2,3,0
+Rathalos Vambraces Alpha +,10,Jump Master 1,Weakness Exploit 1,140,Level 3,None,None,3,1,-2,1,-3
+Rathalos Vambraces Beta +,10,Jump Master 1,,140,Level 4,Level 3,None,3,1,-2,1,-3
+Rath Soul Braces Alpha +,11,Partbreaker 2,Windproof 1,148,Level 2,None,None,3,2,2,-3,-4
+Rath Soul Braces Beta +,11,Partbreaker 1,Windproof 1,148,Level 4,Level 1,None,3,2,2,-3,-4
+Diablos Vambraces Alpha +,10,Heroics 3,Tremor Resistance 1,140,Level 2,None,None,3,-2,0,-3,2
+Diablos Vambraces Beta +,10,Heroics 2,Tremor Resistance 1,140,Level 4,Level 1,None,3,-2,0,-3,2
+Diablos Nero Braces Alpha +,11,Slugger 2,Marathon Runner 1,148,Level 1,Level 1,None,2,-3,0,-4,2
+Diablos Nero Braces Beta +,11,Slugger 1,Marathon Runner 1,148,Level 4,Level 2,None,2,-3,0,-4,2
+Legiana Vambraces Alpha +,10,Airborne 1,Evade Window 2,140,Level 3,None,None,-1,2,-3,3,0
+Legiana Vambraces Beta +,10,Airborne 1,Evade Window 1,140,Level 4,Level 2,None,-1,2,-3,3,0
+Hoarcry Vambraces Alpha +,11,Critical Draw 2,Hunger Resistance 1,146,Level 1,Level 1,None,-3,2,-1,3,0
+Hoarcry Vambraces Beta +,11,Critical Draw 2,,146,Level 4,None,None,-3,2,-1,3,0
+Odogaron Vambraces Alpha +,10,Constitution 2,Critical Eye 1,140,Level 1,None,None,2,2,-2,-3,0
+Odogaron Vambraces Beta +,10,Constitution 1,Critical Eye 1,140,Level 4,None,None,2,2,-2,-3,0
+Death Garon Braces Alpha +,11,Power Prolonger 1,Dragon Attack 2,148,Level 2,Level 1,None,-2,-3,-2,-2,4
+Death Garon Braces Beta +,11,Power Prolonger 1,Dragon Attack 1,148,Level 4,Level 1,None,-2,-3,-2,-2,4
+Lavasioth Vambraces Alpha +,10,Peak Performance 2,Recovery Up 1,140,Level 1,None,None,3,-3,1,-2,2
+Lavasioth Vambraces Beta +,10,Peak Performance 1,Recovery Up 1,140,Level 4,None,None,3,-3,1,-2,2
+Uragaan Vambraces Alpha +,10,Guard 2,Iron Skin 2,144,Level 2,None,None,4,-3,1,-2,-2
+Uragaan Vambraces Beta Plus,10,Guard 2,Iron Skin 1,144,Level 4,None,None,4,-3,1,-2,-2
+Nargacuga Vambraces Alpha +,10,Stamina Surge 2,Stealth 2,140,Level 1,None,None,-2,2,-3,0,0
+Nargacuga Vambraces Beta +,10,Stamina Surge 2,,140,Level 4,None,None,-2,2,-3,0,0
+Glavenus Braces Alpha +,10,Maximun Might 2,Focus 1,142,Level 1,None,None,3,-3,1,-1,-1
+Glavenus Braces Beta +,10,Maximun Might 1,Focus 1,142,Level 4,None,None,3,-3,1,-1,-1
+Acidic Glavenus Braces Alpha +,11,Stun Resistance 2,Handicraft 1,150,Level 2,Level 1,None,-3,2,-1,2,-1
+Acidic Glavenus Braces Beta +,11,Stun Resistance 2,,150,Level 4,Level 2,Level 1,-3,2,-1,2,-1
+Brachydios Braces Alpha +,10,Agitator 2,Blast Resistance 2,142,Level 2,None,None,3,-2,1,-3,1
+Brachydios Braces Beta +,10,Agitator 2,Blast Resistance 1,142,Level 4,None,None,3,-2,1,-3,1
+Tigrex Braces Alpha +,10,Speed Eating 2,Attack Boost 2,142,Level 1,None,None,2,0,-3,0,-2
+Tigrex Braces Beta +,10,Speed Eating 2,Attack Boost 1,142,Level 4,None,None,2,0,-3,0,-2
+Black Belt Braces Alpha +,11,Wide-Range 2,Horn Maestro 2,150,Level 3,None,None,1,1,1,1,2
+Black Belt Braces Beta +,11,Wide-Range 2,,150,Level 4,Level 1,None,1,1,1,1,2
+Dober Vambraces Alpha +,11,Stamina Surge 2,Mushroomancer 1,152,Level 2,Level 1,None,-2,0,-1,-1,4
+Dober Vambraces Beta +,11,Stamina Surge 1,Mushroomancer 1,152,Level 4,Level 1,None,-2,0,-1,-1,4
+Damascus Vambraces Alpha +,11,Handicraft 2,Speed Sharpening 1,152,Level 2,Level 1,None,4,-2,0,0,0
+Damascus Vambraces Beta +,11,Handicraft 2,,152,Level 4,Level 1,None,4,-2,0,0,0
+Pride Vambraces Alpha +,11,Critical Draw 2,Earplugs 1,154,Level 3,None,None,3,1,-2,-4,-2
+Pride Vambraces Beta +,11,Critical Draw 2,,154,Level 4,Level 3,None,3,1,-2,-4,-2
+Esurient Vambraces Alpha +,11,Stamina Thief 2,Partbreaker 1,156,Level 2,None,None,2,1,-3,1,-3
+Esurient Vambraces Beta +,11,Stamina Thief 2,,156,Level 4,None,None,2,1,-3,1,-3
+Rimeguard Vembraces Alpha +,12,Quick Sheath 1,Flinch Free 2,154,Level 1,None,None,-3,2,-1,4,-1
+Rimeguard Vembraces Beta +,12,Quick Sheath 1,Flinch Free 1,154,Level 4,None,None,-3,2,-1,4,-1
+Fellshroud Braces Alpha +,12,Recovery Up 2,Speed Eating 1,156,Level 2,Level 1,Level 1,-2,4,1,1,-3
+Fellshroud Braces Beta +,12,Recovery Up 2,,156,Level 4,Level 1,Level 1,-2,4,1,1,-3
+Kaiser Vambraces Alpha +,12,Weakness Exploit 2,Heat Guard 1,156,Level 2,None,None,3,-3,1,-3,1
+Kaiser Vambraces Beta +,12,Weakness Exploit 1,Heat Guard 1,156,Level 4,Level 3,None,3,-3,1,-3,1
+Kushala Grip Alpha +,12,Evade Window 3,,156,Level 1,None,None,0,2,-3,4,-2
+Kushala Grip Beta +,12,Evade Window 2,,156,Level 4,Level 2,None,0,2,-3,4,-2
+Kirin Longarms Alpha +,12,Thunder Attack 3,Marathon Runner 1,154,Level 3,Level 2,None,-3,-2,4,-2,2
+Kirin Longarms Beta +,12,Thunder Attack 3,,154,Level 4,Level 2,Level 2,-3,-2,4,-2,2
+Tentacle Gloves Alpha +,12,Tool Specialist 2,Maximum Might 1,158,Level 1,None,None,-3,4,3,0,-2
+Tentacle Gloves Beta +,12,Tool Specialist 2,,158,Level 4,None,None,-3,4,3,0,-2
+Shara Ishvalda Braces Alpha +,12,Critical Boost 2,Coalescence 1,162,Level 1,None,None,0,-2,3,-3,0
+Shara Ishvalda Braces Beta +,12,Critical Boost 2,,162,Level 4,None,None,0,-2,3,-3,0
+Zorah Claws Alpha +,12,Flinch Free 2,Free Meal 1,160,Level 1,Level 1,None,4,-3,-1,-2,-3
+Zorah Claws Beta +,12,Flinch Free 2,,160,Level 4,Level 1,None,4,-3,-1,-2,-3
+Garuga Vambraces Alpha +,11,Earplugs 3,,154,Level 1,None,None,2,-3,2,-2,-2
+Garuga Vambraces Beta +,11,Earplugs 2,,154,Level 4,None,None,2,-3,2,-2,-2
+Zinogre Braces Alpha +,11,Recover Speed 2,Latent Power 2,158,Level 2,Level 1,None,-1,-1,4,-4,1
+Zinogre Braces Beta +,11,Recover Speed 1,Latent Power 2,158,Level 4,Level 2,None,-1,-1,4,-4,1
+Empress Vambraces Alpha +,12,Tool Specialist 2,Blast Attack 2,164,Level 2,Level 1,None,3,1,1,-3,-2
+Empress Vambraces Beta +,12,Tool Specialist 2,Blast Attack 1,164,Level 4,Level 1,None,3,1,1,-3,-2
+Guild Palace Braces Alpha +,11,Offensive Guard 2,Heroics 1,154,Level 3,None,None,1,2,2,1,1
+Guild Palace Braces Beta +,11,Offensive Guard 3,,154,Level 4,Level 1,None,1,2,2,1,1
+Ruinous Vambraces Alpha +,12,Agitator 2,Attack Boost 2,166,Level 3,None,None,1,1,-3,1,-3
+Ruinous Vambraces Beta +,12,Agitator 2,Attack Boost 1,166,Level 4,Level 1,None,1,1,-3,1,-3
+Silver Solbraces Alpha +,12,Slinger Capacity 3,Windproof 1,164,Level 2,Level 2,None,4,-3,-2,-2,3
+Silver Solbraces Beta +,12,Slinger Capacity 3,,164,Level 4,Level 2,None,4,-3,-2,-2,3
+Golden Lunebraces Alpha +,12,Resentment 2,Poison Attack 2,162,Level 2,None,None,3,-2,-4,0,4
+Golden Lunebraces Beta +,12,Resentment 2,,162,Level 4,Level 2,None,3,-2,-4,0,4
+Golden Kote Alpha +,11,Resentment 1,Handicraft 2,158,Level 2,None,None,2,0,3,-5,2
+Golden Kote Beta +,11,Resentment 1,,158,Level 4,Level 3,None,2,0,3,-5,2
+Rex Roar Braces Alpha +,11,Health Boost 3,Attack Boost 2,158,Level 3,None,None,3,-4,-2,0,0
+Rex Roar Braces Beta +,11,Health Boost 2,Attack Boost 2,158,Level 4,None,None,3,-4,-2,0,0
+Guildwork Braces Alpha +,12,Geologist 2,Botanist 1,162,Level 3,Level 2,None,2,1,1,2,2
+Guildwork Braces Beta +,12,Geologist 1,Botanist 1,162,Level 4,Level 3,None,2,1,1,2,2
+Stygian Vambraces Alpha +,11,Partbreaker 2,Dragon Attack 3,160,Level 2,None,None,2,-4,-5,0,4
+Stygian Vambraces Beta +,11,Partbreaker 2,,160,Level 4,Level 3,None,2,-4,-5,0,4
+Claire''s Arms Alpha +,12,Agitator 2,Evade Window 1,150,Level 4,None,None,3,2,2,3,0
+Leon''s Arms Alpha +,12,Agitator 1,Attack Boost 2,150,Level 4,None,None,3,2,2,3,0
+Banuk Arms Alpha +,12,Focus 1,Stamina Surge 1,160,Level 4,Level 3,None,2,0,2,2,2
+Safi Crested Vambraces Alpha +,12,Blight Resistance 1,Maximum Might 1,168,Level 2,Level 2,Level 2,2,1,1,1,-1
+Safi Crested Vambraces Beta +,12,Blight Resistance 1,,168,Level 4,Level 2,None,2,1,1,1,-1
+Oolong Sleeves Alpha +,9,Coalescence 2,,120,Level 4,None,None,1,1,1,4,1
+Buff Arms Alpha +,11,Attack Boost 3,Resuscitate 1,154,Level 4,None,None,2,-1,0,-1,-3
+Astral Scarf Alpha +,9,Divine Blessing 2,,140,Level 4,Level 1,Level 1,2,2,2,2,2

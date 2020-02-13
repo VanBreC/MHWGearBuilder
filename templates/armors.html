@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Armors</title>
+</head>
+<body>
+<h2>Python 3 Flask/MySQL Database Demo</h2>
+<h3>Uses the 'pymysql' module to query the armor database.</h3>
+<p>Query: SELECT * FROM armor LIMIT 50</p>
+<a href="showChestPieces">Chest Pieces</a>
+<table id="armors" style="width:100%">
+    {% if result %}
+    <tr>
+        <th>Name</th>
+        <th>Rarity</th>
+        <th>Skill 1</th>
+        <th>Skill 2</th>
+        <th>Defense</th>
+        <th>Slot 1</th>
+        <th>Slot 2</th>
+        <th>Slot 3</th>
+        <th>Fire Def</th>
+        <th>Water Def</th>
+        <th>Thunder Def</th>
+        <th>Ice Def</th>
+        <th>Dragon Def</th>
+    </tr>
+    {% for row in result %}
+    <tr>
+        <td> {{ row.name }}</td>
+        <td> {{ row.rarity }}</td>
+        <td> {{ row.skill1 }}</td>
+        <td> {{ row.skill2 }}</td>
+        <td> {{ row.defense }}</td>
+        <td> {{ row.slot1 }}</td>
+        <td> {{ row.slot2 }}</td>
+        <td> {{ row.slot3 }}</td>
+        <td> {{ row.firedef }}</td>
+        <td> {{ row.waterdef }}</td>
+        <td> {{ row.thunderdef }}</td>
+        <td> {{ row.icedef }}</td>
+        <td> {{ row.dragondef }}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+</table>
+</body>
+</html>

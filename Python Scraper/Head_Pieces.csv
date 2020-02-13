@@ -1,0 +1,153 @@
+Bone Helm Alpha +,9,Health Boost 2,Partbreaker 1,114,Level 3,None,None,2,0,2,0,2
+Bone Helm Beta +,9,Health Boost 1,Partbreaker 1,114,Level 4,None,None,2,0,2,0,2
+Alloy Helm Alpha +,9,Windproof 2,Defense Boost 1,114,Level 2,None,None,-2,0,-2,-2,0
+Alloy Helm Beta +,9,Windproof 1,,114,Level 4,Level 1,None,-2,0,-2,-2,0
+Direwolf Headgear,9,Survival Expert 1,,130,None,None,None,2,0,0,2,0
+Vespoid Helm Alpha +,9,Quick Sheath 1,Paralysis Attack 1,116,Level 3,None,None,-2,1,1,1,2
+Vespoid Helm Beta +,9,Quick Sheath 1,,116,Level 4,Level 1,None,-2,1,1,1,2
+Hornetaur Helm Alpha +,9,Weakness Exploit 1,Dragon Attack 2,116,Level 2,None,None,-1,-1,0,0,2
+Hornetaur Helm Beta +,9,Weakness Exploit 1,Dragon Attack 1,116,Level 4,None,None,-1,-1,0,0,2
+Shamos Goggles Alpha +,9,Detector 1,Geologist 2,116,Level 2,Level 1,None,2,2,0,-3,0
+Shamos Goggles Beta +,9,Detector 1,Geologist 1,116,Level 4,Level 2,None,2,2,0,-3,0
+Gastodon Horn Alpha +,9,Flinch Free 2,Blast Resistance 1,116,Level 1,None,None,3,0,0,0,0
+Gastodon Horn Beta +,9,Flinch Free 1,Blast Resistance 1,116,Level 4,Level 1,None,3,0,0,0,0
+Wulg Scarf Alpha +,9,Ice Resistance 2,Master Mounter 1,116,Level 2,Level 1,None,-3,2,-2,3,2
+Wulg Scarf Beta +,9,Ice Resistance 1,Master Mounter 1,116,Level 4,Level 1,None,-3,2,-2,3,2
+Jagras Helm Alpha +,9,Speed Eating 2,Attack Boost 2,116,Level 2,None,None,-2,2,-1,-1,1
+Jagras Helm Beta +,9,Speed Eating 1,Attack Boost 1,116,Level 4,Level 1,None,-2,2,-1,-1,1
+Tzitzi Headgear Alpha +,9,Free Elm/Ammo Up 1,Stun Resistance 1,116,Level 2,Level 1,None,0,0,-3,-2,0
+Tzitzi Headgear Beta +,9,Free Elm/Ammo Up 1,,116,Level 4,Level 1,None,0,0,-3,-2,0
+Girros Headgear Alpha +,9,Horn Maestro 2,Paralysis Resistance 1,116,Level 2,None,None,0,-3,2,0,1
+Girros Headgear Beta +,9,Horn Maestro 2,,116,Level 4,None,None,0,-3,2,0,1
+Dodogama Helm Alpha +,9,Blast Resistance 2,Bombardier 1,120,Level 3,None,None,0,0,-3,0,2
+Dodogama Helm Beta +,9,Blast Resistance 2,,120,Level 4,None,None,0,0,-3,0,2
+Kulu Headpiece Alpha +,9,Slinger Capacity 2,Critical Boost 1,116,Level 1,None,None,0,-3,0,1,0
+Kulu Headpiece Beta +,9,Slinger Capacity 2,,116,Level 4,None,None,0,-3,0,1,0
+Pukei Hat Alpha +,9,Survival Expert 2,Poison Resistance 1,118,Level 2,Level 2,None,0,3,-3,0,1
+Pukei Hat Beta +,9,Survival Expert 2,,118,Level 4,Level 1,Level 1,0,3,-3,0,1
+Pukei Lagoon Hat Alpha +,9,Critical Draw 2,Item Prolonger 1,132,Level 1,None,None,0,3,-2,-3,0
+Pukei Lagoon Hat Beta +,9,Critical Draw 1,Item Prolonger 1,132,Level 4,None,None,0,3,-2,-3,0
+Barroth Helm Alpha +,9,Guard 2,Marathon Runner 1,118,Level 2,None,None,-3,-1,3,-1,0
+Barroth Helm Beta +,9,Guard 2,,118,Level 4,Level 1,None,-3,-1,3,-1,0
+Jyura Helm Alpha +,9,Latent Power 2,Focus 1,118,Level 1,Level 1,None,-1,2,-3,0,0
+Jyura Helm Beta +,9,Latent Power 1,Focus 1,118,Level 4,Level 1,None,-1,2,-3,0,0
+Beo Helm Alpha +,9,Aquatic/Polar Mobility 2,Earplugs 1,118,Level 2,None,None,-3,0,-2,3,2
+Beo Helm Beta +,9,Aquatic/Polar Mobility 2,,118,Level 4,Level 1,None,-3,0,-2,3,2
+Kadachi Hat Alpha +,9,Constitution 2,Evade Extender 1,120,Level 2,None,None,0,-3,3,0,0
+Kadachi Hat Beta +,9,Constitution 1,Evade Extender 1,120,Level 4,Level 1,None,0,-3,3,0,0
+Viper Kadachi Hat Alpha +,9,Evade Extender 2,Paralysis Attack 1,132,Level 1,None,None,1,3,-3,-2,1
+Viper Kadachi Hat Beta +,9,Evade Extender 1,Paralysis Attack 1,132,Level 4,None,None,1,3,-3,-2,1
+High Metal Helm Alpha +,9,Ice Resistance 2,Earplugs 2,128,Level 2,None,None,0,-1,-2,3,0
+High Metal Helm Beta +,9,Ice Resistance 2,Earplugs 1,128,Level 4,Level 1,None,0,-1,-2,3,0
+Banbaro Helm Alpha +,9,Resentment 2,Mushroomancer 1,130,Level 2,None,None,-2,2,-1,3,-3
+Banbaro Helm Beta +,9,Resentment 2,,130,Level 4,Level 1,None,-2,2,-1,3,-3
+Anja Helm Alpha +,9,Fire Attack 2,Fire Resistance 2,132,Level 3,None,None,3,-3,-1,-1,0
+Anja Helm Beta +,9,Fire Resistance 2,,132,Level 4,None,None,3,-3,-1,-1,0
+Fulgur Helm Alpha +,11,Weakness Exploit 1,Resuscitate 1,146,Level 2,Level 1,None,-1,-1,2,-3,0
+Fulgur Helm Beta +,11,Weakness Exploit 1,,146,Level 4,Level 2,None,-1,-1,2,-3,0
+Rathian Helm Alpha +,9,Health Boost 2,Poison Attack 1,130,Level 3,None,None,2,0,-2,0,-3
+Rathian Helm Beta +,9,Health Boost 1,Poison Attack 1,130,Level 4,None,None,2,0,-2,0,-3
+Rath Heart Helm Alpha +,9,Evade Extender 2,Cliffhanger 1,132,Level 3,None,None,3,0,-3,0,-4
+Rath Heart Helm Beta +,9,Evade Extender 2,,132,Level 4,Level 1,None,3,0,-3,0,-4
+Lumu Hat Alpha +,9,Stamina Surge 2,Windproof 1,130,Level 3,None,None,-3,2,0,1,0
+Lumu Hat Beta +,9,Stamina Surge 2,,130,Level 4,Level 1,None,-3,2,0,1,0
+Lumu Phantasm Hood Alpha +,9,Weakness Exploit 1,Wide-Range 1,132,Level 1,Level 1,None,-3,-3,2,1,1
+Lumu Phantasm Hood Beta +,9,Weakness Exploit 1,,132,Level 4,None,None,-3,-3,2,1,1
+Baan Helm Alpha +,9,Tremor Resistance 2,Slugger 1,134,Level 1,Level 1,None,0,2,0,-1,-2
+Baan Helm Beta +,9,Tremor Resistance 2,,134,Level 4,None,None,0,2,0,-1,-2
+Artian Helm Alpha +,10,Slinger Capacity 2,Free Elm/Ammo Up 1,142,Level 2,None,None,1,-2,-2,2,3
+Artian Helm Beta +,10,Slinger Capacity 1,Free Elm/Ammo Up 1,142,Level 4,Level 1,None,1,-2,-2,2,3
+Clockwork Helm Alpha +,10,Agitator 2,Partbreaker 1,142,Level 1,Level 1,None,2,2,2,-1,-1
+Clockwork Helm Beta +,10,Agitator 1,Partbreaker 1,142,Level 4,Level 1,None,2,2,2,-1,-1
+Ingot Helm Alpha +,10,Thunder Attack 2,Windproof 1,136,Level 2,None,None,-2,0,3,-1,0
+Ingot Helm Beta +,10,Thunder Attack 2,,136,Level 4,Level 2,None,-2,0,3,-1,0
+Barioth Helm Alpha +,10,Evade Extender 2,Power Prolonger 1,138,Level 1,Level 1,None,-3,2,-2,3,0
+Barioth Helm Beta +,10,Evade Extender 1,Power Prolonger 1,138,Level 4,Level 1,None,-3,2,-2,3,0
+Rathalos Helm Alpha +,10,Attack Boost 2,Fire Attack 2,140,Level 2,None,None,3,1,-2,1,-3
+Rathalos Helm Beta +,10,Attack Boost 2,,140,Level 4,Level 1,None,3,1,-2,1,-3
+Rath Soul Helm Alpha +,11,Critical Boost 1,Cliffhanger 1,148,Level 1,Level 1,None,3,2,2,-3,-4
+Rath Soul Helm Beta +,11,Critical Boost 1,,148,Level 4,None,None,3,2,2,-3,-4
+Diablos Helm Alpha +,10,Critical Draw 2,Slugger 1,140,Level 2,None,None,3,-2,0,-3,2
+Diablos Helm Beta +,10,Critical Draw 2,,140,Level 4,None,None,3,-2,0,-3,2
+Diablos Nero Helm Alpha +,11,Partbreaker 2,Resentment 1,148,Level 1,Level 1,None,2,-3,0,-4,2
+Diablos Nero Helm Beta +,11,Partbreaker 2,,148,Level 4,Level 1,None,2,-3,0,-4,2
+Legiana Helm Alpha +,10,Divine Blessing 2,Ice Attack 2,140,Level 2,None,None,-1,2,-3,3,0
+Legiana Helm Beta +,10,Divine Blessing 2,,140,Level 4,Level 1,None,-1,2,-3,3,0
+Hoarcry Helm Alpha +,11,Hunger Resistance 2,Evade Extender 1,146,Level 1,Level 1,Level 1,-3,2,-1,3,0
+Hoarcry Helm Beta +,11,Hunger Resistance 2,,146,Level 4,Level 1,None,-3,2,-1,3,0
+Odogaron Helm Alpha +,10,Bleeding Resistance 2,Critical Eye 2,140,Level 2,None,None,2,2,-2,-3,0
+Odogaron Helm Beta +,10,Bleeding Resistance 2,Critical Eye 1,140,Level 4,None,None,2,2,-2,-3,0
+Death Garon Helm Alpha +,11,Latent Power 2,Tool Specialist 1,148,Level 3,None,None,-2,-3,-2,-2,4
+Death Garon Helm Beta +,11,Latent Power 2,,148,Level 4,Level 2,None,-2,-3,-2,-2,4
+Lavasioth Helm Alpha +,10,Fire Attack 2,Quick Sheath 1,140,Level 1,Level 1,None,3,-3,1,-2,2
+Lavasioth Helm Beta +,10,Fire Attack 1,Quick Sheath 1,140,Level 4,Level 1,None,3,-3,1,-2,2
+Uragaan Helm Alpha +,10,Blast Resistance 2,Flinch Free 1,144,Level 2,Level 1,None,4,-3,1,-2,-2
+Uragaan Helm Beta +,10,Blast Resistance 2,,144,Level 4,Level 3,None,4,-3,1,-2,-2
+Nargacuga Helm Alpha +,10,Peak Performance 2,Piercing Shots 1,140,Level 1,Level 1,None,-2,2,-3,0,0
+Nargacuga Helm Beta +,10,Peak Performance 1,Piercing Shots 1,140,Level 4,Level 1,None,-2,2,-3,0,0
+Glavenus Helm Alpha +,10,Focus 2,Handicraft 1,142,Level 1,None,None,3,-3,1,-1,-1
+Glavenus Helm Beta +,10,Focus 1,Handicraft 1,142,Level 4,None,None,3,-3,1,-1,-1
+Acidic Glavenus Helm Alpha +,11,Maximum Might 2,Effluvial Resistance 2,150,Level 1,None,None,-3,2,-1,2,-1
+Acidic Glavenus Helm Beta +,11,Maximum Might 1,Effluvial Resistance 2,150,Level 4,None,None,-3,2,-1,2,-1
+Brachydios Helm Alpha +,10,Agitator 2,Capacity Booster 1,142,Level 3,None,None,3,-2,1,-3,1
+Brachydios Helm Beta +,10,Agitator 2,,142,Level 4,Level 1,None,3,-2,1,-3,1
+Tigrex Helm Alpha +,10,Attack Boost 2,Earplugs 2,142,Level 1,None,None,2,0,-3,0,-2
+Tigrex Helm Beta +,10,Attack Boost 2,Earplugs 1,142,Level 4,None,None,2,0,-3,0,-2
+Black Belt Helm Alpha +,11,Marathon Runner 2,Mushroomancer 1,150,Level 3,None,None,1,1,1,1,2
+Black Belt Helm Beta +,11,Marathon Runner 2,,150,Level 4,Level 2,None,1,1,1,1,2
+Dober Helm Alpha +,11,Free Elm/Ammo Up 2,Stamina Surge 1,152,Level 1,None,None,-2,0,-1,-1,4
+Dober Helm Beta +,11,Free Elm/Ammo Up 2,,152,Level 4,None,None,-2,0,-1,-1,4
+Damascus Helm Alpha +,11,Defense Boost 3,Speed Sharpening 2,152,Level 3,None,None,4,-2,0,0,0
+Damascus Helm Beta +,11,Defense Boost 3,,152,Level 4,Level 1,Level 1,4,-2,0,0,0
+Pride Helm Alpha +,11,Earplugs 2,Blast Attack 2,154,Level 2,Level 1,None,3,1,-2,-4,-2
+Pride Helm Beta +,11,Earplugs 2,Blast Attack 1,154,Level 4,Level 1,None,3,1,-2,-4,-2
+Esurient Helm Alpha +,11,Partbreaker 1,Handicraft 2,156,Level 1,None,None,2,1,-3,1,-3
+Esurient Helm Beta +,11,Partbreaker 1,,156,Level 4,Level 3,None,2,1,-3,1,-3
+Rimeguard Helm Alpha +,12,Divine Blessing 2,Coalescence 1,154,Level 3,Level 2,None,-3,2,-1,4,-1
+Rimeguard Helm Beta +,12,Divine Blessing 2,,154,Level 4,Level 2,None,-3,2,-1,4,-1
+Fellshroud Helm Alpha +,12,Peak Performance 2,Dragon Attack 2,156,Level 1,None,None,-2,4,1,1,-3
+Fellshroud Helm Beta +,12,Peak Performance 2,,156,Level 4,Level 1,None,-2,4,1,1,-3
+Kaiser Crown Alpha +,12,Latent Power 2,Critical Eye 2,156,Level 1,None,None,3,-3,1,-3,1
+Kaiser Crown Beta +,12,Latent Power 1,Critical Eye 2,156,Level 4,None,None,3,-3,1,-3,1
+Kushala Glare Alpha +,12,Ice Attack 2,Evade Window 2,156,Level 2,None,None,0,2,-3,4,-2
+Kushala Glare Beta +,12,Ice Attack 2,Evade Window 1,156,Level 4,Level 1,None,0,2,-3,4,-2
+Kirin Horn Alpha +,12,Marathon Runner 2,Divine Blessing 2,154,Level 3,Level 1,None,-3,-2,4,-2,2
+Kirin Horn Beta +,12,Marathon Runner 2,,154,Level 4,Level 1,Level 1,-3,-2,4,-2,2
+Tentacle Cowl Alpha +,12,Constitution 3,Maximum Might 1,158,Level 1,None,None,-3,4,3,0,-2
+Tentacle Cowl Beta +,12,Constitution 2,Maximum Might 1,158,Level 4,None,None,-3,4,3,0,-2
+Shara Ishvalda Helm Alpha +,12,Recovery Up 2,Partbreaker 1,162,Level 3,Level 1,None,0,-2,3,-3,0
+Shara Ishvalda Helm Beta +,12,Recovery Up 2,,162,Level 4,Level 2,None,0,-2,3,-3,0
+Zorah Headgear Alpha +,12,Flinch Free 1,Artillery 2,160,Level 2,Level 2,None,4,-3,-1,-2,-3
+Zorah Headgear Beta +,12,Flinch Free 1,,160,Level 4,Level 2,Level 1,4,-3,-1,-2,-3
+Garuga Helm Alpha +,11,Critical Eye 3,Resentment 1,154,Level 3,None,None,2,-3,2,-2,-2
+Garuga Helm Beta +,11,Critical Eye 1,Resentment 1,154,Level 4,Level 2,None,2,-3,2,-2,-2
+Zinogre Helm Alpha +,11,Power Prolonger 2,Critical Boost 1,158,Level 1,None,None,-1,-1,4,-4,1
+Zinogre Helm Beta +,11,Power Prolonger 1,Critical Boost 1,158,Level 4,None,None,-1,-1,4,-4,1
+Empress Crown Alpha +,12,Tool Specialist 2,Offensive Guard 2,164,Level 4,None,None,3,1,1,-3,-2
+Empress Crown Beta +,12,Tool Specialist 2,,164,Level 4,Level 2,None,3,1,1,-3,-2
+Guild Palace Helm Alpha +,11,Health Boost 2,Offensive Guard 1,154,Level 3,None,None,1,2,2,1,1
+Guild Palace Helm Beta +,11,Health Boost 2,,154,Level 4,Level 2,None,1,2,2,1,1
+Ruinous Helm Alpha +,12,Maximum Might 2,Stamina Surge 1,166,Level 3,Level 1,None,1,1,-3,1,-3
+Ruinous Helm Beta +,12,Maximum Might 2,,166,Level 4,Level 2,None,1,1,-3,1,-3
+Silver Solhelm Alpha +,12,Windproof 2,Fire Attack 2,164,Level 2,Level 2,None,4,-3,-2,-2,3
+Silver Solhelm Beta +,12,Windproof 2,,164,Level 4,None,None,4,-3,-2,-2,3
+Golden Lunehelm Beta +,12,Health Boost 2,,162,Level 4,Level 2,None,3,-2,-4,0,4
+Golden Lunehelm Alpha +,12,Health Boost 2,Poison Attack 2,162,Level 3,Level 1,None,3,-2,-4,0,4
+Golden Headdress Alpha +,11,Weakness Exploit 2,Handicraft 2,158,None,None,None,2,0,3,-5,2
+Golden Headdress Beta +,11,Weakness Exploit 2,,158,Level 4,Level 1,None,2,0,3,-5,2
+Rex Roar Helm Alpha +,11,Attack Boost 3,Free Meal 1,158,Level 3,None,None,3,-4,-2,0,0
+Rex Roar Helm Beta +,11,Attack Boost 2,Free Meal 1,158,Level 4,None,None,3,-4,-2,0,0
+Guildwork Head Alpha +,12,Botanist 3,Honey Hunter 1,162,Level 3,Level 2,None,2,1,1,2,2
+Guildwork Head Beta +,12,Botanist 1,Honey Hunter 1,162,Level 4,Level 3,None,2,1,1,2,2
+Stygian Helm Alpha +,11,Latent Power 3,Tremor Resistance 2,160,Level 2,Level 1,None,2,-4,-5,0,4
+Stygian Helm Beta +,11,Latent Power 3,Tremor Resistance 1,160,Level 4,Level 1,None,2,-4,-5,0,4
+Claire''s Head Alpha +,12,Agitator 2,Evade Window 2,150,Level 1,Level 1,None,3,2,2,3,0
+Leon''s Head Alpha +,12,Agitator 2,Weakness Exploit 1,150,Level 1,Level 1,None,3,2,2,3,0
+Banuk Helm Alpha +,12,Focus 2,Aquatic/Polar Mobility 1,160,Level 4,Level 1,Level 1,2,0,2,2,2
+Safi Crested Crown Alpha +,11,Evade Window 2,Critical Boost 1,160,Level 2,Level 1,Level 1,2,1,1,1,-1
+Safi Crested Crown Beta +,11,Evade Window 1,Critical Boost 1,160,Level 4,Level 1,Level 1,2,1,1,1,-1
+Oolong Hair Aplha+,9,Critical Eye 3,,120,Level 4,None,None,1,1,1,4,1
+Duffel Penguin Mask Alpha +,9,Evade Window 2,,138,Level 4,None,None,-1,3,0,4,0
+Sealed Dragon Cloth Alpha +,12,Resentment 1,,152,Level 4,Level 4,None,-3,0,0,1,5
+Wyverian Ears Alpha +,9,Mushroomancer 2,Survival Expert 1,140,Level 4,None,None,1,1,1,1,5
+Astral Veil Alpha +,9,Wide-Range 3,,140,Level 4,None,None,2,2,2,2,2

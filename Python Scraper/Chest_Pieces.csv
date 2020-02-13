@@ -1,0 +1,149 @@
+Bone Mail Alpha +,9,Attack Boost 2,Health Boost 1,114,Level 2,None,None,2,0,2,0,2
+Bone Mail Beta +,9,Attack Boost 1,,114,Level 4,Level 1,None,2,0,2,0,2
+Alloy Mail Alpha +,9,Water Resistance 3,Defense Boost 1,114,Level 3,None,None,-2,0,-2,-2,0
+Alloy Mail Beta +,9,Water Resistance 1,,114,Level 4,Level 1,None,-2,0,-2,-2,0
+Direwolf Mail,9,Attack Boost 1,,130,None,None,None,2,0,0,2,0
+Vespoid Mail Alpha +,9,Wind Proof 2,,116,Level 2,Level 1,None,-2,1,1,1,2
+Vespoid Mail Beta +,9,Wind Proof 1,,116,Level 4,Level 1,None,-2,1,1,1,2
+Hornetaur Mail Alpha +,9,Effluvial Expert 1,Hunger Resistance 2,116,Level 2,Level 1,None,-1,-1,0,0,2
+Hornetaur Mail Beta +,9,Effluvial Expert 1,,116,Level 4,Level 2,Level 1,-1,-1,0,0,2
+Barnos Jacket Alpha +,9,Heat Guard 1,Iron Skin 2,116,Level 2,Level 2,None,1,1,0,1,-2
+Barnos Jacket Beta +,9,Heat Guard 1,Iron Skin 2,116,Level 4,Level 2,None,1,1,0,1,-2
+Cortos Cape Alpha +,9,Hunger Resistance 2,Jump Master 1,116,Level 1,Level 1,None,-3,2,0,2,0
+Cortos Cape Beta +,9,Hunger Resistance 1,Jump Master 1,116,Level 4,None,None,-3,2,0,2,0
+Jagras Mail Alpha +,9,Evade Extender 1,Attack Boost 2,116,Level 3,None,None,-2,2,-1,-1,1
+Jagras Mail Beta +,9,Evade Extender 1,Attack Boost 1,116,Level 4,None,None,-2,2,-1,-1,1
+Tzitzi Mail Alpha +,9,Constitution 2,Water Attack 2,116,Level 1,Level 1,None,0,0,-3,-2,0
+Tzitzi Mail Beta +,9,Constitution 1,Water Attack 1,116,Level 4,Level 1,None,0,0,-3,-2,0
+Girros Mail Alpha +,9,Paralysis Resistance 2,Free Elm/Ammo Up 1,116,Level 2,None,None,0,-3,2,0,1
+Girros Mail Beta +,9,Paralysis Resistance 2,,116,Level 4,Level 2,None,0,-3,2,0,1
+Dodogama Mail Alpha +,9,Blast Attack 2,Artillery 1,120,Level 2,None,None,0,0,-3,0,2
+Dodogama Mail Beta +,9,Blast Attack 2,,120,Level 4,None,None,0,0,-3,0,2
+Kulu Mail Alpha +,9,Stamina Surge 1,Critical Eye 2,116,Level 2,None,None,0,-3,0,1,0
+Kulu Mail Beta +,9,Stamina Surge 1,Critical Eye 1,116,Level 4,None,None,0,-3,0,1,0
+Pukei Mail Alpha +,9,Item Prolonger 2,Peak Performance 1,118,Level 2,None,None,0,3,-3,0,1
+Pukei Mail Beta +,9,Item Prolonger 1,Peak Performance 1,118,Level 4,None,None,0,3,-3,0,1
+Pukei Lagoon Mail Alpha +,9,Power Prolonger 1,Critical Draw 1,132,Level 2,None,None,0,3,-2,-3,0
+Pukei Lagoon Mail Beta +,9,Power Prolonger 1,,132,Level 4,Level 1,None,0,3,-2,-3,0
+Barroth Mail Alpha +,9,Stamina Thief 2,Agitator 1,118,Level 1,Level 1,None,-3,-1,3,-1,0
+Barroth Mail Beta +,9,Stamina Thief 2,,118,Level 4,Level 1,None,-3,-1,3,-1,0
+Jyura Mail Alpha +,9,Latent Power 1,Water Attack 2,118,Level 2,None,None,-1,2,-3,0,0
+Jyura Mail Beta +,9,Latent Power 1,Water Attack 1,118,Level 4,None,None,-1,2,-3,0,0
+Beo Mail Alpha +,9,Stamina Surge 1,Ice Attack 2,118,Level 3,None,None,-3,0,-2,3,2
+Beo Mail Beta +,9,Stamina Surge 1,,118,Level 4,Level 2,None,-3,0,-2,3,2
+Kadachi Mail Alpha +,9,Jump Master 1,Constitution 1,120,Level 2,Level 1,None,0,-3,3,0,0
+Kadachi Mail Beta +,9,Jump Master 1,,120,Level 4,Level 2,None,0,-3,3,0,0
+Viper Kadachi Mail Alpha +,9,Quick Sheath 1,Evade Extender 1,132,Level 1,Level 1,None,1,3,-3,-2,1
+Viper Kadachi Mail Beta +,9,Quick Sheath 1,,132,Level 4,Level 1,None,1,3,-3,-2,1
+High Metal Mail Alpha +,9,Earplugs 2,Ice Attack 1,128,Level 2,None,None,0,-1,-2,3,0
+High Metal Mail Beta +,9,Earplugs 1,Ice Attack 1,128,Level 4,Level 1,None,0,-1,-2,3,0
+Banbaro Mail Alpha +,9,Speed Eating 1,Offensive Guard 1,130,Level 3,None,None,-2,2,-1,3,-3
+Banbaro Mail Beta +,9,Speed Eating 1,,130,Level 4,Level 1,None,-2,2,-1,3,-3
+Anja Mail Alpha +,9,Marathon Runner 2,Special Ammo Boost 1,132,Level 1,Level 1,None,3,-3,-1,-1,0
+Anja Mail Beta +,9,Marathon Runner 1,Special Ammo Boost 1,132,Level 4,Level 1,None,3,-3,-1,-1,0
+Fulgur Mail Alpha +,11,Flinch Free 1,Stun Resistance 2,146,Level 3,None,None,-1,-1,2,-3,0
+Fulgur Mail Beta +,11,Flinch Free 1,Stun Resistance 1,146,Level 4,None,None,-1,-1,2,-3,0
+Rathian Mail Alpha +,9,Botanist 2,Recovery Up 1,130,Level 2,Level 2,None,2,0,-2,0,-3
+Rathian Mail Beta +,9,Botanist 1,Recovery Up 1,130,Level 4,Level 2,None,2,0,-2,0,-3
+Rath Heart Mail Alpha +,9,Tool Specialist 2,Handicraft 1,132,Level 2,None,None,3,0,-3,0,-4
+Rath Heart Mail Beta +,9,Tool Specialist 2,,132,Level 4,Level 1,Level 1,3,0,-3,0,-4
+Lumu Mail Alpha +,9,Master Mounter 1,Artillery 1,130,Level 3,Level 1,None,-3,2,0,1,0
+Lumu Mail Beta +,9,Master Mounter 1,,130,Level 4,Level 1,None,-3,2,0,1,0
+Lumu Phantasm Mail Alpha +,9,Wide-Range 2,Maximum Might 1,132,Level 2,None,None,-3,-3,2,1,1
+Lumu Phantasm Mail Beta +,9,Wide-Range 2,,132,Level 4,Level 1,None,-3,-3,2,1,1
+Baan Mail Alpha +,9,Sleep Attack 1,Bleeding Resistance 1,134,Level 3,None,None,0,2,0,-1,-2
+Baan Mail Beta +,9,Sleep Attack 1,,134,Level 4,None,None,0,2,0,-1,-2
+Artian Mail Alpha +,10,Critical Eye 3,Peak Performance 1,142,Level 1,None,None,1,-2,-2,2,3
+Artian Mail Beta +,10,Critical Eye 2,Peak Performance 1,142,Level 4,None,None,1,-2,-2,2,3
+Clockwork Mail Alpha +,10,Agitator 2,Special Ammo Boost 1,142,Level 1,Level 1,None,2,2,2,-1,-1
+Clockwork Mail Beta +,10,Agitator 2,,142,Level 4,Level 1,None,2,2,2,-1,-1
+Ingot Mail Alpha +,10,Thunder Resistance 2,Free Elm/Ammo Up 1,136,Level 3,None,None,-2,0,3,-1,0
+Ingot Mail Beta +,10,Thunder Resistance 1,Free Elm/Ammo Up 1,136,Level 4,None,None,-2,0,3,-1,0
+Barioth Mail Alpha +,10,Power Prolonger 1,Constitution 1,138,Level 3,None,None,-3,2,-2,3,0
+Barioth Mail Beta +,10,Power Prolonger 1,,138,Level 4,Level 1,None,-3,2,-2,3,0
+Rathalos Mail Alpha +,10,Weakness Exploit 2,Fire Attack 1,140,Level 1,Level 1,None,3,1,-2,1,-3
+Rathalos Mail Beta +,10,Weakness Exploit 2,,140,Level 4,None,None,3,1,-2,1,-3
+Rath Soul Mail Alpha +,11,Free Elm/Ammo Up 1,Partbreaker 1,148,Level 2,None,None,3,2,2,-3,-4
+Rath Soul Mail Beta +,11,Free Elm/Ammo Up 1,,148,Level 4,Level 1,None,3,2,2,-3,-4
+Diablos Mail Alpha +,10,Slugger 2 Heroics 2,,140,Level 2,None,None,3,-2,0,-3,2
+Diablos Mail Beta +,10,Slugger 2 Heroics 1,,140,Level 4,Level 1,None,3,-2,0,-3,2
+Diablos Nero Mail Alpha +,11,Resentment 2,Marathon Runner 1,148,Level 2,None,None,2,-3,0,-4,2
+Diablos Nero Mail Beta +,11,Resentment 1,Marathon Runner 1,148,Level 4,Level 1,None,2,-3,0,-4,2
+Legiana Mail Alpha +,10,Evade Window 2,Divine Blessing 2,140,Level 1,None,None,-1,2,-3,3,0
+Legiana Mail Beta +,10,Evade Window 2,Divine Blessing 1,140,Level 4,None,None,-1,2,-3,3,0
+Hoarcry Mail Alpha +,11,Focus 2,Marathon Runner 1,146,Level 1,Level 1,None,-3,2,-1,3,0
+Hoarcry Mail Beta +,11,Focus 2,,146,Level 4,None,None,-3,2,-1,3,0
+Odogaron Mail Alpha +,10,Speed Sharpening 2,Bleeding Resistance 1,140,Level 3,None,None,2,2,-2,-3,0
+Odogaron Mail Beta +,10,Speed Sharpening 2,,140,Level 4,Level 1,None,2,2,-2,-3,0
+Death Garon Mail Alpha +,11,Critical Eye 3,Dragon Resistance 2,148,Level 2,None,None,-2,-3,-2,-2,4
+Death Garon Mail Beta +,11,Critical Eye 2,Dragon Resistance 1,148,Level 4,Level 1,None,-2,-3,-2,-2,4
+Lavasioth Mail Alpha +,10,Fire Attack 3,Heat Guard 1,140,Level 1,Level 1,None,3,-3,1,-2,2
+Lavasioth Mail Beta +,10,Fire Attack 2,Heat Guard 1,140,Level 4,Level 1,None,3,-3,1,-2,2
+Uragaan Mail Alpha +,10,Partbreaker 2,Blast Resistance 1,144,Level 3,None,None,4,-3,1,-2,-2
+Uragaan Mail Beta +,10,Partbreaker 2,,144,Level 4,None,None,4,-3,1,-2,-2
+Nargacuga Mail Alpha +,10,Evade Window 2,Speed Crawler 1,140,Level 2,None,None,-2,2,-3,0,0
+Nargacuga Mail Beta +,10,Evade Window 2,,140,Level 4,None,None,-2,2,-3,0,0
+Glavenus Mail Alpha +,10,Power Prolonger 2,Maximum Might 1,142,Level 1,None,None,3,-3,1,-1,-1
+Glavenus Mail Beta +,10,Power Prolonger 1,Maximum Might 1,142,Level 4,None,None,3,-3,1,-1,-1
+Acidic Glavenus Mail Alpha +,11,Handicraft 2,Stamina Surge 1,150,Level 1,None,None,-3,2,-1,2,-1
+Acidic Glavenus Mail Beta +,11,Handicraft 1,Stamina Surge 1,150,Level 4,Level 1,None,-3,2,-1,2,-1
+Brachydios Mail Alpha +,10,Stamina Thief 2,Agitator 1,142,Level 1,None,None,3,-2,1,-3,1
+Brachydios Mail Beta +,10,Stamina Thief 1,Agitator 1,142,Level 4,None,None,3,-2,1,-3,1
+Tigrex Mail Alpha +,10,Earplugs 2,Free Meal 1,142,Level 2,None,None,2,0,-3,0,-2
+Tigrex Mail Beta +,10,Earplugs 2,,142,Level 4,Level 1,None,2,0,-3,0,-2
+Black Belt Mail Alpha +,11,Mushroomancer 2,Wide-Range 1,150,Level 1,Level 1,Level 1,1,1,1,1,2
+Black Belt Mail Beta +,11,Mushroomancer 2,,150,Level 4,Level 1,Level 1,1,1,1,1,2
+Dober Mail Alpha +,11,Attack Boost 2,Effluvial Resistance 1,152,Level 1,Level 1,Level 1,-2,0,-1,-1,4
+Dober Mail Beta +,11,Attack Boost 1,Effluvial Resistance 1,152,Level 4,Level 1,Level 1,-2,0,-1,-1,4
+Damascus Mail Alpha +,11,Focus 2,Defense Boost 2,152,Level 3,Level 1,None,4,-2,0,0,0
+Damascus Mail Beta +,11,Focus 2,,152,Level 4,Level 2,Level 1,4,-2,0,0,0
+Pride Mail Alpha +,11,Guard 2,Blast Resistance 2,154,Level 1,Level 1,None,3,1,-2,-4,-2
+Pride Mail Beta +,11,Guard 2,,154,Level 4,Level 1,Level 1,3,1,-2,-4,-2
+Esurient Mail Alpha +,11,Speed Eating 1,Handicraft 2,156,Level 2,None,None,2,1,-3,1,-3
+Esurient Mail Beta +,11,Speed Eating 1,,156,Level 4,Level 2,Level 2,2,1,-3,1,-3
+Rimeguard Mail Alpha +,12,Quick Sheath 2,Critical Draw 1,154,Level 1,None,None,-3,2,-1,4,-1
+Rimeguard Mail Beta +,12,Quick Sheath 2,,154,Level 4,Level 1,None,-3,2,-1,4,-1
+Fellshroud Mail Alpha +,12,Recovery Speed 2,Dragon Attack 2,156,Level 3,Level 1,None,-2,4,1,1,-3
+Fellshroud Mail Beta +,12,Recovery Speed 2,Dragon Attack 1,156,Level 4,Level 2,None,-2,4,1,1,-3
+Kaiser Mail Alpha +,12,Latent Power 1,Special Ammo Boost 2,156,Level 2,Level 1,None,3,-3,1,-3,1
+Kaiser Mail Beta +,12,Latent Power 1,,156,Level 4,Level 1,Level 1,3,-3,1,-3,1
+Kushala Cista Alpha +,12,Handicraft 3,,156,Level 1,None,None,0,2,-3,4,-2
+Kushala Cista Beta +,12,Handicraft 2,,156,Level 4,Level 2,None,0,2,-3,4,-2
+Kirin Jacket Alpha +,12,Critical Eye 3,Divine Blessing 1,154,Level 3,Level 2,None,-3,-2,4,-2,2
+Kirin Jacket Beta +,12,Critical Eye 2,Divine Blessing 1,154,Level 4,Level 2,None,-3,-2,4,-2,2
+Tentacle Cloak Alpha +,12,Blight Resistance 2,Tool Specialist 1,158,Level 2,Level 2,None,-3,4,3,0,-2
+Tentacle Cloak Beta +,12,Blight Resistance 1,Tool Specialist 1,158,Level 4,Level 2,None,-3,4,3,0,-2
+Shara Ishvalda Mail Alpha +,12,Coalescence 2,Health Boost 1,162,Level 3,Level 2,None,0,-2,3,-3,0
+Shara Ishvalda Mail Beta +,12,Coalescence 2,,162,Level 4,Level 2,None,0,-2,3,-3,0
+Zorah Hide Alpha +,12,Tremor Resistance 2,Artillery 2,160,Level 3,Level 1,None,4,-3,-1,-2,-3
+Zorah Hide Beta +,12,Tremor Resistance 2,,160,Level 4,Level 2,None,4,-3,-1,-2,-3
+Garuga Mail Alpha +,11,Earplugs 2,Critical Eye 2,154,Level 1,None,None,2,-3,2,-2,-2
+Garuga Mail beta +,11,Earplugs 1,Critical Eye 2,154,Level 4,None,None,2,-3,2,-2,-2
+Zinogre Mail Alpha +,11,Latent Power 3,Normal Shots 1,158,Level 3,None,None,-1,-1,4,-4,1
+Zinogre Mail Beta +,11,Latent Power 3,,158,Level 4,None,None,-1,-1,4,-4,1
+Empress Mail Alpha +,12,Peak Performance 2,Wide-Range 2,164,Level 2,None,None,3,1,1,-3,-2
+Empress Mail beta +,12,Peak Performance 1,Wide-Range 2,164,Level 4,Level 1,None,3,1,1,-3,-2
+Guild Palace Mail Alpha +,11,Agitator 2,Heroics 1,154,Level 1,Level 1,None,1,2,2,1,1
+Guild Palace Mail Beta +,11,Agitator 1,Heroics 1,154,Level 4,Level 2,None,1,2,2,1,1
+Ruinous Mail Alpha +,12,Stamina Surge 2,Maximum Might 1,166,Level 2,Level 2,None,1,1,-3,1,-3
+Ruinous Mail Beta +,12,Stamina Surge 2,,166,Level 4,Level 2,None,1,1,-3,1,-3
+Silver Solmail Alpha +,12,Critical Boost 2,Fire Attack 2,164,Level 1,None,None,4,-3,-2,-2,3
+Silver Solmail Beta +,12,Critical Boost 2,,164,Level 4,None,None,4,-3,-2,-2,3
+Golden Lunemail Alpha +,12,Divine Blessing 2,Resentment 1,162,Level 3,Level 1,None,3,-2,-4,0,4
+Golden Lunemail Beta +,12,Divine Blessing 2,,162,Level 4,Level 2,Level 1,3,-2,-4,0,4
+Golden Haori Alpha +,11,Resentment 2,Speed Sharpening 2,158,Level 3,Level 1,None,2,0,3,-5,2
+Golden Haori Beta +,11,Resentment 2,,158,Level 4,Level 1,Level 1,2,0,3,-5,2
+Rex Roar Mail Alpha +,11,Attack Boost 3,Weakness Exploit 1,158,Level 3,None,None,3,-4,-2,0,0
+Rex Roar Mail Beta +,11,Attack Boost 2,Weakness Exploit 1,158,Level 4,Level 1,None,3,-4,-2,0,0
+Guildwork Body Alpha +,12,Cliffhanger 1,Flinch Free1,162,Level 3,Level 1,None,2,1,1,2,2
+Guildwork Body Beta +,12,Cliffhanger 1,,162,Level 4,Level 2,Level 2,2,1,1,2,2
+Stygian Mail Alpha +,11,Windproof 3,Flinch Free 2,160,Level 2,None,None,2,-4,-5,0,4
+Stygian Mail Beta +,11,Windproof 3,Flinch Free 1,160,Level 4,None,None,2,-4,-5,0,4
+Claire''s Body Alpha +,12,Agitator 2,Evade Window 2,150,Level 1,Level 1,None,3,2,2,3,0
+Leon''s Body Alpha +,12,Agitator 2,Evade Window 2,150,Level 1,Level 1,None,3,2,2,3,0
+Banuk Mail Alpha +,12,Marathon Runner 1,Stamina Surge 1,160,Level 4,Level 3,None,2,0,2,2,2
+Safi Crested Chest Alpha +,12,Blight Resistance 2,Critical Boost 1,168,Level 3,Level 2,None,2,1,1,1,0
+Safi Crested Chest Beta +,12,Blight Resistance 1,Critical Boost 1,168,Level 4,Level 2,None,2,1,1,1,-1
+Oolong Vest Alpha +,9,Stamina Surge 2,,120,Level 4,None,None,1,1,1,4,1
+Buff Chest Alpha +,11,Agitator 3,Fortify 1,154,Level 1,Level 1,Level 1,2,-1,0,-1,-3
+Astral Cloth Alpha +,9,Critical Boost 2,,140,Level 1,None,None,2,2,2,2,2
