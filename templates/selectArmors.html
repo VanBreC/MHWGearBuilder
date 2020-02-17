@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Armor Builder</title>
+</head>
+<body>
+    <h2>Monster Hunter World Iceborne: Armor Set Builder</h2>
+    <h3>Select an armor piece to begin.</h3>
+    <a href="/">Home</a>
+    <a href="head-pieces">Head Pieces</a>
+    <a href="chest-pieces">Chest Pieces</a>
+    <a href="arm-pieces">Arm Pieces</a>
+    <a href="waist-pieces">Waist Pieces</a>
+    <a href="leg-pieces">Leg Pieces</a>
+
+    <!--Dropdown box form-->
+    <form method='post'>
+        {% if head %}
+        <p><label for="heads">Head Pieces:</label></p>
+        <select id="heads" name="headName">
+            {% for row in head %}
+            <option value="{{row.name}}">{{row.name}}</option>
+            {% endfor %}
+        </select>
+        <input type= "submit">
+        {% endif %}
+
+        {% if chest %}
+        <p><label for="chests">Chest Pieces:</label></p>
+        <select id="chests" name="chestName">
+            {% for row in chest %}
+            <option value="{{row.name}}">{{row.name}}</option>
+            {% endfor %}
+        </select>
+        <input type= "submit">
+        {% endif %}
+
+        {% if arm %}
+        <p><label for="arms">Arm Pieces:</label></p>
+        <select id="arms" name="armName">
+            {% for row in arm %}
+            <option value="{{row.name}}">{{row.name}}</option>
+            {% endfor %}
+        </select>
+        <input type= "submit">
+        {% endif %}
+
+        {% if waist %}
+        <p><label for="waists">Waist Pieces:</label></p>
+        <select id="waists" name="waistName">
+            {% for row in waist %}
+            <option value="{{row.name}}">{{row.name}}</option>
+            {% endfor %}
+        </select>
+        <input type= "submit">
+        {% endif %}
+
+        {% if leg %}
+        <p><label for="legs">Leg Pieces:</label></p>
+        <select id="legs" name="legName">
+            {% for row in leg %}
+            <option value="{{row.name}}">{{row.name}}</option>
+            {% endfor %}
+        </select>
+        <input type= "submit">
+        {% endif %}    
+    </form>
+
+    <!--button type="button" onclick="myFunction()">Try it</button>
+    <script>
+    function myFunction() {
+    var input = document.getElementById("chests").value;
+    document.write(input);
+    }
+    </script-->
+
+    <!--Always display table headings, display armors once button clicked-->
+    <table id="armors" style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th>Rarity</th>
+            <th>Skill 1</th>
+            <th>Skill 2</th>
+            <th>Defense</th>
+            <th>Slot 1</th>
+            <th>Slot 2</th>
+            <th>Slot 3</th>
+            <th>Fire Def</th>
+            <th>Water Def</th>
+            <th>Thunder Def</th>
+            <th>Ice Def</th>
+            <th>Dragon Def</th>
+        </tr>
+        {% if headpiece %}
+        {% for row in headpiece %}
+        <tr>
+            <td> {{ row.name }}</td>
+            <td> {{ row.rarity }}</td>
+            <td> {{ row.skill1 }}</td>
+            <td> {{ row.skill2 }}</td>
+            <td> {{ row.defense }}</td>
+            <td> {{ row.slot1 }}</td>
+            <td> {{ row.slot2 }}</td>
+            <td> {{ row.slot3 }}</td>
+            <td> {{ row.firedef }}</td>
+            <td> {{ row.waterdef }}</td>
+            <td> {{ row.thunderdef }}</td>
+            <td> {{ row.icedef }}</td>
+            <td> {{ row.dragondef }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if chestpiece %}
+        {% for row in chestpiece %}
+        <tr>
+            <td> {{ row.name }}</td>
+            <td> {{ row.rarity }}</td>
+            <td> {{ row.skill1 }}</td>
+            <td> {{ row.skill2 }}</td>
+            <td> {{ row.defense }}</td>
+            <td> {{ row.slot1 }}</td>
+            <td> {{ row.slot2 }}</td>
+            <td> {{ row.slot3 }}</td>
+            <td> {{ row.firedef }}</td>
+            <td> {{ row.waterdef }}</td>
+            <td> {{ row.thunderdef }}</td>
+            <td> {{ row.icedef }}</td>
+            <td> {{ row.dragondef }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if armpiece %}
+        {% for row in armpiece %}
+        <tr>
+            <td> {{ row.name }}</td>
+            <td> {{ row.rarity }}</td>
+            <td> {{ row.skill1 }}</td>
+            <td> {{ row.skill2 }}</td>
+            <td> {{ row.defense }}</td>
+            <td> {{ row.slot1 }}</td>
+            <td> {{ row.slot2 }}</td>
+            <td> {{ row.slot3 }}</td>
+            <td> {{ row.firedef }}</td>
+            <td> {{ row.waterdef }}</td>
+            <td> {{ row.thunderdef }}</td>
+            <td> {{ row.icedef }}</td>
+            <td> {{ row.dragondef }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if waistpiece %}
+        {% for row in waistpiece %}
+        <tr>
+            <td> {{ row.name }}</td>
+            <td> {{ row.rarity }}</td>
+            <td> {{ row.skill1 }}</td>
+            <td> {{ row.skill2 }}</td>
+            <td> {{ row.defense }}</td>
+            <td> {{ row.slot1 }}</td>
+            <td> {{ row.slot2 }}</td>
+            <td> {{ row.slot3 }}</td>
+            <td> {{ row.firedef }}</td>
+            <td> {{ row.waterdef }}</td>
+            <td> {{ row.thunderdef }}</td>
+            <td> {{ row.icedef }}</td>
+            <td> {{ row.dragondef }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if legpiece %}
+        {% for row in legpiece %}
+        <tr>
+            <td> {{ row.name }}</td>
+            <td> {{ row.rarity }}</td>
+            <td> {{ row.skill1 }}</td>
+            <td> {{ row.skill2 }}</td>
+            <td> {{ row.defense }}</td>
+            <td> {{ row.slot1 }}</td>
+            <td> {{ row.slot2 }}</td>
+            <td> {{ row.slot3 }}</td>
+            <td> {{ row.firedef }}</td>
+            <td> {{ row.waterdef }}</td>
+            <td> {{ row.thunderdef }}</td>
+            <td> {{ row.icedef }}</td>
+            <td> {{ row.dragondef }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </table>
+
+</body>
+</html>
