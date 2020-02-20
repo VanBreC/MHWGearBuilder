@@ -39,7 +39,7 @@ def main():
     result3 = db.list_armor("arms")
     result4 = db.list_armor("waist")
     result5 = db.list_armor("legs")
-    return render_template("selectArmors.html",head = result1,chest = result2,arm = result3,waist = result4,leg = result5)
+    return render_template("selectArmors.htm",head = result1,chest = result2,arm = result3,waist = result4,leg = result5)
 
 @app.route('/',methods=['POST'])
 def showTables():
@@ -64,7 +64,9 @@ def showTables():
     details4 = db.piece_detail("waist",waistName)
     details5 = db.piece_detail("legs",legName)
 
-    return render_template("selectArmors.html",head = result1,chest = result2,arm = result3,waist = result4,leg = result5,
+    #print(details1.skill1)
+
+    return render_template("selectArmors.htm",head = result1,chest = result2,arm = result3,waist = result4,leg = result5,
     headpiece = details1,chestpiece = details2,armpiece = details3,waistpiece = details4,legpiece = details5)
 
 #Head pieces table
@@ -72,35 +74,35 @@ def showTables():
 def showHeadPieces():
     db = Database("armor")
     pieces = db.list_armor("head")
-    return render_template('headArmor.html',result = pieces)
+    return render_template('headArmor.htm',result = pieces)
 
 #Chest pieces table
 @app.route('/chest-pieces')
 def showChestPieces():
     db = Database("armor")
     pieces = db.list_armor("chest")
-    return render_template('chestArmor.html',result = pieces)
+    return render_template('chestArmor.htm',result = pieces)
 
 #Arm pieces table
 @app.route('/arm-pieces')
 def showArmPieces():
     db = Database("armor")
     pieces = db.list_armor("arms")
-    return render_template('armArmor.html',result = pieces)
+    return render_template('armArmor.htm',result = pieces)
 
 #Waist pieces table
 @app.route('/waist-pieces')
 def showWaistPieces():
     db = Database("armor")
     pieces = db.list_armor("waist")
-    return render_template('waistArmor.html',result = pieces)
+    return render_template('waistArmor.htm',result = pieces)
 
 #Leg pieces table
 @app.route('/leg-pieces')
 def showLegPieces():
     db = Database("armor")
     pieces = db.list_armor("legs")
-    return render_template('legArmor.html',result = pieces)
+    return render_template('legArmor.htm',result = pieces)
 
 if __name__ == "__main__":
     app.run()
