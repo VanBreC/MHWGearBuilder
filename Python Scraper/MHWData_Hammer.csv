@@ -1,0 +1,211 @@
+Name,Rarity,Attack,True Attack,Element,Element Stat,Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
+Iron Hammer I,1,416,80,None,0,0,0,None,None,None,None,None,200,100,50,50,0,0,0,0
+Iron Hammer II,1,468,90,None,0,0,0,None,None,None,None,None,200,80,70,30,20,0,0,0
+Iron Hammer III,2,520,100,None,0,0,0,None,None,None,None,None,200,60,70,30,40,0,0,0
+Iron Demon I,3,572,110,None,0,0,0,None,None,None,None,None,250,70,50,80,50,0,0,0
+Iron Demon II,4,676,130,None,0,0,0,None,None,None,None,None,250,60,50,80,60,0,0,0
+Iron Demon III,5,728,140,Hidden Blast,210,0,0,None,1,None,None,None,300,100,50,50,80,20,0,0
+Iron Archdemon I,6,832,160,Hidden Blast,240,0,0,None,1,None,None,None,300,90,50,50,80,30,0,0
+Iron Archdemon II,6,936,180,Hidden Blast,270,0,0,None,1,1,None,None,350,60,60,20,150,60,0,0
+Kurogane I,9,1144,220,Hidden Blast,300,0,0,None,1,1,None,None,350,90,80,30,30,80,40,0
+Kurogane II,10,1248,240,Hidden Blast,330,0,0,None,1,1,None,None,350,80,80,30,30,80,50,0
+Kurogane III,11,1352,260,Hidden Blast,360,0,0,None,1,1,None,None,350,120,30,30,60,50,60,0
+Bone Bludgeon I,1,520,100,None,0,0,0,None,None,None,None,None,200,110,60,30,0,0,0,0
+Bone Bludgeon II,1,572,110,None,0,0,0,None,None,None,None,None,200,90,60,50,0,0,0,0
+Bone Bludgeon III,2,624,120,None,0,0,0,None,None,None,None,None,200,90,50,50,10,0,0,0
+Fossil Bludgeon I,3,728,140,None,0,0,0,None,None,None,None,None,250,130,70,30,20,0,0,0
+Fossil Bludgeon II,4,780,150,None,0,0,0,None,None,None,None,None,250,120,70,30,30,0,0,0
+Fossil Bludgeon III,5,832,160,Hidden Thunder,360,0,0,None,2,None,None,None,300,110,70,30,90,0,0,0
+Grandrock I,6,884,170,Hidden Thunder,390,0,+10,None,2,None,None,None,300,110,100,40,40,10,0,0
+Grandrock II,6,988,190,Hidden Thunder,420,0,+10,None,3,None,None,None,350,110,120,40,50,30,0,0
+Earth Ender I,9,1196,230,Hidden Thunder,450,0,+35,None,3,None,None,None,350,110,100,40,50,50,0,0
+Earth Ender II,10,1300,250,Hidden Thunder,450,0,+35,None,3,None,None,None,350,100,100,40,50,60,0,0
+Earth Ender III,11,1456,280,Hidden Thunder,450,0,+35,None,3,None,None,None,350,90,100,40,50,70,0,0
+Kulu Beak I,2,624,120,None,0,15,0,None,None,None,None,None,200,60,70,30,40,0,0,0
+Kulu Beak II,3,676,130,None,0,15,0,None,None,None,None,None,250,110,70,30,40,0,0,0
+Kulu Beak III,4,728,140,None,0,15,0,None,None,None,None,None,250,100,70,30,50,0,0,0
+Crushing Beak I,5,780,150,Hidden Sleep,240,25,0,None,None,None,None,None,300,140,70,30,60,0,0,0
+Crushing Beak II,6,832,160,Hidden Sleep,300,25,0,None,None,None,None,None,300,130,70,30,70,0,0,0
+Crushing Beak III,6,884,170,Hidden Sleep,360,25,0,None,None,None,None,None,350,120,110,40,40,40,0,0
+Makhlab al-Nasr I,9,1092,210,Hidden Sleep,390,25,0,None,None,None,None,None,350,110,30,30,110,40,30,0
+Makhlab al-Nasr II,10,1352,260,Hidden Sleep,420,25,0,None,None,None,None,None,350,110,30,30,110,40,30,0
+Blooming Hammer I,2,520,100,Poison,300,0,0,None,None,None,None,None,200,70,70,30,30,0,0,0
+Blooming Hammer II,3,624,120,Poison,360,0,0,None,None,None,None,None,250,70,50,80,50,0,0,0
+Blooming Hammer III,4,728,140,Poison,420,0,0,None,None,None,None,None,250,50,50,80,70,0,0,0
+Buon Fiore,5,780,150,Poison,480,0,0,None,1,1,None,None,300,100,50,80,70,0,0,0
+Buona Flora,7,936,180,Poison,540,0,0,None,2,2,None,None,350,100,120,40,50,40,0,0
+Buona Flora+,9,1092,210,Poison,570,0,0,None,2,2,None,None,350,100,80,30,30,80,30,0
+Buona Florescenza,10,1300,250,Poison,660,0,0,None,2,2,None,None,350,120,30,30,60,50,60,0
+Carapace Sledge I,2,676,130,None,0,-10,+10,None,None,None,None,None,200,70,50,50,30,0,0,0
+Carapace Sledge II,3,728,140,None,0,-10,+10,None,None,None,None,None,250,110,70,30,40,0,0,0
+Carapace Sledge III,4,832,160,None,0,-10,+10,None,None,None,None,None,250,100,70,30,50,0,0,0
+Barroth Breaker I,5,936,180,Hidden Paralysis,270,-10,+15,None,1,None,None,None,300,130,70,30,70,0,0,0
+Barroth Breaker II,6,988,190,Hidden Paralysis,330,-10,+15,None,1,1,None,None,300,110,70,30,90,0,0,0
+Barroth Breaker III,6,1040,200,Hidden Paralysis,390,-10,+15,None,2,1,None,None,350,110,120,40,50,30,0,0
+Barroth Crusher I,9,1248,240,Hidden Paralysis,420,-10,+25,None,2,2,None,None,350,130,100,30,30,60,0,0
+Barroth Crusher II,10,1404,270,Hidden Paralysis,450,-10,+25,None,2,2,None,None,350,130,100,30,30,60,0,0
+Blazing Hammer I,3,780,150,Fire,210,-20,0,None,None,None,None,None,250,120,70,30,30,0,0,0
+Blazing Hammer II,4,832,160,Fire,270,-20,0,None,None,None,None,None,250,110,70,30,40,0,0,0
+Anja Striker I,5,884,170,Fire,330,-20,0,None,None,None,None,None,300,110,60,80,50,0,0,0
+Anja Striker II,6,988,190,Fire,360,-20,0,None,None,None,None,None,300,110,100,40,40,10,0,0
+Anja Striker III,6,1092,210,Fire,450,-20,0,None,None,None,None,None,350,120,120,40,50,20,0,0
+Anja Fiercemaul I,9,1196,230,Fire,480,-20,0,None,None,None,None,None,350,80,100,40,50,80,0,0
+Anja Fiercemaul II,10,1404,270,Fire,600,-20,0,None,None,None,None,None,350,80,100,40,50,80,0,0
+Nergal Crusher,7,1040,200,Dragon,90,0,0,High,1,None,None,None,400,120,120,40,50,70,0,0
+Obliteration's Footfall,8,1092,210,Dragon,120,0,0,High,1,None,None,None,400,110,120,40,50,80,0,0
+Ruinous Obliteration,12,1508,290,Dragon,180,0,0,High,1,None,None,None,400,80,30,30,110,40,110,0
+Girros Hammer I,3,624,120,Paralysis,210,0,0,None,None,None,None,None,250,80,50,80,40,0,0,0
+Girros Hammer II,4,676,130,Paralysis,270,0,0,None,None,None,None,None,250,70,50,80,50,0,0,0
+Malady's Fist I,5,728,140,Paralysis,330,20,0,None,None,None,None,None,300,60,50,80,110,0,0,0
+Malady's Fist II,6,780,150,Paralysis,360,20,0,None,None,None,None,None,300,90,50,50,80,30,0,0
+Malady's Fist III,6,832,160,Paralysis,390,20,0,None,None,None,None,None,350,90,60,60,100,40,0,0
+Naaga Matraca I,9,1040,200,Paralysis,450,20,0,None,None,None,None,None,350,70,60,60,100,60,0,0
+Naaga Matraca II,10,1248,240,Paralysis,510,20,0,None,None,None,None,None,350,70,60,60,100,60,0,0
+Bone Spike I,3,676,130,Sleep,150,0,+15,None,None,None,None,None,250,120,70,30,30,0,0,0
+Bone Spike II,4,728,140,Sleep,180,0,+15,None,None,None,None,None,250,110,70,30,40,0,0,0
+Baan Strike I,5,780,150,Sleep,210,0,+20,None,None,None,None,None,300,110,100,40,40,10,0,0
+Baan Strike II,6,884,170,Sleep,240,0,+20,None,None,None,None,None,300,100,100,40,40,20,0,0
+Baan Strike III,6,988,190,Sleep,270,0,+20,None,None,None,None,None,350,110,120,40,50,30,0,0
+Baan Gavel I,9,1196,230,Sleep,300,0,+35,None,None,None,None,None,350,110,30,30,110,40,30,0
+Baan Gavel II,10,1300,250,Sleep,330,0,+35,None,None,None,None,None,350,110,30,30,110,40,30,0
+Hazak Vlafos,7,988,190,Dragon,210,0,0,Average,2,None,None,None,350,140,110,40,40,20,0,0
+Pandemonium's Root,8,1040,200,Dragon,270,0,0,Average,2,None,None,None,350,200,70,20,20,40,0,0
+Pandemonium's Wrath,11,1248,240,Dragon,420,0,0,Average,2,2,None,None,350,80,80,30,30,80,50,0
+Pandemonium Unleashed,12,1352,260,Dragon,510,0,0,Average,2,2,None,None,350,70,80,30,30,80,60,0
+Red Bludgeon,10,1144,220,Fire,270,15,0,None,1,None,None,None,350,100,100,40,50,60,0,0
+Huracan Hammer,10,1248,240,Fire,300,20,0,None,1,None,None,None,350,110,30,30,110,40,30,0
+Leonid Starcrusher,12,1404,270,Fire,420,20,0,None,2,None,None,None,350,130,30,30,60,50,50,0
+Diablos Sledge I,4,884,170,None,0,-25,+10,None,None,None,None,None,250,90,70,30,60,0,0,0
+Diablos Sledge II,5,988,190,Hidden Ice,150,-25,+10,None,1,None,None,None,300,130,70,30,70,0,0,0
+Diablos Shatterer I,6,1092,210,Hidden Ice,150,-25,+15,None,2,None,None,None,300,120,70,30,80,0,0,0
+Diablos Shatterer II,7,1196,230,Hidden Ice,150,-25,+15,None,2,None,None,None,350,100,50,60,120,20,0,0
+Diablos Shatterer III,10,1352,260,Hidden Ice,210,-25,+35,None,2,None,None,None,350,90,100,40,50,70,0,0
+Chaos Shatterer,10,1508,290,Hidden Ice,240,-25,+35,None,2,2,None,None,350,70,50,90,70,70,0,0
+Brazenbreak I,6,988,190,Fire,120,0,+30,None,3,None,None,None,300,110,100,40,40,10,0,0
+Brazenbreak II,7,1092,210,Fire,120,0,+30,None,3,None,None,None,350,120,120,40,50,20,0,0
+Uragaan Hammer I,10,1300,250,Fire,210,0,+35,None,4,None,None,None,350,110,50,50,80,60,0,0
+Uragaan Hammer II,10,1508,290,Fire,240,0,+35,None,4,None,None,None,350,100,50,50,80,70,0,0
+Icesteel Hammer,7,988,190,Ice,120,10,0,None,2,None,None,None,350,110,60,80,80,20,0,0
+Daora's Colossus,8,1040,200,Ice,150,10,0,None,2,None,None,None,350,90,60,80,80,40,0,0
+Daora's Hyperborea,11,1352,260,Ice,210,15,0,None,2,None,None,None,350,130,30,30,60,50,50,0
+Xeno Maph'agarna,8,884,170,Dragon,180,15,0,Low,3,3,None,None,350,130,30,60,80,40,10,0
+Magda Floga,5,832,160,Blast,330,-20,+20,None,2,None,None,None,300,110,50,80,60,0,0,0
+Ragefire Magda Floga,8,1144,220,Blast,420,-20,+20,None,2,None,None,None,350,190,30,60,70,0,0,0
+Magda Floga Reforged,11,1456,280,Blast,450,-20,+45,None,2,None,None,None,350,140,40,40,70,60,0,0
+Dragonbone Basher I,3,520,100,Dragon,300,0,0,Low,None,None,None,None,250,110,70,30,40,0,0,0
+Dragonbone Basher II,4,572,110,Dragon,360,0,0,Low,None,None,None,None,250,70,70,30,80,0,0,0
+Dragonbone Basher III,6,832,160,Dragon,420,0,0,Low,1,None,None,None,350,120,110,40,40,40,0,0
+Dragonseal Basher I,10,1092,210,Dragon,540,0,0,Average,1,1,None,None,350,130,100,30,30,60,0,0
+Dragonseal Hammer II,11,1248,240,Dragon,660,0,0,Average,1,1,None,None,350,130,100,30,30,60,0,0
+Blacksteel Hammer I,5,520,100,Dragon,120,0,0,Low,None,None,None,None,300,150,110,40,0,0,0,0
+Blacksteel Hammer II,6,572,110,Dragon,150,0,0,Low,None,None,None,None,300,140,110,40,10,0,0,0
+Thunder Hammer I,3,676,130,Thunder,180,0,0,None,None,None,None,None,250,80,50,80,40,0,0,0
+Thunder Hammer II,4,780,150,Thunder,210,0,0,None,None,None,None,None,250,70,50,80,50,0,0,0
+Lightning Bash I,5,832,160,Thunder,240,0,0,None,2,None,None,None,300,110,50,80,60,0,0,0
+Lightning Bash II,6,884,170,Thunder,270,0,0,None,2,None,None,None,300,100,100,40,40,20,0,0
+Lightning Bash III,6,988,190,Thunder,300,0,0,None,2,None,None,None,350,150,100,30,30,40,0,0
+Lightning Bash IV,9,1144,220,Thunder,330,0,0,None,2,None,None,None,350,100,100,40,50,60,0,0
+Usurper's Thunder,10,1248,240,Thunder,390,0,0,None,2,None,None,None,350,90,80,30,30,80,40,0
+Usurper's Thunder+,11,1300,250,Thunder,420,0,0,None,2,None,None,None,350,130,30,90,30,30,40,0
+Despot's Crackle,12,1352,260,Thunder,450,0,0,None,2,None,None,None,350,120,30,90,30,30,50,0
+Aqua Hammer I,2,572,110,Water,90,0,0,None,None,None,None,None,200,80,70,30,20,0,0,0
+Aqua Hammer II,3,624,120,Water,120,0,0,None,None,None,None,None,250,90,50,80,30,0,0,0
+Aqua Hammer III,4,676,130,Water,150,0,0,None,None,None,None,None,250,80,50,80,40,0,0,0
+Water Basher I,5,780,150,Water,180,0,0,None,2,None,None,None,300,110,60,80,50,0,0,0
+Water Basher II,6,832,160,Water,210,0,0,None,2,None,None,None,300,100,50,50,80,20,0,0
+Water Basher III,6,936,180,Water,240,0,0,None,2,None,None,None,350,90,60,80,80,40,0,0
+Water Basher IV,9,1092,210,Water,390,0,0,None,2,None,None,None,350,110,80,30,30,80,20,0
+Aqua Flora,9,1144,220,Water,450,0,0,None,2,1,None,None,350,90,80,30,30,80,40,0
+Aqua Flora+,10,1248,240,Water,540,0,0,None,2,1,None,None,350,130,30,30,60,50,50,0
+Aqua Florescence,11,1300,250,Water,600,0,0,None,2,1,None,None,350,120,30,30,60,50,60,0
+Frozen Core,4,624,120,Ice,270,0,0,None,None,None,None,None,250,50,50,80,70,0,0,0
+Jail Hammer,6,832,160,Paralysis,180,0,+20,None,2,None,None,None,350,120,120,40,50,20,0,0
+Frozen Core+,6,832,160,Ice,390,0,0,None,2,None,None,None,300,90,50,50,80,30,0,0
+Cocytus,7,936,180,Ice,450,0,0,None,3,None,None,None,350,110,120,40,50,30,0,0
+Binder Mace,8,936,180,Paralysis,210,0,+20,None,3,None,None,None,350,160,100,30,30,30,0,0
+Cocytus+,10,1196,230,Ice,480,0,0,None,3,None,None,None,350,70,80,30,30,80,60,0
+Pykrete Punisher,11,1300,250,Ice,510,0,0,None,3,None,None,None,350,60,80,30,30,80,70,0
+Binding Coffin,11,1352,260,Paralysis,240,0,+40,None,4,None,None,None,350,60,30,30,110,40,80,0
+Devil's Due,6,1092,210,Dragon,150,-30,0,High,None,None,None,None,350,60,120,80,60,30,0,0
+Devil's Crush,7,1196,230,Dragon,210,-30,0,High,None,None,None,None,350,50,120,80,60,40,0,0
+Consummate Hammer,12,1456,280,Dragon,360,-30,0,High,None,None,None,None,350,160,30,30,60,50,20,0
+Empress Mace,7,936,180,Blast,150,0,0,None,2,1,None,None,350,110,30,60,80,40,30,0
+"Empress Mace ""Blaze""",8,936,180,Blast,180,20,0,None,2,1,None,Guts,350,110,30,60,80,40,30,0
+"Soulfire Heel ""Blaze""",12,1300,250,Blast,270,20,0,None,2,1,None,Guts,350,120,30,90,30,30,50,0
+"Empress Mace ""Ruin""",8,988,190,Blast,150,0,0,None,2,2,None,Hasten Recovery,350,110,30,60,80,40,30,0
+"Soulfire Heel ""Ruin""",12,1404,270,Blast,210,0,0,None,2,2,None,Hasten Recovery,350,120,30,90,30,30,50,0
+"Empress Mace ""Styx""",8,936,180,Blast,240,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,110,30,60,80,40,30,0
+"Soulfire Heel ""Styx""",12,1300,250,Blast,330,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,120,30,90,30,30,50,0
+Bristly Pincushion,3,676,130,Poison,150,0,0,None,None,None,None,None,250,60,50,80,60,0,0,0
+Bristly Grudge,7,1040,200,Poison,270,0,0,None,None,None,None,None,350,110,50,50,80,60,0,0
+Bristly Inferno,11,1352,260,Poison,360,0,0,None,None,None,None,None,350,60,30,30,110,40,80,0
+Defender Warhammer I,1,676,130,Blast,180,0,0,None,None,None,None,None,200,30,60,20,90,0,0,0
+Defender Warhammer II,3,884,170,Blast,210,0,0,None,None,None,None,None,250,30,60,20,140,0,0,0
+Defender Warhammer III,5,988,190,Blast,240,0,0,None,None,None,None,None,300,50,50,50,80,70,0,0
+Defender Warhammer IV,6,1092,210,Blast,270,0,0,None,None,None,None,None,300,30,50,50,80,90,0,0
+Defender Warhammer V,7,1144,220,Blast,300,0,0,None,None,None,None,None,350,90,30,30,110,40,50,0
+Mammoth Hoof I,9,1248,240,Hidden Ice,330,0,0,None,4,None,None,None,350,90,100,40,40,80,0,0
+Mammoth Hoof II,10,1456,280,Hidden Ice,360,0,0,None,4,None,None,None,350,90,100,40,40,80,0,0
+Hidden Breaker,10,1092,210,Hidden Poison,330,10,0,None,None,None,None,None,350,80,80,30,30,80,50,0
+Hidden Breaker+,10,1144,220,Hidden Poison,390,15,0,None,None,None,None,None,350,150,20,20,70,40,30,20
+Night Eternal,11,1248,240,Hidden Poison,450,20,0,None,None,None,None,None,350,140,20,20,70,40,30,30
+Scorching Isshata,10,1144,220,Fire,240,0,0,None,1,None,None,None,350,100,30,30,110,40,40,0
+Scorching Isshata+,10,1248,240,Fire,270,0,0,None,1,None,None,None,350,120,30,30,60,50,60,0
+Glavenus's Uruga,11,1352,260,Fire,330,0,0,None,1,None,None,None,350,120,30,30,60,50,60,0
+Iceshaker,11,1352,260,Ice,300,0,0,None,4,None,None,None,350,150,30,30,60,50,30,0
+Victorious Northlein,12,1404,270,Ice,330,0,0,None,4,None,None,None,350,140,30,30,60,50,40,0
+Striped Striker,10,1300,250,Hidden Blast,270,-20,0,None,None,None,None,None,350,80,30,30,110,40,60,0
+Striped Striker+,10,1404,270,Hidden Blast,300,-20,0,None,None,None,None,None,350,70,30,30,110,40,70,0
+Tigrex Hammer,11,1456,280,Hidden Blast,330,-20,0,None,None,None,None,None,350,60,30,30,110,40,80,0
+Grinding Fulgur I,10,1248,240,Thunder,300,10,0,None,None,None,None,None,350,80,100,40,50,80,0,0
+Grinding Fulgur II,10,1300,250,Thunder,330,20,0,None,1,None,None,None,350,80,100,40,50,80,0,0
+Nyx Hammer I,9,1144,220,Sleep,320,0,0,None,2,None,None,None,350,100,80,30,30,80,30,0
+Nyx Hammer II,10,1248,240,Sleep,450,0,0,None,2,None,None,None,350,70,80,30,30,80,60,0
+Dios Tailhammer,10,1248,240,Blast,300,0,0,None,None,None,None,None,350,100,100,40,50,60,0,0
+Brachy Tailhammer,11,1352,260,Blast,510,0,0,None,1,None,None,None,350,90,30,30,110,40,50,0
+Dawning Tranquility,12,1456,280,Hidden Dragon,480,0,+30,High,1,1,None,None,350,170,30,30,60,50,10,0
+Mane Malice,11,1508,290,Thunder,90,-15,0,None,4,None,None,None,350,110,100,40,50,50,0,0
+Mane Malice Rajang,12,1612,310,Thunder,120,-15,0,None,4,None,None,None,350,100,100,40,50,60,0,0
+Blackwing Deathblow I,10,1352,260,Poison,210,20,0,None,3,None,None,None,350,140,30,90,30,30,30,0
+Blackwing Deathblow II,11,1404,270,Poison,240,25,0,None,3,None,None,None,350,140,30,90,30,30,30,0
+Glacial Bash I,10,1144,220,Ice,330,20,0,None,None,None,None,None,350,110,30,30,110,40,30,0
+Glacial Bash II,10,1248,240,Ice,360,25,0,None,1,None,None,None,350,110,30,30,110,40,30,0
+Sulfurteinn Alcan,10,1404,270,Hidden Paralysis,300,0,0,None,4,None,None,None,350,160,100,30,30,30,0,0
+The Grinding Mallet,11,1508,290,Hidden Paralysis,330,0,0,None,4,None,None,None,350,60,50,110,90,40,0,0
+Well-done Hammer,10,1404,270,Fire,150,0,+30,None,None,None,None,None,400,70,50,50,80,150,0,0
+Juicy Well-done Hammer,11,1612,310,Fire,210,0,+30,None,None,None,None,None,400,30,50,50,80,190,0,0
+Space Lord! Super-8,12,1248,240,Water,640,0,+40,None,None,None,None,None,350,50,80,30,30,80,80,0
+Guild Palace Mace,10,1300,250,Hidden Water,420,10,+30,None,3,None,None,None,350,150,30,30,60,50,30,0
+Royal Cross Mace,12,1404,270,Hidden Water,510,15,+30,None,3,None,None,None,350,150,30,30,60,50,30,0
+Gold Water Bludgeon,6,832,160,Hidden Water,180,0,+20,None,None,None,None,None,350,90,60,80,80,40,0,0
+Gold Ice Bludgeon,6,832,160,Hidden Ice,210,0,+20,None,None,None,None,None,350,150,100,30,30,40,0,0
+Gold Thunder Bludgeon,6,832,160,Hidden Thunder,240,0,+30,None,None,None,None,None,350,150,100,30,30,40,0,0
+Thief Gold Bludgeon,6,884,170,Hidden Sleep,120,35,+20,None,None,None,None,None,350,120,110,40,40,40,0,0
+Spew Gold Bludgeon,6,780,150,Poison,270,0,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
+Mud Gold Bludgeon,6,936,180,Hidden Paralysis,180,-10,+25,None,1,None,None,None,350,110,120,40,50,30,0,0
+Rage Gold Bludgeon,6,884,170,Fire,210,-20,+20,None,None,None,None,None,350,90,120,40,50,50,0,0
+Numb Gold Bludgeon,6,728,140,Paralysis,180,30,+20,None,None,None,None,None,350,90,60,60,100,40,0,0
+Tar Gold Bludgeon,6,780,150,Sleep,120,10,+30,None,None,None,None,None,350,110,120,40,50,30,0,0
+Decay Gold Bludgeon,6,936,180,Dragon,120,0,+20,Average,None,None,None,None,350,70,120,80,60,20,0,0
+Horn Gold Bludgeon,6,988,190,Ice,60,-25,+20,None,None,None,None,None,350,90,50,60,120,30,0,0
+Gyre Gold Bludgeon,6,936,180,Fire,60,0,+30,None,None,None,None,None,350,90,120,40,50,50,0,0
+"Taroth Hammer ""Thief""",7,884,170,Hidden Sleep,360,35,+20,None,None,None,None,None,350,120,110,40,40,40,0,0
+"Taroth Hammer ""Spew""",7,988,190,Poison,540,0,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
+"Taroth Hammer ""Mud""",7,1092,210,Hidden Paralysis,390,-10,+25,None,1,None,None,None,350,110,120,40,50,30,0,0
+"Taroth Hammer ""Rage""",7,1040,200,Fire,450,-20,+20,None,None,None,None,None,350,90,120,40,50,50,0,0
+"Taroth Hammer ""Numb""",7,832,160,Paralysis,390,30,+20,None,None,None,None,None,350,90,60,60,100,40,0,0
+"Taroth Hammer ""Tar""",7,988,190,Sleep,270,10,+30,None,None,None,None,None,350,110,120,40,50,30,0,0
+"Taroth Hammer ""Decay""",7,1040,200,Dragon,270,0,+20,Average,None,None,None,None,350,70,120,80,60,20,0,0
+"Taroth Hammer ""Horn""",7,1144,220,Ice,90,-25,+20,None,None,None,None,None,350,90,50,60,120,30,0,0
+"Taroth Hammer ""Gyre""",7,1092,210,Fire,120,0,+30,None,None,None,None,None,350,90,120,40,50,50,0,0
+"Taroth Hammer ""Water""",8,988,190,Hidden Water,360,0,+20,None,3,None,None,None,350,80,50,60,120,40,0,0
+"Taroth Hammer ""Ice""",8,988,190,Hidden Ice,510,0,+20,None,3,None,None,None,350,190,70,20,20,50,0,0
+"Taroth Hammer ""Thunder""",8,988,190,Hidden Thunder,480,0,+30,None,3,None,None,None,350,150,100,30,30,40,0,0
+"Taroth Hammer ""Sleep""",8,1040,200,Hidden Sleep,300,0,+30,None,3,None,None,None,350,220,20,20,20,30,40,0
+"Kjárr Hammer ""Numb""",8,936,180,Paralysis,300,20,0,None,1,None,None,Critical Status,350,80,60,60,100,50,0,0
+"Kjárr Hammer ""Decay""",8,1040,200,Dragon,330,10,0,Average,1,None,None,Critical Element,350,40,120,80,60,50,0,0
+"Kjárr Hammer ""Gyre""",8,1040,200,Fire,360,10,+15,None,1,None,None,Critical Element,350,80,100,40,40,90,0,0
+"Kjárr Hammer ""Water""",8,1040,200,Water,390,10,0,None,None,None,None,Critical Element,350,60,50,60,120,60,0,0
+"Kjárr Hammer ""Ice""",8,988,190,Ice,480,10,0,None,None,None,None,Critical Element,350,170,70,20,20,70,0,0
+"Kjárr Hammer ""Thunder""",8,988,190,Thunder,450,15,0,None,None,None,None,Critical Element,350,130,100,30,30,60,0,0
+"Kjárr Hammer ""Blast""",8,1118,215,Blast,270,15,0,None,None,None,None,Critical Status,350,110,50,50,80,60,0,0
