@@ -46,7 +46,7 @@ p {
     <a href="waist-pieces">Waist Pieces</a>
     <a href="leg-pieces">Leg Pieces</a>
 
-    <!--Dropdown box form yo-->
+    <!--Dropdown box form-->
     <form method='post'>
         {% if head %}
         <p><label for="heads">Head Pieces:</label></p>
@@ -55,48 +55,44 @@ p {
             <option value="{{row.name}}">{{row.name}}</option>
             {% endfor %}
         </select>
-        <input type= "submit">
         {% endif %}
 
         {% if chest %}
         <p><label for="chests">Chest Pieces:</label></p>
-        <select id="chests" name="chestName">
+        <select id="chests" name="chestName" style="width: 15%;">
             {% for row in chest %}
             <option value="{{row.name}}">{{row.name}}</option>
             {% endfor %}
         </select>
-        <input type= "submit">
         {% endif %}
 
         {% if arm %}
         <p><label for="arms">Arm Pieces:</label></p>
-        <select id="arms" name="armName">
+        <select id="arms" name="armName" style="width: 15%;">
             {% for row in arm %}
             <option value="{{row.name}}">{{row.name}}</option>
             {% endfor %}
         </select>
-        <input type= "submit">
         {% endif %}
 
         {% if waist %}
         <p><label for="waists">Waist Pieces:</label></p>
-        <select id="waists" name="waistName">
+        <select id="waists" name="waistName" style="width: 15%;">
             {% for row in waist %}
             <option value="{{row.name}}">{{row.name}}</option>
             {% endfor %}
         </select>
-        <input type= "submit">
         {% endif %}
 
         {% if leg %}
         <p><label for="legs">Leg Pieces:</label></p>
-        <select id="legs" name="legName">
+        <select id="legs" name="legName" style="width: 15%;">
             {% for row in leg %}
             <option value="{{row.name}}">{{row.name}}</option>
             {% endfor %}
         </select>
-        <input type= "submit">
         {% endif %}    
+        <input type= "submit">
     </form>
 
     <!--button type="button" onclick="myFunction()">Try it</button>
