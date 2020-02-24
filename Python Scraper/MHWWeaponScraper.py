@@ -347,7 +347,9 @@ def scrape_weapon(URL, Weapons_list):
                     Notes.append('cyan')
                 if ('note-7' in str(note)):
                     Notes.append('white')
-            Weapon_Info.append(Notes)
+            
+            Notes_string = str(Notes).replace('[', '').replace(']', '').replace("'", '').replace(', ', ' | ')
+            Weapon_Info.append(Notes_string)
             Usable_Melodies = []
             #All Melodies
             for a in range(len(Melodies)):
@@ -363,6 +365,7 @@ def scrape_weapon(URL, Weapons_list):
                     if Note_check == len(list(Melodies[a][b])):
                         Usable_Melodies.append(Melodies[a][0])
             Usable_Melodies = list(set(Usable_Melodies))
+            Usable_Melodies = str(Usable_Melodies).replace('[', '').replace(']', '').replace("'", '').replace(', ', ' | ')
             Weapon_Info.append(Usable_Melodies)
 
 
