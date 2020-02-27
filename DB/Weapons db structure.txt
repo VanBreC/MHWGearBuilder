@@ -1,0 +1,316 @@
+CREATE TABLE Great_Swords(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_GreatSword.csv' INTO TABLE Great_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Sword_Shields(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_SwordShield.csv' INTO TABLE Sword_Shields FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Dual_Blades(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+First_Element_Type VARCHAR(30),
+First_Element_Damage SMALLINT,
+Second_Element_Type VARCHAR(30),
+Second_Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_DualBlades.csv' INTO TABLE Dual_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Long_Swords(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_LongSword.csv' INTO TABLE Long_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Hammers(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_Hammer.csv' INTO TABLE Hammers FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Hunting_Horns(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Notes VARCHAR(40),
+Melodies VARCHAR(200),
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_HuntingHorn.csv' INTO TABLE Hunting_Horns FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Lances(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_Lance.csv' INTO TABLE Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Gun_Lances(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Shelling VARCHAR(20),
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_GunLance.csv' INTO TABLE Gun_Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Switch_Axes(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Phial_Type VARCHAR(30),
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_SwitchAxe.csv' INTO TABLE Switch_Axes FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Charge_Blades(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Phial_Type VARCHAR(40),
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_ChargeBlade.csv' INTO TABLE Charge_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE Insect_Glaives(
+Name VARCHAR(40) PRIMARY KEY,
+Rarity SMALLINT NOT NULL,
+Damage SMALLINT NOT NULL,
+True_Damage SMALLINT NOT NULL,
+Element_Type VARCHAR(30),
+Element_Damage SMALLINT,
+Affinity_Percentage SMALLINT,
+Defense SMALLINT,
+Elderseal VARCHAR (10),
+Gem_Slot_1 SMALLINT,
+Gem_Slot_2 SMALLINT,
+Gem_Slot_3 SMALLINT,
+Kinsect_Bonus VARCHAR(40),
+Skill VARCHAR (30),
+Max_Sharpness SMALLINT NOT NULL,
+Red_Sharpness SMALLINT NOT NULL,
+Orange_Sharpness SMALLINT NOT NULL,
+Yellow_Sharpness SMALLINT NOT NULL,
+Green_Sharpness SMALLINT NOT NULL,
+Blue_Sharpness SMALLINT NOT NULL,
+White_Sharpness SMALLINT NOT NULL,
+Purple_Sharpness SMALLINT NOT NULL
+);
+
+LOAD DATA LOCAL INFILE
+'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_InsectGlaive.csv' INTO TABLE Insect_Glaives FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+

@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Weapon Builder</title>
+</head>
+<body>
+    <h2>Monster Hunter World Iceborne: Gear Builder</h2>
+    <h3>Select some equipment to begin.</h3>
+    <a href="/">Home</a>
+    <a href="Great-Swords">Great Swords</a>
+    <a href="Sword-Shields">Sword & Shields</a>
+    <a href="Dual-Blades">Dual Blades</a>
+    <a href="Long-Swords">Long Swords</a>
+    <a href="Hammers">Hammers</a>
+
+    <!--Dropdown box form-->
+    <form method='POST'>
+        {% if Great_Swords %}
+        <p><label for="GreatSwords">Great Swords:</label></p>
+        <select id="GreatSwords" name="GSName" style="width: 15%;">
+            {% for row in Great_Swords %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Sword_Shields %}
+        <p><label for="SwordShields">Sword & Shields:</label></p>
+        <select id="SwordShields" name="SSName" style="width: 15%;">
+            {% for row in Sword_Shields %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Dual_Blades %}
+        <p><label for="DualBlades">Dual Blades:</label></p>
+        <select id="DualBlades" name="DBName" style="width: 15%;">
+            {% for row in Dual_Blades %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Long_Swords %}
+        <p><label for="LongSwords">Long Swords:</label></p>
+        <select id="LongSwords" name="LSName" style="width: 15%;">
+            {% for row in Long_Swords %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Hammers %}
+        <p><label for="Hammerz">Hammers:</label></p>
+        <select id="Hammerz" name="HName" style="width: 15%;">
+            {% for row in Hammers %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+        <input type="submit">
+           
+        
+    </form>
+
+
+    <!--Always display table headings, display armors once button clicked-->
+    <table id="Weapons" style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th>Rarity</th>
+            <th>Damage</th>
+            <th>True Damage</th>
+            <th>Element Type</th>
+            <th>Element Damage</th>
+            <th>Affinity(%)</th>
+            <th>Defense</th>
+            <th>Elderseal</th>
+            <th>Gem Slot 1</th>
+            <th>Gem Slot 2</th>
+            <th>Gem Slot 3</th>
+            <th>Skill</th>
+            <th>Max Sharpness</th>
+            <th>Red Sharpness</th>
+            <th>Orange Sharpness</th>
+            <th>Yellow Sharpness</th>
+            <th>Green Sharpness</th>
+            <th>Blue Sharpness</th>
+            <th>White Sharpness</th>
+            <th>Purple Sharpness</th>
+        </tr>
+        {% if SelectedGreatSword %}
+        {% for row in SelectedGreatSword %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedSwordShield %}
+        {% for row in SelectedSwordShield %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percentage }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedDualBlade %}
+        {% for row in SelectedDualBlade %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row._1st_Element_Type }}</td>
+            <td> {{ row._1st_Element_Damage }}</td>
+            <td> {{ row._2nd_Element_Type }}</td>
+            <td> {{ row._2nd_Element_Damage }}</td>
+            <td> {{ row.Affinity_Percentage }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedLongSword %}
+        {% for row in SelectedLongSword %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percentage }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedHammer %}
+        {% for row in SelectedHammer %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percentage }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </table>
+
+</body>
+</html>

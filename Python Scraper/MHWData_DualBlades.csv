@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Rarity,Attack,True Attack,Element(1),Element Stat(1),Element(2),Element Stat(2),Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
 Matched Slicers I,1,112,80,None,0,None,0,0,0,None,None,None,None,None,200,90,50,60,0,0,0,0
 Matched Slicers II,1,126,90,None,0,None,0,0,0,None,None,None,None,None,200,70,70,30,30,0,0,0
@@ -128,12 +127,12 @@ Wrath & Rancor,6,280,200,Dragon,120,None,0,-20,0,High,None,None,None,None,350,50
 Wrathful Predation,7,308,220,Dragon,180,None,0,-20,0,High,None,None,None,None,350,40,120,80,60,50,0,0
 Consummate Pair,12,392,280,Dragon,210,None,0,-15,0,High,None,None,None,None,350,140,30,30,60,50,40,0
 Empress Daggers,7,252,180,Blast,60,None,0,0,0,None,2,1,None,None,350,90,30,60,80,40,50,0
-"Empress Daggers ""Blaze""",8,252,180,Blast,90,None,0,20,0,None,2,1,None,Guts,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Blaze""",12,350,250,Blast,120,None,0,20,0,None,2,1,None,Guts,350,110,30,30,60,50,70,0
-"Empress Daggers ""Ruin""",8,266,190,Blast,60,None,0,0,0,None,2,2,None,Hasten Recovery,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Ruin""",12,378,270,Blast,90,None,0,0,0,None,2,2,None,Hasten Recovery,350,110,30,30,60,50,70,0
-"Empress Daggers ""Styx""",8,252,180,Blast,120,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Styx""",12,350,250,Blast,150,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,110,30,30,60,50,70,0
+Empress Daggers Blaze,8,252,180,Blast,90,None,0,20,0,None,2,1,None,Guts,350,90,30,60,80,40,50,0
+Soulfire Fangs Blaze,12,350,250,Blast,120,None,0,20,0,None,2,1,None,Guts,350,110,30,30,60,50,70,0
+Empress Daggers Ruin,8,266,190,Blast,60,None,0,0,0,None,2,2,None,Hasten Recovery,350,90,30,60,80,40,50,0
+Soulfire Fangs Ruin,12,378,270,Blast,90,None,0,0,0,None,2,2,None,Hasten Recovery,350,110,30,30,60,50,70,0
+Empress Daggers Styx,8,252,180,Blast,120,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,90,30,60,80,40,50,0
+Soulfire Fangs Styx,12,350,250,Blast,150,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,110,30,30,60,50,70,0
 Downy Crake Brooms,3,154,110,Sleep,90,None,0,0,0,None,None,None,None,None,250,60,50,60,80,0,0,0
 Downy Crake Love,7,252,180,Sleep,120,None,0,0,0,None,None,None,None,None,350,90,50,50,80,80,0,0
 Downy Paradise,11,364,260,Sleep,180,None,0,0,0,None,None,None,None,None,350,40,80,30,30,80,90,0
@@ -191,239 +190,24 @@ Claw Gold Twinblades,6,196,140,Hidden Fire,60,None,0,20,+20,None,None,None,None,
 Horn Gold Twinblades,6,266,190,Hidden Ice,60,None,0,-10,+25,None,None,None,None,None,350,90,50,60,120,30,0,0
 Erupter Gold Twinblades,6,238,170,Fire,60,None,0,0,+20,None,1,None,None,None,350,200,70,20,20,40,0,0
 Magma Gold Twinblades,6,238,170,Blast,90,None,0,-20,+30,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Thief""",7,238,170,Sleep,90,None,0,20,+20,None,None,None,None,None,350,80,60,60,100,50,0,0
-"Taroth Daggers ""Mire""",7,266,190,Water,210,None,0,10,+20,None,None,None,None,None,350,160,100,30,30,30,0,0
-"Taroth Daggers ""Spark""",7,252,180,Thunder,150,None,0,10,+20,None,None,None,None,None,350,220,20,20,50,20,20,0
-"Taroth Daggers ""Rage""",7,294,210,Fire,240,None,0,-20,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Lurk""",7,238,170,Hidden Paralysis,90,None,0,0,+20,None,None,None,None,None,350,110,30,60,80,40,30,0
-"Taroth Daggers ""Flash""",7,266,190,Hidden Thunder,210,None,0,0,+20,None,None,None,None,None,350,80,50,60,120,40,0,0
-"Taroth Daggers ""Claw""",7,252,180,Hidden Fire,90,None,0,20,+20,None,None,None,None,None,350,40,120,80,60,50,0,0
-"Taroth Daggers ""Horn""",7,322,230,Hidden Ice,150,None,0,-10,+25,None,None,None,None,None,350,90,50,60,120,30,0,0
-"Taroth Daggers ""Erupter""",7,266,190,Fire,150,None,0,0,+20,None,1,None,None,None,350,200,70,20,20,40,0,0
-"Taroth Daggers ""Magma""",7,280,200,Blast,210,None,0,-20,+30,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Water""",8,266,190,Hidden Water,270,None,0,0,+20,None,3,None,None,None,350,190,70,20,20,50,0,0
-"Taroth Daggers ""Ice""",8,266,190,Hidden Ice,270,None,0,0,+20,None,3,None,None,None,350,50,50,60,120,70,0,0
-"Taroth Daggers ""Poison""",8,266,190,Hidden Poison,330,None,0,0,+20,None,3,None,None,None,350,40,50,60,120,80,0,0
-"Taroth Daggers ""Fire""",8,252,180,Hidden Fire,180,None,0,0,+20,None,3,None,None,None,350,220,20,20,20,30,40,0
-"Kjárr Daggers ""Spark""",8,252,180,Thunder,180,None,0,15,0,None,1,None,None,Critical Element,350,220,20,20,50,20,20,0
-"Kjárr Daggers ""Rage""",8,280,200,Fire,210,None,0,5,0,None,None,None,None,Critical Element,350,80,50,50,80,90,0,0
-"Kjárr Daggers ""Magma""",8,266,190,Blast,180,None,0,5,+15,None,1,None,None,Critical Status,350,90,120,40,50,50,0,0
-"Kjárr Daggers ""Lurk""",8,224,160,Paralysis,90,None,0,10,0,None,1,None,None,Critical Status,350,100,30,60,80,40,40,0
-"Kjárr Daggers ""Water""",8,252,180,Water,210,None,0,10,0,None,1,None,None,Critical Element,350,170,70,20,20,70,0,0
-"Kjárr Daggers ""Ice""",8,252,180,Ice,210,None,0,15,0,None,1,None,None,Critical Element,350,40,50,60,120,80,0,0
-"Kjárr Daggers ""Dragon""",8,252,180,Dragon,210,None,0,20,0,Average,1,None,None,Critical Element,350,40,50,60,120,80,0,0
-=======
-Name,Rarity,Attack,True Attack,Element(1),Element Stat(1),Element(2),Element Stat(2),Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
-Matched Slicers I,1,112,80,None,0,None,0,0,0,None,None,None,None,None,200,90,50,60,0,0,0,0
-Matched Slicers II,1,126,90,None,0,None,0,0,0,None,None,None,None,None,200,70,70,30,30,0,0,0
-Matched Slicers III,2,140,100,None,0,None,0,0,0,None,None,None,None,None,200,50,70,30,50,0,0,0
-Dual Slicers I,3,154,110,None,0,None,0,0,0,None,None,None,None,None,250,60,50,80,60,0,0,0
-Dual Slicers II,4,182,130,None,0,None,0,0,0,None,None,None,None,None,250,50,50,80,70,0,0,0
-Dual Slicers III,5,196,140,Hidden Poison,210,None,0,0,0,None,1,None,None,None,300,90,50,50,80,30,0,0
-Chrome Slicers I,6,224,160,Hidden Poison,240,None,0,0,0,None,1,None,None,None,300,80,50,50,80,40,0,0
-Chrome Slicers II,6,252,180,Hidden Poison,270,None,0,0,0,None,1,1,None,None,350,60,60,20,150,60,0,0
-Chrome Cross I,9,308,220,Hidden Poison,300,None,0,0,0,None,1,1,None,None,350,70,80,30,30,80,60,0
-Chrome Cross II,10,336,240,Hidden Poison,330,None,0,0,0,None,1,1,None,None,350,60,80,30,30,80,70,0
-Chrome Cross III,11,364,260,Hidden Poison,360,None,0,0,0,None,1,1,None,None,350,100,30,30,60,50,80,0
-Bone Hatchets I,1,140,100,None,0,None,0,0,0,None,None,None,None,None,200,100,60,40,0,0,0,0
-Bone Hatchets II,1,154,110,None,0,None,0,0,0,None,None,None,None,None,200,90,50,60,0,0,0,0
-Bone Hatchets III,2,168,120,None,0,None,0,0,0,None,None,None,None,None,200,80,70,30,20,0,0,0
-Wild Hatchets I,3,196,140,None,0,None,0,0,0,None,None,None,None,None,250,110,70,30,40,0,0,0
-Wild Hatchets II,4,210,150,None,0,None,0,0,0,None,None,None,None,None,250,90,70,30,60,0,0,0
-Wild Hatchets III,5,224,160,Hidden Blast,120,None,0,0,0,None,2,None,None,None,300,120,70,30,80,0,0,0
-Strong Hatchets I,6,238,170,Hidden Blast,150,None,0,0,+10,None,2,None,None,None,300,60,60,60,100,20,0,0
-Strong Hatchets II,6,266,190,Hidden Blast,180,None,0,0,+10,None,3,None,None,None,350,110,50,50,80,60,0,0
-Hulking Choppers I,9,322,230,Hidden Blast,210,None,0,0,+35,None,3,None,None,None,350,80,100,40,50,80,0,0
-Hulking Choppers II,10,350,250,Hidden Blast,240,None,0,0,+35,None,3,None,None,None,350,70,100,40,50,90,0,0
-Hulking Choppers III,11,392,280,Hidden Blast,270,None,0,0,+35,None,3,None,None,None,350,60,100,40,50,100,0,0
-Rending Beaks I,2,154,110,None,0,None,0,15,0,None,None,None,None,None,200,60,70,30,40,0,0,0
-Rending Beaks II,3,168,120,None,0,None,0,15,0,None,None,None,None,None,250,60,50,80,60,0,0,0
-Rending Beaks III,4,182,130,None,0,None,0,15,0,None,None,None,None,None,250,50,50,80,70,0,0,0
-Arcanaria I,5,210,150,Hidden Sleep,90,None,0,20,0,None,None,None,None,None,300,90,50,50,80,30,0,0
-Arcanaria II,6,224,160,Hidden Sleep,90,None,0,20,0,None,None,None,None,None,300,80,50,50,80,40,0,0
-Arcanaria III,6,238,170,Hidden Sleep,120,None,0,20,0,None,None,None,None,None,350,80,60,60,100,50,0,0
-Asefar al-Nasr I,9,308,220,Hidden Sleep,180,None,0,20,0,None,None,None,None,None,350,90,100,40,50,70,0,0
-Asefar al-Nasr II,10,364,260,Hidden Sleep,210,None,0,20,0,None,None,None,None,None,350,90,30,30,110,40,50,0
-Madness Pangas I,2,154,110,Water,90,None,0,0,0,None,None,None,None,None,200,80,50,50,20,0,0,0
-Madness Pangas II,3,182,130,Water,90,None,0,0,0,None,None,None,None,None,250,120,70,30,30,0,0,0
-Madness Pangas III,4,210,150,Water,120,None,0,0,0,None,None,None,None,None,250,110,70,30,40,0,0,0
-Jyura Hatchets I,5,238,170,Water,150,None,0,0,0,None,1,None,None,None,300,140,70,30,60,0,0,0
-Jyura Hatchets II,6,252,180,Water,180,None,0,0,0,None,1,None,None,None,300,100,100,40,40,20,0,0
-Jyura Hatchets III,6,266,190,Water,210,None,0,0,0,None,1,None,None,None,350,160,100,30,30,30,0,0
-Jyura Keenblades I,9,322,230,Water,240,None,0,0,0,None,3,None,None,None,350,80,100,40,50,80,0,0
-Jyura Keenblades II,10,364,260,Water,300,None,0,0,0,None,3,1,None,None,350,80,100,40,50,80,0,0
-Pulsar Hatchets I,2,154,110,Thunder,60,None,0,10,0,None,None,None,None,None,200,70,50,50,30,0,0,0
-Pulsar Hatchets II,3,168,120,Thunder,60,None,0,10,0,None,None,None,None,None,250,100,70,30,50,0,0,0
-Pulsar Hatchets III,4,196,140,Thunder,60,None,0,10,0,None,None,None,None,None,250,90,70,30,60,0,0,0
-Kadachi Claws I,5,224,160,Thunder,90,None,0,10,0,None,1,None,None,None,300,100,100,40,40,20,0,0
-Kadachi Claws II,6,238,170,Thunder,120,None,0,10,0,None,1,None,None,None,300,90,100,40,40,30,0,0
-Kadachi Claws III,6,252,180,Thunder,150,None,0,10,0,None,1,None,None,None,350,200,70,20,20,40,0,0
-Kadachi Greathawks I,9,294,210,Thunder,210,None,0,10,0,None,1,None,None,None,350,100,30,30,110,40,40,0
-Kadachi Greathawks II,10,322,230,Thunder,330,None,0,10,0,None,1,None,None,None,350,140,30,30,60,50,40,0
-Blazing Hatchets I,3,196,140,Fire,90,None,0,-20,0,None,None,None,None,None,250,120,70,30,30,0,0,0
-Blazing Hatchets II,4,210,150,Fire,120,None,0,-20,0,None,None,None,None,None,250,100,70,30,50,0,0,0
-Anja Cyclone I,5,238,170,Fire,150,None,0,-20,0,None,None,None,None,None,300,140,70,30,60,0,0,0
-Anja Cyclone II,6,266,190,Fire,180,None,0,-20,0,None,None,None,None,None,300,130,70,30,70,0,0,0
-Anja Cyclone III,7,294,210,Fire,210,None,0,-20,0,None,None,None,None,None,350,100,120,40,50,40,0,0
-Anja Twinrippers I,9,322,230,Fire,210,None,0,-20,0,None,None,None,None,None,350,60,100,40,50,100,0,0
-Anja Twinrippers II,10,378,270,Fire,360,None,0,-20,0,None,None,None,None,None,350,60,100,40,50,100,0,0
-Nergal Gouge,7,280,200,Dragon,90,None,0,0,0,High,1,None,None,None,400,110,120,40,50,80,0,0
-Decimation Claws,8,294,210,Dragon,120,None,0,0,0,High,1,None,None,None,400,90,120,40,50,100,0,0
-Ruinous Decimation,12,406,290,Dragon,180,None,0,0,0,High,1,None,None,None,400,70,30,30,110,40,120,0
-Taurus Pangas I,3,168,120,None,0,None,0,0,0,None,None,None,None,None,250,100,70,30,50,0,0,0
-Taurus Pangas II,4,182,130,None,0,None,0,0,0,None,None,None,None,None,250,80,70,30,70,0,0,0
-Dark Ripper I,5,196,140,Hidden Paralysis,90,None,0,0,0,None,2,None,None,None,300,90,100,40,40,30,0,0
-Dark Ripper II,6,210,150,Hidden Paralysis,90,None,0,0,0,None,2,None,None,None,300,80,100,40,40,40,0,0
-Dark Ripper III,6,224,160,Hidden Paralysis,90,None,0,0,0,None,2,None,None,None,350,110,30,60,80,40,30,0
-Abyss Eaters I,9,280,200,Hidden Paralysis,150,None,0,0,0,None,2,None,None,None,350,80,30,30,110,40,60,0
-Abyss Eaters II,10,322,230,Hidden Paralysis,210,None,0,0,0,None,2,None,None,None,350,100,20,20,70,40,30,70
-Luminous Daggers I,3,168,120,None,0,None,0,0,0,None,None,None,None,None,250,70,50,80,50,0,0,0
-Luminous Daggers II,4,196,140,None,0,None,0,0,0,None,None,None,None,None,250,60,50,80,60,0,0,0
-Dual Destroyers I,5,224,160,Hidden Thunder,120,None,0,0,0,None,1,None,None,None,300,100,50,50,80,20,0,0
-Dual Destroyers II,6,238,170,Hidden Thunder,150,None,0,0,0,None,2,None,None,None,300,90,50,50,80,30,0,0
-Dual Destroyers III,6,252,180,Hidden Thunder,210,None,0,0,0,None,3,None,None,None,350,80,50,60,120,40,0,0
-Cross Destroyers I,9,294,210,Hidden Thunder,300,None,0,0,0,None,3,None,None,None,350,110,30,30,110,40,30,0
-Cross Destroyers II,10,364,260,Hidden Thunder,330,None,0,0,0,None,3,None,None,None,350,80,30,30,110,40,60,0
-Garon Hatchets I,4,182,130,None,0,None,0,20,0,None,None,None,None,None,250,80,70,30,70,0,0,0
-Garon Hatchets II,5,196,140,Hidden Fire,180,None,0,20,0,None,None,None,None,None,300,90,100,40,40,30,0,0
-Blood-drinker Chainblade,6,210,150,Hidden Fire,180,None,0,20,0,None,None,None,None,None,300,80,100,40,40,40,0,0
-Sin,8,224,160,Hidden Fire,180,None,0,20,0,None,None,None,None,None,400,200,70,20,20,50,40,0
-Sin+,10,308,220,Hidden Fire,210,None,0,20,0,None,None,None,None,None,400,90,80,30,30,80,90,0
-Crime,10,322,230,Hidden Fire,300,None,0,30,0,None,None,None,None,None,400,90,80,30,30,80,90,0
-Twin Flames,10,322,230,Poison,270,Fire,270,10,0,None,1,None,None,None,350,90,100,40,50,70,0,0
-Wyvern Lovers,10,336,240,Poison,300,Fire,300,10,0,None,1,None,None,None,350,90,30,30,110,40,50,0
-Wyvern Strife,12,378,270,Poison,360,Fire,360,15,0,None,2,None,None,None,350,110,30,30,60,50,70,0
-Diablos Hatchets I,4,224,160,None,0,None,0,-10,+10,None,None,None,None,None,250,110,70,30,40,0,0,0
-Diablos Hatchets II,5,266,190,Hidden Ice,90,None,0,-10,+10,None,2,None,None,None,300,140,70,30,60,0,0,0
-Diablos Clubs I,6,294,210,Hidden Ice,90,None,0,-10,+15,None,2,None,None,None,300,100,100,40,40,20,0,0
-Diablos Clubs II,7,322,230,Hidden Ice,90,None,0,-10,+15,None,2,None,None,None,350,90,50,60,120,30,0,0
-Diablos Clubs III,10,378,270,Hidden Ice,150,None,0,-10,+35,None,2,None,None,None,350,100,100,40,50,60,0,0
-Thanatos Mauls,10,406,290,Hidden Ice,180,None,0,-10,+35,None,2,2,None,None,350,70,50,90,70,70,0,0
-Kirin Bolts,4,154,110,Thunder,210,None,0,0,0,None,None,None,None,None,250,70,70,30,80,0,0,0
-Kirin Bolts+,7,196,140,Thunder,240,None,0,0,0,None,None,None,None,None,350,110,20,20,140,60,0,0
-Monarch,8,224,160,Thunder,270,None,0,0,0,None,None,None,None,None,350,110,20,20,120,80,0,0
-Wunderkirins,11,336,240,Thunder,450,None,0,0,0,None,None,None,None,None,350,40,80,30,30,80,90,0
-Lava Cyclone I,6,252,180,Fire,120,None,0,0,0,None,2,2,None,None,300,100,100,40,40,20,0,0
-Lava Cyclone II,7,252,180,Fire,150,None,0,0,0,None,2,2,None,None,350,200,70,20,20,40,0,0
-Shattering Flames I,10,350,250,Fire,180,None,0,0,0,None,4,2,None,None,350,80,100,40,50,80,0,0
-Shattering Flames II,10,364,260,Fire,210,None,0,0,0,None,4,2,None,None,350,80,100,40,50,80,0,0
-Twin Nails,7,238,170,Ice,210,Blast,210,10,0,None,2,None,None,None,350,100,60,80,80,30,0,0
-Fire and Ice,8,252,180,Ice,240,Blast,240,10,0,None,2,None,None,None,350,60,50,60,120,60,0,0
-Blizzard and Blaze,11,364,260,Ice,330,Blast,330,10,0,None,2,None,None,None,350,140,30,30,60,50,40,0
-Xeno Raqs,8,238,170,Dragon,150,None,0,15,0,Low,3,3,None,None,350,120,30,60,80,40,20,0
-Rookslayer Handaxes,6,252,180,Blast,120,None,0,-10,0,None,1,None,None,None,300,100,50,50,80,20,0,0
-Bazelhawk Rookslayer,8,280,200,Blast,150,None,0,-10,0,None,1,None,None,None,350,60,120,80,60,30,0,0
-Blazing Warhawks,11,336,240,Blast,180,None,0,-10,0,None,1,None,None,None,350,150,30,30,60,50,30,0
-Bazel Bombers,12,364,260,Blast,240,None,0,-10,0,None,1,None,None,None,350,130,30,30,60,50,50,0
-Magda Ungulae I,5,224,160,Blast,180,None,0,-20,+20,None,2,None,None,None,300,110,50,80,60,0,0,0
-Magda Ungulae II,7,308,220,Blast,210,None,0,-20,+20,None,2,None,None,None,350,180,30,60,80,0,0,0
-Magdaros Volcancross,11,392,280,Blast,240,None,0,-20,+45,None,2,None,None,None,350,140,40,40,70,60,0,0
-Dragonbone Twinblades I,3,140,100,Dragon,120,None,0,0,0,Low,None,None,None,None,250,110,70,30,40,0,0,0
-Dragonbone Twinblades II,4,168,120,Dragon,150,None,0,0,0,Low,None,None,None,None,250,70,70,30,80,0,0,0
-Enduring Schism,7,196,140,Dragon,270,None,0,0,0,Low,1,1,None,None,350,110,110,40,40,50,0,0
-Enduring Sacrifice,10,294,210,Dragon,390,None,0,0,0,Average,1,1,None,None,350,160,70,20,20,80,0,0
-Enduring Surrender,11,336,240,Dragon,510,None,0,0,0,Average,1,1,None,None,350,160,70,20,20,80,0,0
-Blacksteel Twins I,5,140,100,Dragon,90,None,0,0,0,Low,None,None,None,None,300,150,110,40,0,0,0,0
-Blacksteel Twins II,6,154,110,Dragon,120,None,0,0,0,Low,None,None,None,None,300,140,110,40,10,0,0,0
-Freeze Daggers I,4,182,130,Ice,60,None,0,0,0,None,None,None,None,None,250,50,50,80,70,0,0,0
-Freeze Daggers II,5,210,150,Ice,90,None,0,0,0,None,2,None,None,None,300,100,50,50,80,20,0,0
-Freeze Chain I,6,238,170,Ice,120,None,0,0,0,None,2,None,None,None,300,90,50,50,80,30,0,0
-Freeze Chain II,6,252,180,Ice,150,None,0,0,0,None,2,None,None,None,350,80,50,60,120,40,0,0
-Blizzarioths,10,308,220,Ice,180,None,0,15,0,None,None,None,None,None,350,90,30,30,110,40,50,0
-Blizzarioths+,10,322,230,Ice,210,None,0,20,0,None,None,None,None,None,350,90,30,30,110,40,50,0
-Mountain Blizzarioths,11,350,250,Ice,270,None,0,25,0,None,None,None,None,None,350,90,30,30,110,40,50,0
-Sworn Rapiers,3,182,130,Water,90,None,0,0,0,None,None,None,None,None,250,50,50,80,70,0,0,0
-Sworn Rapiers+,5,210,150,Water,90,None,0,0,0,None,2,None,None,None,300,90,50,50,80,30,0,0
-Holy Sabers,7,252,180,Water,120,None,0,0,0,None,3,None,None,None,350,60,50,60,120,60,0,0
-Guild Knight Sabers,9,294,210,Water,150,None,0,0,0,None,3,None,None,None,350,80,80,30,30,80,50,0
-Master Sabers,10,308,220,Water,180,None,0,0,0,None,3,None,None,None,350,130,30,30,60,50,50,0
-Holy Guild Knight,11,350,250,Water,210,None,0,0,0,None,3,None,None,None,350,140,20,20,70,40,30,30
-Wrath & Rancor,6,280,200,Dragon,120,None,0,-20,0,High,None,None,None,None,350,50,120,80,60,40,0,0
-Wrathful Predation,7,308,220,Dragon,180,None,0,-20,0,High,None,None,None,None,350,40,120,80,60,50,0,0
-Consummate Pair,12,392,280,Dragon,210,None,0,-15,0,High,None,None,None,None,350,140,30,30,60,50,40,0
-Empress Daggers,7,252,180,Blast,60,None,0,0,0,None,2,1,None,None,350,90,30,60,80,40,50,0
-"Empress Daggers ""Blaze""",8,252,180,Blast,90,None,0,20,0,None,2,1,None,Guts,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Blaze""",12,350,250,Blast,120,None,0,20,0,None,2,1,None,Guts,350,110,30,30,60,50,70,0
-"Empress Daggers ""Ruin""",8,266,190,Blast,60,None,0,0,0,None,2,2,None,Hasten Recovery,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Ruin""",12,378,270,Blast,90,None,0,0,0,None,2,2,None,Hasten Recovery,350,110,30,30,60,50,70,0
-"Empress Daggers ""Styx""",8,252,180,Blast,120,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,90,30,60,80,40,50,0
-"Soulfire Fangs ""Styx""",12,350,250,Blast,150,None,0,10,0,None,3,3,None,Razor Sharp/Spare Shot,350,110,30,30,60,50,70,0
-Downy Crake Brooms,3,154,110,Sleep,90,None,0,0,0,None,None,None,None,None,250,60,50,60,80,0,0,0
-Downy Crake Love,7,252,180,Sleep,120,None,0,0,0,None,None,None,None,None,350,90,50,50,80,80,0,0
-Downy Paradise,11,364,260,Sleep,180,None,0,0,0,None,None,None,None,None,350,40,80,30,30,80,90,0
-Zireael,8,294,210,Hidden Dragon,240,None,0,0,0,High,3,None,None,None,350,230,20,20,20,30,30,0
-Zireael+,12,364,260,Hidden Dragon,300,None,0,0,0,High,4,None,None,None,350,140,20,20,70,40,30,30
-Defender Chainsaws I,1,182,130,Blast,120,None,0,0,0,None,None,None,None,None,200,30,60,20,90,0,0,0
-Defender Chainsaws II,3,238,170,Blast,150,None,0,0,0,None,None,None,None,None,250,30,60,20,140,0,0,0
-Defender Chainsaws III,5,266,190,Blast,180,None,0,0,0,None,None,None,None,None,300,50,50,50,80,70,0,0
-Defender Chainsaws IV,6,294,210,Blast,210,None,0,0,0,None,None,None,None,None,300,30,50,50,80,90,0,0
-Defender Chainsaws V,7,308,220,Blast,240,None,0,0,0,None,None,None,None,None,350,90,30,30,110,40,50,0
-Mammoth Direbones I,9,336,240,Hidden Ice,330,None,0,0,0,None,4,None,None,None,350,60,100,40,50,100,0,0
-Mammoth Direbones II,10,392,280,Hidden Ice,360,None,0,0,0,None,4,None,None,None,350,60,100,40,50,100,0,0
-Hidden Tomahawk I,10,308,220,Hidden Poison,210,None,0,10,0,None,None,None,None,None,350,90,80,30,30,80,40,0
-Hidden Tomahawk II,10,322,230,Hidden Poison,240,None,0,15,0,None,1,None,None,None,350,120,20,20,70,40,30,50
-Smoldering Cities,10,308,220,Fire,150,None,0,0,0,None,1,None,None,None,350,110,30,30,110,40,30,0
-Smoldering Cities+,10,336,240,Fire,180,None,0,0,0,None,1,None,None,None,350,130,30,30,60,50,50,0
-Smoldering Kingdoms,11,364,260,Fire,240,None,0,0,0,None,1,None,None,None,350,100,30,30,60,50,80,0
-Icefeather,11,364,260,Ice,180,None,0,0,0,None,4,None,None,None,350,130,30,30,60,50,50,0
-Untouched Hel,12,378,270,Ice,210,None,0,0,0,None,4,None,None,None,350,120,30,30,60,50,60,0
-Rex Chain I,10,350,250,Hidden Blast,210,None,0,-15,0,None,None,None,None,None,350,70,30,30,110,40,70,0
-Rex Chain II,10,378,270,Hidden Blast,240,None,0,-15,0,None,1,None,None,None,350,50,30,30,110,40,90,0
-Fulguring Tornado I,10,336,240,Thunder,210,None,0,10,0,None,None,None,None,None,350,60,100,40,50,100,0,0
-Fulguring Tornado II,10,350,250,Thunder,240,None,0,15,0,None,1,None,None,None,350,60,100,40,50,100,0,0
-Brachydios Blasters I,10,308,220,Blast,240,None,0,0,0,None,None,None,None,None,350,80,30,30,110,40,60,0
-Brachydios Blasters II,10,336,240,Blast,300,None,0,0,0,None,1,None,None,None,350,80,30,30,110,40,60,0
-Boundless Farsight,12,392,280,Hidden Dragon,330,None,0,0,+30,High,1,1,None,None,350,150,30,30,60,50,30,0
-Suzuka Takamaru,11,406,290,Thunder,60,None,0,-10,0,None,4,None,None,None,350,90,100,40,50,70,0,0
-Suzuka Otakemaru,12,434,310,Thunder,90,None,0,-10,0,None,4,None,None,None,350,80,100,40,50,80,0,0
-Raven Tessen,10,350,250,Poison,180,None,0,15,0,None,3,None,None,None,350,130,30,90,30,30,40,0
-Wolf Tessen,11,378,270,Poison,210,None,0,20,0,None,3,None,None,None,350,130,30,90,30,30,40,0
-Usurper's Fulgur,10,336,240,Thunder,180,None,0,0,0,None,2,None,None,None,350,90,80,30,30,80,40,0
-Usurper's Fulgur+,11,350,250,Thunder,210,None,0,0,0,None,2,None,None,None,350,120,30,90,30,30,50,0
-Despot's Blitz,12,364,260,Thunder,240,None,0,0,0,None,2,None,None,None,350,110,30,90,30,30,60,0
-Sulfurteinn Ortho,10,378,270,Hidden Paralysis,180,None,0,0,0,None,4,None,None,None,350,160,100,30,30,30,0,0
-The Stripping Shears,11,406,290,Hidden Paralysis,210,None,0,0,0,None,4,None,None,None,350,60,50,110,90,40,0,0
-Crimson Viperclaws I,9,322,230,Poison,240,None,0,10,0,None,1,None,None,None,350,80,30,30,110,40,60,0
-Crimson Viperclaws II,10,350,250,Poison,270,None,0,10,0,None,1,1,None,None,350,120,30,30,60,50,60,0
-Beo Hatchets I,9,294,210,Ice,270,None,0,0,0,None,2,1,None,None,350,70,30,30,110,40,70,0
-Beo Hatchets II,10,350,250,Ice,360,None,0,0,0,None,2,1,None,None,350,70,30,30,110,40,70,0
-Nether Chainblades,10,322,230,Dragon,240,None,0,20,0,High,None,None,None,None,400,90,80,30,30,80,90,0
-Death Row,11,336,240,Dragon,300,None,0,20,0,High,None,None,None,None,400,90,80,30,30,80,90,0
-Accursed Chain,11,406,290,Hidden Sleep,210,None,0,-30,0,None,1,None,None,None,350,90,20,30,90,90,30,0
-Guild Palace Sabers,10,350,250,Hidden Water,210,None,0,10,+30,None,3,None,None,None,350,130,30,30,60,50,50,0
-Royal Savior Daggers,12,378,270,Hidden Water,330,None,0,15,+30,None,3,None,None,None,350,130,30,30,60,50,50,0
-Gold Water Twinblades,6,238,170,Hidden Water,120,None,0,0,+20,None,None,None,None,None,350,190,70,20,20,50,0,0
-Gold Ice Twinblades,6,224,160,Hidden Ice,120,None,0,0,+20,None,None,None,None,None,350,80,50,60,120,40,0,0
-Gold Poison Twinblades,6,224,160,Hidden Poison,150,None,0,0,+20,None,None,None,None,None,350,60,60,20,150,60,0,0
-Thief Gold Twinblades,6,210,150,Sleep,60,None,0,20,+20,None,None,None,None,None,350,80,60,60,100,50,0,0
-Mire Gold Twinblades,6,182,130,Water,90,None,0,10,+20,None,None,None,None,None,350,160,100,30,30,30,0,0
-Spark Gold Twinblades,6,196,140,Thunder,60,None,0,10,+20,None,None,None,None,None,350,220,20,20,50,20,20,0
-Rage Gold Twinblades,6,224,160,Fire,120,None,0,-20,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
-Lurk Gold Twinblades,6,182,130,Hidden Paralysis,60,None,0,0,+20,None,None,None,None,None,350,110,30,60,80,40,30,0
-Flash Gold Twinblades,6,224,160,Hidden Thunder,90,None,0,0,+20,None,None,None,None,None,350,80,50,60,120,40,0,0
-Claw Gold Twinblades,6,196,140,Hidden Fire,60,None,0,20,+20,None,None,None,None,None,350,40,120,80,60,50,0,0
-Horn Gold Twinblades,6,266,190,Hidden Ice,60,None,0,-10,+25,None,None,None,None,None,350,90,50,60,120,30,0,0
-Erupter Gold Twinblades,6,238,170,Fire,60,None,0,0,+20,None,1,None,None,None,350,200,70,20,20,40,0,0
-Magma Gold Twinblades,6,238,170,Blast,90,None,0,-20,+30,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Thief""",7,238,170,Sleep,90,None,0,20,+20,None,None,None,None,None,350,80,60,60,100,50,0,0
-"Taroth Daggers ""Mire""",7,266,190,Water,210,None,0,10,+20,None,None,None,None,None,350,160,100,30,30,30,0,0
-"Taroth Daggers ""Spark""",7,252,180,Thunder,150,None,0,10,+20,None,None,None,None,None,350,220,20,20,50,20,20,0
-"Taroth Daggers ""Rage""",7,294,210,Fire,240,None,0,-20,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Lurk""",7,238,170,Hidden Paralysis,90,None,0,0,+20,None,None,None,None,None,350,110,30,60,80,40,30,0
-"Taroth Daggers ""Flash""",7,266,190,Hidden Thunder,210,None,0,0,+20,None,None,None,None,None,350,80,50,60,120,40,0,0
-"Taroth Daggers ""Claw""",7,252,180,Hidden Fire,90,None,0,20,+20,None,None,None,None,None,350,40,120,80,60,50,0,0
-"Taroth Daggers ""Horn""",7,322,230,Hidden Ice,150,None,0,-10,+25,None,None,None,None,None,350,90,50,60,120,30,0,0
-"Taroth Daggers ""Erupter""",7,266,190,Fire,150,None,0,0,+20,None,1,None,None,None,350,200,70,20,20,40,0,0
-"Taroth Daggers ""Magma""",7,280,200,Blast,210,None,0,-20,+30,None,None,None,None,None,350,100,120,40,50,40,0,0
-"Taroth Daggers ""Water""",8,266,190,Hidden Water,270,None,0,0,+20,None,3,None,None,None,350,190,70,20,20,50,0,0
-"Taroth Daggers ""Ice""",8,266,190,Hidden Ice,270,None,0,0,+20,None,3,None,None,None,350,50,50,60,120,70,0,0
-"Taroth Daggers ""Poison""",8,266,190,Hidden Poison,330,None,0,0,+20,None,3,None,None,None,350,40,50,60,120,80,0,0
-"Taroth Daggers ""Fire""",8,252,180,Hidden Fire,180,None,0,0,+20,None,3,None,None,None,350,220,20,20,20,30,40,0
-"Kjárr Daggers ""Spark""",8,252,180,Thunder,180,None,0,15,0,None,1,None,None,Critical Element,350,220,20,20,50,20,20,0
-"Kjárr Daggers ""Rage""",8,280,200,Fire,210,None,0,5,0,None,None,None,None,Critical Element,350,80,50,50,80,90,0,0
-"Kjárr Daggers ""Magma""",8,266,190,Blast,180,None,0,5,+15,None,1,None,None,Critical Status,350,90,120,40,50,50,0,0
-"Kjárr Daggers ""Lurk""",8,224,160,Paralysis,90,None,0,10,0,None,1,None,None,Critical Status,350,100,30,60,80,40,40,0
-"Kjárr Daggers ""Water""",8,252,180,Water,210,None,0,10,0,None,1,None,None,Critical Element,350,170,70,20,20,70,0,0
-"Kjárr Daggers ""Ice""",8,252,180,Ice,210,None,0,15,0,None,1,None,None,Critical Element,350,40,50,60,120,80,0,0
-"Kjárr Daggers ""Dragon""",8,252,180,Dragon,210,None,0,20,0,Average,1,None,None,Critical Element,350,40,50,60,120,80,0,0
->>>>>>> 985351a1ecb03fa09bcb1d0b0c041dd3e8334c79
+Taroth Daggers Thief,7,238,170,Sleep,90,None,0,20,+20,None,None,None,None,None,350,80,60,60,100,50,0,0
+Taroth Daggers Mire,7,266,190,Water,210,None,0,10,+20,None,None,None,None,None,350,160,100,30,30,30,0,0
+Taroth Daggers Spark,7,252,180,Thunder,150,None,0,10,+20,None,None,None,None,None,350,220,20,20,50,20,20,0
+Taroth Daggers Rage,7,294,210,Fire,240,None,0,-20,+20,None,None,None,None,None,350,100,120,40,50,40,0,0
+Taroth Daggers Lurk,7,238,170,Hidden Paralysis,90,None,0,0,+20,None,None,None,None,None,350,110,30,60,80,40,30,0
+Taroth Daggers Flash,7,266,190,Hidden Thunder,210,None,0,0,+20,None,None,None,None,None,350,80,50,60,120,40,0,0
+Taroth Daggers Claw,7,252,180,Hidden Fire,90,None,0,20,+20,None,None,None,None,None,350,40,120,80,60,50,0,0
+Taroth Daggers Horn,7,322,230,Hidden Ice,150,None,0,-10,+25,None,None,None,None,None,350,90,50,60,120,30,0,0
+Taroth Daggers Erupter,7,266,190,Fire,150,None,0,0,+20,None,1,None,None,None,350,200,70,20,20,40,0,0
+Taroth Daggers Magma,7,280,200,Blast,210,None,0,-20,+30,None,None,None,None,None,350,100,120,40,50,40,0,0
+Taroth Daggers Water,8,266,190,Hidden Water,270,None,0,0,+20,None,3,None,None,None,350,190,70,20,20,50,0,0
+Taroth Daggers Ice,8,266,190,Hidden Ice,270,None,0,0,+20,None,3,None,None,None,350,50,50,60,120,70,0,0
+Taroth Daggers Poison,8,266,190,Hidden Poison,330,None,0,0,+20,None,3,None,None,None,350,40,50,60,120,80,0,0
+Taroth Daggers Fire,8,252,180,Hidden Fire,180,None,0,0,+20,None,3,None,None,None,350,220,20,20,20,30,40,0
+Kjarr Daggers Spark,8,252,180,Thunder,180,None,0,15,0,None,1,None,None,Critical Element,350,220,20,20,50,20,20,0
+Kjarr Daggers Rage,8,280,200,Fire,210,None,0,5,0,None,None,None,None,Critical Element,350,80,50,50,80,90,0,0
+Kjarr Daggers Magma,8,266,190,Blast,180,None,0,5,+15,None,1,None,None,Critical Status,350,90,120,40,50,50,0,0
+Kjarr Daggers Lurk,8,224,160,Paralysis,90,None,0,10,0,None,1,None,None,Critical Status,350,100,30,60,80,40,40,0
+Kjarr Daggers Water,8,252,180,Water,210,None,0,10,0,None,1,None,None,Critical Element,350,170,70,20,20,70,0,0
+Kjarr Daggers Ice,8,252,180,Ice,210,None,0,15,0,None,1,None,None,Critical Element,350,40,50,60,120,80,0,0
+Kjarr Daggers Dragon,8,252,180,Dragon,210,None,0,20,0,Average,1,None,None,Critical Element,350,40,50,60,120,80,0,0
