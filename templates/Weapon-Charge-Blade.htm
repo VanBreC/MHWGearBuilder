@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Weapons</title>
+</head>
+<body>
+    <h2>Charge Blades</h2>
+    <a href="/">Home</a>
+    <a href="Great-Swords">Great Swords</a>
+    <a href="Sword-Shields">Sword & Shields</a>
+    <a href="Dual-Blades">Dual Blades</a>
+    <a href="Long-Swords">Long Swords</a>
+    <a href="Hammers">Hammers</a>
+    <a href="Hunting-Horns">Hunting Horns</a>
+    <a href="Lances">Lances</a>
+    <a href="Gun-Lances">Gun Lances</a>
+    <a href="Switch-Axes">Switch Axes</a>
+    <a href="Charge-Blades">Charge Blades</a>
+    <a href="Insect-Glaives">Insect Glaives</a>
+
+    <p>Search: <input type="text" id="WeaponInput" onkeyup="WeaponSearch()" placeholder="Enter a name..." title="Type in a name"></p>
+
+    <table id="Weapons" style="width:100%">
+        {% if result %}
+        <tr>
+            <th>Name</th>
+            <th>Rarity</th>
+            <th>Damage</th>
+            <th>True Damage</th>
+            <th>Element Type</th>
+            <th>Element Damage</th>
+            <th>Affinity(%)</th>
+            <th>Defense</th>
+            <th>Elderseal</th>
+            <th>Gem Slot 1</th>
+            <th>Gem Slot 2</th>
+            <th>Gem Slot 3</th>
+            <th>Phial</th>
+            <th>Skill</th>
+            <th>Max Sharpness</th>
+            <th>Red Sharpness</th>
+            <th>Orange Sharpness</th>
+            <th>Yellow Sharpness</th>
+            <th>Green Sharpness</th>
+            <th>Blue Sharpness</th>
+            <th>White Sharpness</th>
+            <th>Purple Sharpness</th>
+        </tr>
+        {% for row in result %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percentage }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Phial_Type }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </table>
+    <script>
+    function WeaponSearch() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("WeaponInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("Weapons");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+            }
+        }
+    }
+    </script>
+</body>
+</html>

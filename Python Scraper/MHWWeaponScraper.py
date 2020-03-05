@@ -30,11 +30,12 @@ def scrape_weapon(URL, Weapons_list):
         z += 1
 
         Weapon_Info = []
+        Weapon_Info.append(z)
         columns = row.find_all('td')
         #print(columns)
         #weapon name
         #names = columns.find('a')
-        weapon_name = columns[0].find('a').text.replace('\n', '').replace('"','').replace('á', 'a')
+        weapon_name = columns[0].find('a').text.replace('\n', '').replace('"','').replace('á', 'a').replace("'", "")
         Weapon_Info.append(weapon_name)
 
         rarity = columns[0].find('small').text.replace('Rarity ', '')
@@ -420,7 +421,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLGreat_Sword, Weapons_list)
     with open(File_Location + 'MHWData_GreatSword.csv', 'w', newline='') as csvfile:
-        GSColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        GSColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -430,7 +431,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLSword_Shield, Weapons_list)
     with open(File_Location + 'MHWData_SwordShield.csv', 'w', newline='') as csvfile:
-        SSColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        SSColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -440,7 +441,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLDual_Blades, Weapons_list)
     with open(File_Location + 'MHWData_DualBlades.csv', 'w', newline='') as csvfile:
-        DBColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element(1)', 'Element Stat(1)', 'Element(2)', 'Element Stat(2)', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        DBColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element(1)', 'Element Stat(1)', 'Element(2)', 'Element Stat(2)', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -450,7 +451,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLLong_Sword, Weapons_list)
     with open(File_Location + 'MHWData_LongSword.csv', 'w', newline='') as csvfile:
-        LSColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        LSColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -460,7 +461,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLHammer, Weapons_list)
     with open(File_Location + 'MHWData_Hammer.csv', 'w', newline='') as csvfile:
-        HColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        HColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -470,7 +471,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLHunting_Horn, Weapons_list)
     with open(File_Location + 'MHWData_HuntingHorn.csv', 'w', newline='') as csvfile:
-        HHColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        HHColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Notes', 'Melodies', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -480,7 +481,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLLance, Weapons_list)
     with open(File_Location + 'MHWData_Lance.csv', 'w', newline='') as csvfile:
-        LColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        LColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -490,7 +491,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLGun_Lance, Weapons_list)
     with open(File_Location + 'MHWData_GunLance.csv', 'w', newline='') as csvfile:
-        GLColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        GLColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Shelling', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -500,7 +501,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLSwitch_Axe, Weapons_list)
     with open(File_Location + 'MHWData_SwitchAxe.csv', 'w', newline='') as csvfile:
-        SAColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        SAColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Phial Type', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -510,7 +511,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLCharge_Blade, Weapons_list)
     with open(File_Location + 'MHWData_ChargeBlade.csv', 'w', newline='') as csvfile:
-        CBColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        CBColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Phial Type', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)
@@ -520,7 +521,7 @@ def make_files(File_Location):
     Weapons_list = []
     scrape_weapon(URLInsect_Glaive, Weapons_list)
     with open(File_Location + 'MHWData_InsectGlaive.csv', 'w', newline='') as csvfile:
-        IGColumns=['Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
+        IGColumns=['Order', 'Name', 'Rarity', 'Attack', 'True Attack', 'Element', 'Element Stat', 'Affinity(%)', 'Defense', 'Elderseal', 'Gem Slot 1(Lvl)',
         'Gem Slot 2(Lvl)', 'Gem Slot 3(Lvl)', 'Kinsect Bonus', 'Skill', 'Max Sharpness', 'Red Sharpness', 'Orange Sharpness', 'Yellow Sharpness', 'Green Sharpness',
         'Blue Sharpness', 'White Sharpness', 'Purple Sharpness']
         csvwriter = csv.writer(csvfile)

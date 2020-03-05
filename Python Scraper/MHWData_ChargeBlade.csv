@@ -1,192 +1,192 @@
-Name,Rarity,Attack,True Attack,Element,Element Stat,Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Phial Type,Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
-Proto Commission Axe I,1,288,80,None,0,0,0,None,None,None,None,Power Phial 6,None,200,90,50,60,0,0,0,0
-Proto Commission Axe II,1,324,90,None,0,0,0,None,None,None,None,Power Phial 6,None,200,70,70,30,30,0,0,0
-Proto Commission Axe III,2,360,100,None,0,0,0,None,None,None,None,Power Phial 6,None,200,50,70,30,50,0,0,0
-Elite Commission Axe I,3,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,250,70,50,80,50,0,0,0
-Elite Commission Axe II,4,468,130,None,0,0,0,None,None,None,None,Power Phial 6,None,250,50,50,80,70,0,0,0
-Elite Commission Axe III,5,504,140,Hidden Thunder,120,0,0,None,1,None,None,Power Phial 6,None,300,100,50,50,80,20,0,0
-Chrome Guardian I,6,576,160,Hidden Thunder,150,0,0,None,1,None,None,Power Phial 6,None,300,80,50,50,80,40,0,0
-Chrome Guardian II,6,648,180,Hidden Thunder,270,0,0,None,1,1,None,Power Phial 6,None,350,60,60,20,150,60,0,0
-Chrome Fortress I,9,792,220,Hidden Thunder,300,0,0,None,1,1,None,Power Phial 6,None,350,90,80,30,30,80,40,0
-Chrome Fortress II,10,864,240,Hidden Thunder,330,0,0,None,1,1,None,Power Phial 6,None,350,80,80,30,30,80,50,0
-Chrome Fortress III,11,972,270,Hidden Thunder,360,0,0,None,1,1,None,Power Phial 6,None,350,120,30,30,60,50,60,0
-Bone Strongarm I,1,324,90,None,0,0,0,None,None,None,None,Power Phial 6,None,200,90,60,50,0,0,0,0
-Bone Strongarm II,1,360,100,None,0,0,0,None,None,None,None,Power Phial 6,None,200,80,50,70,0,0,0,0
-Bone Strongarm III,2,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,200,80,50,50,20,0,0,0
-Hard Bone Strongarm I,3,432,120,None,0,0,0,None,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
-Hard Bone Strongarm II,4,504,140,None,0,0,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
-Hard Bone Strongarm III,5,576,160,Hidden Blast,180,0,0,None,1,None,None,Power Phial 6,None,300,130,70,30,70,0,0,0
-Mighty Strongarm I,6,612,170,Hidden Blast,210,0,+10,None,2,None,None,Power Phial 6,None,300,90,100,40,40,30,0,0
-Mighty Strongarm II,6,684,190,Hidden Blast,240,0,+10,None,3,None,None,Power Phial 6,None,350,90,120,40,50,50,0,0
-Wild Force I,9,828,230,Hidden Blast,270,0,+35,None,3,None,None,Power Phial 6,None,350,90,100,40,50,70,0,0
-Wild Force II,10,900,250,Hidden Blast,300,0,+35,None,3,None,None,Power Phial 6,None,350,80,100,40,50,80,0,0
-Wild Force III,11,972,270,Hidden Blast,330,0,+35,None,3,None,None,Power Phial 6,None,350,70,100,40,50,90,0,0
-Jagras Strongarm I,2,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,200,70,50,50,30,0,0,0
-Jagras Strongarm II,3,432,120,None,0,0,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
-Jagras Strongarm III,4,468,130,None,0,0,0,None,None,None,None,Power Phial 6,None,250,90,70,30,60,0,0,0
-Jagras Escudo I,5,540,150,Hidden Sleep,120,0,0,None,2,1,None,Power Phial 6,None,300,130,70,30,70,0,0,0
-Jagras Escudo II,6,648,180,Hidden Sleep,150,0,0,None,2,2,None,Power Phial 6,None,300,90,100,40,40,30,0,0
-Jagras Escudo III,6,684,190,Hidden Sleep,180,0,0,None,3,2,None,Power Phial 6,None,350,100,120,40,50,40,0,0
-Saber's Maw I,9,792,220,Hidden Sleep,240,0,0,None,3,2,None,Power Phial 6,None,350,80,100,40,40,90,0,0
-Saber's Maw II,10,936,260,Hidden Sleep,330,0,0,None,3,3,None,Power Phial 6,None,350,100,80,30,30,80,30,0
-Mudslide Blade I,2,396,110,Water,120,0,0,None,None,None,None,Power Element Phial 6,None,200,80,70,30,20,0,0,0
-Mudslide Blade II,3,432,120,Water,150,0,0,None,None,None,None,Power Element Phial 6,None,250,90,50,80,30,0,0,0
-Mudslide Blade III,4,504,140,Water,180,0,0,None,None,None,None,Power Element Phial 6,None,250,80,50,80,40,0,0,0
-Jyura Depth I,5,576,160,Water,210,0,0,None,1,None,None,Power Element Phial 6,None,300,110,50,80,60,0,0,0
-Jyura Depth II,6,648,180,Water,240,0,0,None,1,None,None,Power Element Phial 6,None,300,110,50,50,80,10,0,0
-Jyura Depth III,6,684,190,Water,270,0,0,None,1,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
-Deep Terroir I,9,792,220,Water,300,0,0,None,3,1,None,Power Element Phial 6,None,350,90,100,40,50,70,0,0
-Deep Terroir II,10,936,260,Water,360,0,0,None,3,1,None,Power Element Phial 6,None,350,90,100,40,50,70,0,0
-Pulsar Strongarm I,2,396,110,Thunder,90,10,0,None,None,None,None,Power Element Phial 6,None,200,60,70,30,40,0,0,0
-Pulsar Strongarm II,3,432,120,Thunder,120,10,0,None,None,None,None,Power Element Phial 6,None,250,100,70,30,50,0,0,0
-Pulsar Strongarm III,4,468,130,Thunder,120,10,0,None,None,None,None,Power Element Phial 6,None,250,80,70,30,70,0,0,0
-Kadachi Kaina I,5,504,140,Thunder,150,15,0,None,1,None,None,Power Element Phial 6,None,300,90,100,40,40,30,0,0
-Kadachi Kaina II,6,576,160,Thunder,180,15,0,None,1,None,None,Power Element Phial 6,None,300,80,100,40,40,40,0,0
-Kadachi Kaina III,6,648,180,Thunder,210,15,0,None,1,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
-Kadachi Soul I,9,756,210,Thunder,300,15,0,None,1,None,None,Power Element Phial 6,None,350,90,30,30,110,40,50,0
-Kadachi Soul II,10,828,230,Thunder,330,15,0,None,1,None,None,Power Element Phial 6,None,350,120,30,90,30,30,50,0
-Nergal Lacerator,7,720,200,Dragon,120,0,0,High,1,None,None,Power Phial 6,None,400,110,120,40,50,80,0,0
-Devastation's Thorns,8,756,210,Dragon,150,0,0,High,1,None,None,Power Phial 6,None,400,100,120,40,50,90,0,0
-Ruinous Devastation,12,1044,290,Dragon,210,0,0,High,1,None,None,Power Phial 6,None,400,80,30,30,110,40,110,0
-Dear Lutemis,3,468,130,Poison,240,0,0,None,None,None,None,Power Phial 6,None,250,70,50,80,50,0,0,0
-Dear Lutemia,5,540,150,Poison,270,0,0,None,2,2,None,Power Phial 6,None,300,100,50,50,80,20,0,0
-Girros Strongarm I,3,432,120,Paralysis,180,15,0,None,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
-Girros Strongarm II,4,468,130,Paralysis,210,15,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
-Girros Nadja I,5,504,140,Paralysis,240,20,0,None,None,None,None,Power Phial 6,None,300,110,100,40,40,10,0,0
-Girros Nadja II,6,540,150,Paralysis,270,20,0,None,None,None,None,Power Phial 6,None,300,100,100,40,40,20,0,0
-Girros Nadja III,6,576,160,Paralysis,300,20,0,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Naaga Ghadab I,9,720,200,Paralysis,330,20,0,None,None,None,None,Power Phial 6,None,350,60,60,60,100,70,0,0
-Naaga Ghadab II,10,864,240,Paralysis,420,20,0,None,None,None,None,Power Phial 6,None,350,60,60,60,100,70,0,0
-Garon Strongarm I,4,468,130,None,0,20,0,None,None,None,None,Power Phial 6,None,250,90,70,30,60,0,0,0
-Garon Strongarm II,5,504,140,Hidden Fire,120,20,0,None,None,None,None,Power Phial 6,None,300,100,100,40,40,20,0,0
-Hate's Undying Flame,6,540,150,Hidden Fire,150,25,0,None,None,None,None,Power Phial 6,None,300,90,100,40,40,30,0,0
-Odium,8,576,160,Hidden Fire,180,25,0,None,None,None,None,Power Phial 6,None,400,200,70,20,20,50,40,0
-Odium+,10,792,220,Hidden Fire,210,25,0,None,None,None,None,Power Phial 6,None,400,100,80,30,30,80,80,0
-Animus,10,828,230,Hidden Fire,300,35,0,None,None,None,None,Power Phial 6,None,400,100,80,30,30,80,80,0
-Hazak Aspida I,7,648,180,Dragon,210,0,0,Average,2,None,None,Power Element Phial 6,None,350,130,110,40,40,30,0,0
-Hazak Aspida II,7,684,190,Dragon,270,0,0,Average,2,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
-Deathaxe Vaal Aspida,11,900,250,Dragon,420,0,0,Average,2,2,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
-Rathsblade I,4,432,120,Fire,150,10,0,None,None,None,None,Power Element Phial 6,None,250,60,50,80,60,0,0,0
-Rathsblade II,5,576,160,Fire,180,10,0,None,1,None,None,Power Element Phial 6,None,300,100,50,80,70,0,0,0
-Axelion Blade,6,612,170,Fire,210,20,0,None,1,None,None,Power Element Phial 6,None,300,90,50,50,80,30,0,0
-Halberion Blade,7,684,190,Fire,240,20,0,None,1,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
-Halberion Blade+,10,792,220,Fire,270,20,0,None,1,None,None,Power Element Phial 6,None,350,100,100,40,50,60,0,0
-Azure Soulbrand,10,864,240,Fire,300,20,0,None,1,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
-Hellsire Blade,12,972,270,Fire,330,20,0,None,2,None,None,Power Element Phial 6,None,350,110,30,90,30,30,60,0
-Diablos Wall I,4,612,170,None,0,-30,+10,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
-Diablos Wall II,5,684,190,Hidden Ice,90,-30,+10,None,None,None,None,Power Phial 6,None,300,140,70,30,60,0,0,0
-Diablos Tyrannis I,6,756,210,Hidden Ice,120,-30,+15,None,None,None,None,Power Phial 6,None,300,110,100,40,40,10,0,0
-Diablos Tyrannis II,7,828,230,Hidden Ice,180,-30,+15,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
-Diablos Tyrannis III,10,936,260,Hidden Ice,210,-30,+30,None,None,None,None,Power Phial 6,None,350,100,100,40,50,60,0,0
-Thanatos Force,10,1044,290,Hidden Ice,240,-30,+30,None,2,None,None,Power Phial 6,None,350,70,50,90,70,70,0,0
-Gama Silt I,6,576,160,Blast,150,0,0,None,2,2,None,Power Phial 6,None,300,80,100,40,40,40,0,0
-Gama Silt II,7,612,170,Blast,180,0,0,None,2,2,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Gama Escudo I,9,756,210,Blast,210,0,0,None,3,2,None,Power Phial 6,None,350,100,80,30,30,80,30,0
-Gama Escudo II,10,864,240,Blast,240,0,0,None,3,2,None,Power Phial 6,None,350,140,30,30,60,50,40,0
-Dear Hecatel,6,612,170,Poison,300,0,0,None,2,2,None,Power Phial 6,None,300,90,50,50,80,30,0,0
-Dear Hecatelia,7,684,190,Poison,330,0,0,None,2,2,None,Power Phial 6,None,350,70,50,60,120,50,0,0
-Dear Rose,9,792,220,Poison,360,10,0,None,2,2,None,Power Phial 6,None,350,90,100,40,50,70,0,0
-Dear Rosetta,10,936,260,Poison,390,10,0,None,2,2,None,Power Phial 6,None,350,100,30,30,110,40,40,0
-Luna Eostre,12,1044,290,Poison,420,10,0,None,2,2,None,Power Phial 6,None,350,60,80,30,30,80,70,0
-Daora's Casca,7,612,170,Ice,150,10,0,None,2,None,None,Power Phial 6,None,350,110,60,80,80,20,0,0
-Daora's Thwartoise,8,648,180,Ice,180,15,0,None,2,1,None,Power Phial 6,None,350,90,60,80,80,40,0,0
-Daora's Worldbearer,11,936,260,Ice,240,15,0,None,2,1,None,Power Phial 6,None,350,130,30,30,60,50,50,0
-Xeno Ra'atz,8,648,180,Dragon,180,15,0,Low,3,3,None,Power Phial 6,None,350,130,30,60,80,40,10,0
-Magda Manus,5,576,160,Blast,180,-10,+20,None,None,None,None,Power Phial 6,None,300,110,50,80,60,0,0,0
-Avenging Magda Manus,8,756,210,Blast,210,-10,+20,None,None,None,None,Power Phial 6,None,350,210,30,40,70,0,0,0
-Magda Manus Reforged,11,1008,280,Blast,330,-10,+45,None,2,None,None,Power Phial 6,None,350,120,40,40,70,80,0,0
-Dragonbone Cutter I,3,360,100,Dragon,270,0,0,Low,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
-Dragonbone Cutter II,4,396,110,Dragon,300,0,0,Low,None,None,None,Power Phial 6,None,250,70,70,30,80,0,0,0
-Dragonbone Cutter III,6,576,160,Dragon,360,0,0,Low,1,1,None,Power Phial 6,None,350,120,110,40,40,40,0,0
-Dragonseal Blade I,10,756,210,Dragon,450,0,0,Average,1,1,None,Power Phial 6,None,350,170,70,20,20,70,0,0
-Dragonseal Blade II,11,864,240,Dragon,510,0,0,Average,1,1,None,Power Phial 6,None,350,170,70,20,20,70,0,0
-Blacksteel Charger I,5,360,100,Dragon,120,0,0,Low,None,None,None,Power Phial 6,None,300,150,110,40,0,0,0,0
-Blacksteel Charger II,6,396,110,Dragon,150,0,0,Low,None,None,None,Power Phial 6,None,300,140,110,40,10,0,0,0
-Everfrost Blade I,4,504,140,Ice,150,0,0,None,None,None,None,Power Element Phial 6,None,250,70,50,80,50,0,0,0
-Everfrost Blade II,5,540,150,Ice,180,0,0,None,1,1,None,Power Element Phial 6,None,300,100,50,80,70,0,0,0
-Gigafrost I,6,576,160,Ice,210,0,0,None,2,2,None,Power Element Phial 6,None,300,100,50,50,80,20,0,0
-Gigafrost II,6,612,170,Ice,240,0,0,None,2,2,None,Power Element Phial 6,None,350,90,60,80,80,40,0,0
-Gigafrost III,9,720,200,Ice,270,0,0,None,2,2,None,Power Element Phial 6,None,350,70,60,60,100,60,0,0
-Weissritter,10,756,210,Ice,300,20,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
-Weissritter+,10,864,240,Ice,330,25,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
-Elder Wolf Fang,11,900,250,Ice,360,30,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
-Tyrant's Charge Blade,6,720,200,Dragon,150,-25,0,High,None,None,None,Power Element Phial 6,None,350,60,120,80,60,30,0,0
-Oppressor's Charge Blade,7,792,220,Dragon,210,-25,0,High,None,None,None,Power Element Phial 6,None,350,50,120,80,60,40,0,0
-Fate's Curtain,12,1008,280,Dragon,270,-30,0,High,None,None,None,Power Element Phial 6,None,350,150,30,30,60,50,30,0
-Empress Alma,7,648,180,Blast,120,0,0,None,2,1,None,Power Phial 6,None,350,100,30,60,80,40,40,0
-Empress Alma Blaze,8,648,180,Blast,150,20,0,None,2,1,None,Power Phial 6,Guts,350,100,30,60,80,40,40,0
-Soulfire Brand Blaze,12,900,250,Blast,180,20,0,None,2,1,None,Power Phial 6,Guts,350,110,30,90,30,30,60,0
-Dante's Devil Sword,8,720,200,Thunder,150,0,0,None,1,1,None,Power Phial 6,None,350,40,50,50,80,130,0,0
-Dante's Devil Sword+,12,1008,280,Thunder,210,0,0,None,2,2,None,Power Phial 6,None,350,30,80,30,30,80,100,0
-Empress Alma Ruin,8,684,190,Blast,120,0,0,None,2,2,None,Power Phial 6,Hasten Recovery,350,100,30,60,80,40,40,0
-Soulfire Brand Ruin,12,972,270,Blast,150,0,0,None,2,2,None,Power Phial 6,Hasten Recovery,350,110,30,90,30,30,60,0
-Empress Alma Styx,8,648,180,Blast,210,10,0,None,3,3,None,Power Phial 6,Razor Sharp/Spare Shot,350,100,30,60,80,40,40,0
-Soulfire Brand Styx,12,900,250,Blast,240,10,0,None,3,3,None,Power Phial 6,Razor Sharp/Spare Shot,350,110,30,90,30,30,60,0
-Defender Shield I,1,468,130,Blast,150,0,0,None,None,None,None,Power Phial 6,None,200,30,60,20,90,0,0,0
-Defender Shield II,3,612,170,Blast,180,0,0,None,None,None,None,Power Phial 6,None,250,30,60,20,140,0,0,0
-Defender Shield III,5,684,190,Blast,210,0,0,None,None,None,None,Power Phial 6,None,300,50,50,50,80,70,0,0
-Defender Shield IV,6,756,210,Blast,240,0,0,None,None,None,None,Power Phial 6,None,300,30,50,50,80,90,0,0
-Defender Shield V,7,792,220,Blast,270,0,0,None,None,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
-Hidden Guardian I,10,792,220,Hidden Poison,360,15,0,None,None,None,None,Power Phial 6,None,350,100,80,30,30,80,30,0
-Hidden Guardian II,10,828,230,Hidden Poison,420,20,0,None,1,None,None,Power Phial 6,None,350,130,20,20,70,40,30,40
-Scorching Demander,10,828,230,Fire,240,0,0,None,1,None,None,Power Element Phial 6,None,350,110,30,30,110,40,30,0
-Scorching Demander+,10,864,240,Fire,300,0,0,None,1,None,None,Power Element Phial 6,None,350,130,30,30,60,50,50,0
-Glavenus Bardred,11,936,260,Fire,390,0,0,None,1,None,None,Power Element Phial 6,None,350,110,30,30,60,50,70,0
-Ice Guardian,11,936,260,Ice,210,0,0,None,4,None,None,Power Element Phial 6,None,350,140,30,30,60,50,40,0
-Regal Daruq,12,972,270,Ice,240,0,0,None,4,None,None,Power Element Phial 6,None,350,130,30,30,60,50,50,0
-Rex Arms I,10,900,250,Hidden Blast,330,-15,0,None,None,None,None,Power Phial 6,None,350,70,30,30,110,40,70,0
-Rex Arms II,10,972,270,Hidden Blast,360,-15,0,None,1,None,None,Power Phial 6,None,350,50,30,30,110,40,90,0
-Dios Strongarm,10,792,220,Blast,300,0,0,None,None,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
-Volatile Blade,11,936,260,Blast,390,0,0,None,1,None,None,Power Phial 6,None,350,80,30,30,110,40,60,0
-Inescapable Karma,12,1008,280,Hidden Dragon,390,0,+30,High,1,1,None,Power Phial 6,None,350,160,30,30,60,50,20,0
-Rajang Beastblade,11,1044,290,Thunder,60,-15,0,None,4,None,None,Power Phial 6,None,350,100,100,40,50,60,0,0
-Rajang Beastblade Ikazuchi,12,1116,310,Thunder,90,-15,0,None,4,None,None,Power Phial 6,None,350,90,100,40,50,70,0,0
-Usurper's Lightning,10,864,240,Thunder,330,0,0,None,2,None,None,Power Element Phial 6,None,350,90,80,30,30,80,40,0
-Usurper's Lightning+,11,900,250,Thunder,360,0,0,None,2,None,None,Power Element Phial 6,None,350,120,30,90,30,30,50,0
-Despot's Thundergale,12,936,260,Thunder,390,0,0,None,2,None,None,Power Element Phial 6,None,350,110,30,90,30,30,60,0
-Sulfurteinn Machmar,10,972,270,Hidden Paralysis,240,0,0,None,4,None,None,Power Phial 6,None,350,160,100,30,30,30,0,0
-The Melting Grasp,11,1044,290,Hidden Paralysis,270,0,0,None,4,None,None,Power Phial 6,None,350,60,50,110,90,40,0,0
-Viper's Venom I,9,828,230,Poison,330,15,0,None,1,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
-Viper's Venom II,10,900,250,Poison,360,15,0,None,1,None,None,Power Phial 6,None,350,120,30,90,30,30,50,0
-Hydros Kardia,11,972,270,Water,330,10,0,None,None,None,None,Power Phial 6,None,350,70,30,30,110,40,70,0
-Deep Schnegel I,9,756,210,Ice,360,0,0,None,2,1,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
-Deep Schnegel II,10,900,250,Ice,480,0,0,None,2,1,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
-Nether Candle,10,828,230,Dragon,240,25,0,High,None,None,None,Power Element Phial 6,None,400,100,80,30,30,80,80,0
-Grudge,11,864,240,Dragon,330,30,0,High,None,None,None,Power Element Phial 6,None,400,100,80,30,30,80,80,0
-Accursed Arms,11,1008,280,Hidden Sleep,240,-30,0,None,1,None,None,Power Phial 6,None,350,90,20,30,90,90,30,0
-Black Eagle,10,756,210,Thunder,210,10,0,None,1,1,None,Power Element Phial 6,None,350,20,50,50,50,50,100,30
-Black Lightning Eagle,12,864,240,Thunder,270,10,0,None,1,1,None,Power Element Phial 6,None,350,10,10,30,50,50,100,100
-Guild Palace Disc,10,900,250,Hidden Water,360,10,+30,None,3,None,None,Power Phial 6,None,350,140,30,30,60,50,40,0
-Royal Star Shield,12,972,270,Hidden Water,450,15,+30,None,3,None,None,Power Phial 6,None,350,140,30,30,60,50,40,0
-Gold Ice Cutter,6,504,140,Hidden Ice,180,0,+20,None,None,None,None,Power Phial 6,None,350,90,60,80,80,40,0,0
-Gold Thunder Cutter,6,504,140,Hidden Thunder,210,0,+20,None,None,None,None,Power Phial 6,None,350,60,60,20,150,60,0,0
-Gold Sleep Cutter,6,504,140,Hidden Sleep,120,0,+20,None,None,None,None,Power Phial 6,None,350,110,50,50,80,60,0,0
-Glutton Gold Cutter,6,540,150,Sleep,90,0,+20,None,None,None,None,Power Phial 6,None,350,100,120,40,50,40,0,0
-Mire Gold Cutter,6,576,160,Water,150,10,+20,None,None,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
-Spark Gold Cutter,6,540,150,Thunder,120,15,+20,None,None,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
-Numb Gold Cutter,6,504,140,Paralysis,150,30,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Claw Gold Cutter,6,504,140,Hidden Fire,90,25,+20,None,None,None,None,Power Phial 6,None,350,50,120,80,60,40,0,0
-Decay Gold Cutter,6,576,160,Dragon,120,10,+20,Average,None,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
-King Gold Cutter,6,684,190,Fire,120,20,+20,None,None,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
-Horn Gold Cutter,6,684,190,Hidden Ice,120,-30,+25,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
-Crusher Gold Cutter,6,540,150,Blast,90,0,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Taroth Strongarm Glutton,7,684,190,Sleep,90,0,+20,None,None,None,None,Power Phial 6,None,350,100,120,40,50,40,0,0
-Taroth Strongarm Mire,7,684,190,Water,180,10,+20,None,None,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
-Taroth Strongarm Spark,7,684,190,Thunder,150,15,+20,None,None,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
-Taroth Strongarm Numb,7,576,160,Paralysis,150,30,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Taroth Strongarm Claw,7,648,180,Hidden Fire,90,25,+20,None,None,None,None,Power Phial 6,None,350,50,120,80,60,40,0,0
-Taroth Strongarm Decay,7,684,190,Dragon,120,10,+20,Average,None,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
-Taroth Strongarm King,7,684,190,Fire,180,30,+20,None,None,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
-Taroth Strongarm Horn,7,828,230,Hidden Ice,210,-30,+25,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
-Taroth Strongarm Crusher,7,648,180,Blast,90,0,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
-Taroth Strongarm Ice,8,648,180,Hidden Ice,390,0,+20,None,3,None,None,Power Phial 6,None,350,60,50,60,120,60,0,0
-Taroth Strongarm Thunder,8,684,190,Hidden Thunder,420,0,+20,None,3,None,None,Power Phial 6,None,350,70,50,60,120,50,0,0
-Taroth Strongarm Sleep,8,684,190,Hidden Sleep,270,0,+20,None,3,None,None,Power Phial 6,None,350,70,50,60,120,50,0,0
-Taroth Strongarm Water,8,648,180,Water,300,20,+20,None,3,None,None,Power Element Phial 6,None,350,210,20,20,20,30,50,0
-Kjarr Strongarm Spark,8,720,200,Thunder,300,15,0,None,None,None,None,Power Element Phial 6,Critical Element,350,160,70,20,20,80,0,0
-Kjarr Strongarm Numb,8,648,180,Paralysis,330,15,0,None,1,None,None,Power Phial 6,Critical Status,350,180,70,20,20,60,0,0
-Kjarr Strongarm Decay,8,720,200,Dragon,300,15,0,Average,None,None,None,Power Element Phial 6,Critical Element,350,180,70,20,20,60,0,0
-Kjarr Strongarm King,8,720,200,Fire,300,15,0,None,None,None,None,Power Element Phial 6,Critical Element,350,60,50,60,120,60,0,0
-Kjarr Strongarm Ice,8,684,190,Ice,480,20,0,None,1,None,None,Power Element Phial 6,Critical Element,350,40,50,60,120,80,0,0
-Kjarr Strongarm Crusher,8,720,200,Blast,300,20,0,None,None,None,None,Power Phial 6,Critical Status,350,180,70,20,20,60,0,0
-Kjarr Strongarm Water,8,684,190,Water,330,20,0,None,None,None,None,Power Element Phial 6,Critical Element,350,210,20,20,20,30,50,0
+Order,Name,Rarity,Attack,True Attack,Element,Element Stat,Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Phial Type,Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
+1,Proto Commission Axe I,1,288,80,None,0,0,0,None,None,None,None,Power Phial 6,None,200,90,50,60,0,0,0,0
+2,Proto Commission Axe II,1,324,90,None,0,0,0,None,None,None,None,Power Phial 6,None,200,70,70,30,30,0,0,0
+3,Proto Commission Axe III,2,360,100,None,0,0,0,None,None,None,None,Power Phial 6,None,200,50,70,30,50,0,0,0
+4,Elite Commission Axe I,3,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,250,70,50,80,50,0,0,0
+5,Elite Commission Axe II,4,468,130,None,0,0,0,None,None,None,None,Power Phial 6,None,250,50,50,80,70,0,0,0
+6,Elite Commission Axe III,5,504,140,Hidden Thunder,120,0,0,None,1,None,None,Power Phial 6,None,300,100,50,50,80,20,0,0
+7,Chrome Guardian I,6,576,160,Hidden Thunder,150,0,0,None,1,None,None,Power Phial 6,None,300,80,50,50,80,40,0,0
+8,Chrome Guardian II,6,648,180,Hidden Thunder,270,0,0,None,1,1,None,Power Phial 6,None,350,60,60,20,150,60,0,0
+9,Chrome Fortress I,9,792,220,Hidden Thunder,300,0,0,None,1,1,None,Power Phial 6,None,350,90,80,30,30,80,40,0
+10,Chrome Fortress II,10,864,240,Hidden Thunder,330,0,0,None,1,1,None,Power Phial 6,None,350,80,80,30,30,80,50,0
+11,Chrome Fortress III,11,972,270,Hidden Thunder,360,0,0,None,1,1,None,Power Phial 6,None,350,120,30,30,60,50,60,0
+12,Bone Strongarm I,1,324,90,None,0,0,0,None,None,None,None,Power Phial 6,None,200,90,60,50,0,0,0,0
+13,Bone Strongarm II,1,360,100,None,0,0,0,None,None,None,None,Power Phial 6,None,200,80,50,70,0,0,0,0
+14,Bone Strongarm III,2,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,200,80,50,50,20,0,0,0
+15,Hard Bone Strongarm I,3,432,120,None,0,0,0,None,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
+16,Hard Bone Strongarm II,4,504,140,None,0,0,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
+17,Hard Bone Strongarm III,5,576,160,Hidden Blast,180,0,0,None,1,None,None,Power Phial 6,None,300,130,70,30,70,0,0,0
+18,Mighty Strongarm I,6,612,170,Hidden Blast,210,0,+10,None,2,None,None,Power Phial 6,None,300,90,100,40,40,30,0,0
+19,Mighty Strongarm II,6,684,190,Hidden Blast,240,0,+10,None,3,None,None,Power Phial 6,None,350,90,120,40,50,50,0,0
+20,Wild Force I,9,828,230,Hidden Blast,270,0,+35,None,3,None,None,Power Phial 6,None,350,90,100,40,50,70,0,0
+21,Wild Force II,10,900,250,Hidden Blast,300,0,+35,None,3,None,None,Power Phial 6,None,350,80,100,40,50,80,0,0
+22,Wild Force III,11,972,270,Hidden Blast,330,0,+35,None,3,None,None,Power Phial 6,None,350,70,100,40,50,90,0,0
+23,Jagras Strongarm I,2,396,110,None,0,0,0,None,None,None,None,Power Phial 6,None,200,70,50,50,30,0,0,0
+24,Jagras Strongarm II,3,432,120,None,0,0,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
+25,Jagras Strongarm III,4,468,130,None,0,0,0,None,None,None,None,Power Phial 6,None,250,90,70,30,60,0,0,0
+26,Jagras Escudo I,5,540,150,Hidden Sleep,120,0,0,None,2,1,None,Power Phial 6,None,300,130,70,30,70,0,0,0
+27,Jagras Escudo II,6,648,180,Hidden Sleep,150,0,0,None,2,2,None,Power Phial 6,None,300,90,100,40,40,30,0,0
+28,Jagras Escudo III,6,684,190,Hidden Sleep,180,0,0,None,3,2,None,Power Phial 6,None,350,100,120,40,50,40,0,0
+29,Sabers Maw I,9,792,220,Hidden Sleep,240,0,0,None,3,2,None,Power Phial 6,None,350,80,100,40,40,90,0,0
+30,Sabers Maw II,10,936,260,Hidden Sleep,330,0,0,None,3,3,None,Power Phial 6,None,350,100,80,30,30,80,30,0
+31,Mudslide Blade I,2,396,110,Water,120,0,0,None,None,None,None,Power Element Phial 6,None,200,80,70,30,20,0,0,0
+32,Mudslide Blade II,3,432,120,Water,150,0,0,None,None,None,None,Power Element Phial 6,None,250,90,50,80,30,0,0,0
+33,Mudslide Blade III,4,504,140,Water,180,0,0,None,None,None,None,Power Element Phial 6,None,250,80,50,80,40,0,0,0
+34,Jyura Depth I,5,576,160,Water,210,0,0,None,1,None,None,Power Element Phial 6,None,300,110,50,80,60,0,0,0
+35,Jyura Depth II,6,648,180,Water,240,0,0,None,1,None,None,Power Element Phial 6,None,300,110,50,50,80,10,0,0
+36,Jyura Depth III,6,684,190,Water,270,0,0,None,1,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
+37,Deep Terroir I,9,792,220,Water,300,0,0,None,3,1,None,Power Element Phial 6,None,350,90,100,40,50,70,0,0
+38,Deep Terroir II,10,936,260,Water,360,0,0,None,3,1,None,Power Element Phial 6,None,350,90,100,40,50,70,0,0
+39,Pulsar Strongarm I,2,396,110,Thunder,90,10,0,None,None,None,None,Power Element Phial 6,None,200,60,70,30,40,0,0,0
+40,Pulsar Strongarm II,3,432,120,Thunder,120,10,0,None,None,None,None,Power Element Phial 6,None,250,100,70,30,50,0,0,0
+41,Pulsar Strongarm III,4,468,130,Thunder,120,10,0,None,None,None,None,Power Element Phial 6,None,250,80,70,30,70,0,0,0
+42,Kadachi Kaina I,5,504,140,Thunder,150,15,0,None,1,None,None,Power Element Phial 6,None,300,90,100,40,40,30,0,0
+43,Kadachi Kaina II,6,576,160,Thunder,180,15,0,None,1,None,None,Power Element Phial 6,None,300,80,100,40,40,40,0,0
+44,Kadachi Kaina III,6,648,180,Thunder,210,15,0,None,1,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
+45,Kadachi Soul I,9,756,210,Thunder,300,15,0,None,1,None,None,Power Element Phial 6,None,350,90,30,30,110,40,50,0
+46,Kadachi Soul II,10,828,230,Thunder,330,15,0,None,1,None,None,Power Element Phial 6,None,350,120,30,90,30,30,50,0
+47,Nergal Lacerator,7,720,200,Dragon,120,0,0,High,1,None,None,Power Phial 6,None,400,110,120,40,50,80,0,0
+48,Devastations Thorns,8,756,210,Dragon,150,0,0,High,1,None,None,Power Phial 6,None,400,100,120,40,50,90,0,0
+49,Ruinous Devastation,12,1044,290,Dragon,210,0,0,High,1,None,None,Power Phial 6,None,400,80,30,30,110,40,110,0
+50,Dear Lutemis,3,468,130,Poison,240,0,0,None,None,None,None,Power Phial 6,None,250,70,50,80,50,0,0,0
+51,Dear Lutemia,5,540,150,Poison,270,0,0,None,2,2,None,Power Phial 6,None,300,100,50,50,80,20,0,0
+52,Girros Strongarm I,3,432,120,Paralysis,180,15,0,None,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
+53,Girros Strongarm II,4,468,130,Paralysis,210,15,0,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
+54,Girros Nadja I,5,504,140,Paralysis,240,20,0,None,None,None,None,Power Phial 6,None,300,110,100,40,40,10,0,0
+55,Girros Nadja II,6,540,150,Paralysis,270,20,0,None,None,None,None,Power Phial 6,None,300,100,100,40,40,20,0,0
+56,Girros Nadja III,6,576,160,Paralysis,300,20,0,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+57,Naaga Ghadab I,9,720,200,Paralysis,330,20,0,None,None,None,None,Power Phial 6,None,350,60,60,60,100,70,0,0
+58,Naaga Ghadab II,10,864,240,Paralysis,420,20,0,None,None,None,None,Power Phial 6,None,350,60,60,60,100,70,0,0
+59,Garon Strongarm I,4,468,130,None,0,20,0,None,None,None,None,Power Phial 6,None,250,90,70,30,60,0,0,0
+60,Garon Strongarm II,5,504,140,Hidden Fire,120,20,0,None,None,None,None,Power Phial 6,None,300,100,100,40,40,20,0,0
+61,Hates Undying Flame,6,540,150,Hidden Fire,150,25,0,None,None,None,None,Power Phial 6,None,300,90,100,40,40,30,0,0
+62,Odium,8,576,160,Hidden Fire,180,25,0,None,None,None,None,Power Phial 6,None,400,200,70,20,20,50,40,0
+63,Odium+,10,792,220,Hidden Fire,210,25,0,None,None,None,None,Power Phial 6,None,400,100,80,30,30,80,80,0
+64,Animus,10,828,230,Hidden Fire,300,35,0,None,None,None,None,Power Phial 6,None,400,100,80,30,30,80,80,0
+65,Hazak Aspida I,7,648,180,Dragon,210,0,0,Average,2,None,None,Power Element Phial 6,None,350,130,110,40,40,30,0,0
+66,Hazak Aspida II,7,684,190,Dragon,270,0,0,Average,2,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
+67,Deathaxe Vaal Aspida,11,900,250,Dragon,420,0,0,Average,2,2,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
+68,Rathsblade I,4,432,120,Fire,150,10,0,None,None,None,None,Power Element Phial 6,None,250,60,50,80,60,0,0,0
+69,Rathsblade II,5,576,160,Fire,180,10,0,None,1,None,None,Power Element Phial 6,None,300,100,50,80,70,0,0,0
+70,Axelion Blade,6,612,170,Fire,210,20,0,None,1,None,None,Power Element Phial 6,None,300,90,50,50,80,30,0,0
+71,Halberion Blade,7,684,190,Fire,240,20,0,None,1,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
+72,Halberion Blade+,10,792,220,Fire,270,20,0,None,1,None,None,Power Element Phial 6,None,350,100,100,40,50,60,0,0
+73,Azure Soulbrand,10,864,240,Fire,300,20,0,None,1,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
+74,Hellsire Blade,12,972,270,Fire,330,20,0,None,2,None,None,Power Element Phial 6,None,350,110,30,90,30,30,60,0
+75,Diablos Wall I,4,612,170,None,0,-30,+10,None,None,None,None,Power Phial 6,None,250,100,70,30,50,0,0,0
+76,Diablos Wall II,5,684,190,Hidden Ice,90,-30,+10,None,None,None,None,Power Phial 6,None,300,140,70,30,60,0,0,0
+77,Diablos Tyrannis I,6,756,210,Hidden Ice,120,-30,+15,None,None,None,None,Power Phial 6,None,300,110,100,40,40,10,0,0
+78,Diablos Tyrannis II,7,828,230,Hidden Ice,180,-30,+15,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
+79,Diablos Tyrannis III,10,936,260,Hidden Ice,210,-30,+30,None,None,None,None,Power Phial 6,None,350,100,100,40,50,60,0,0
+80,Thanatos Force,10,1044,290,Hidden Ice,240,-30,+30,None,2,None,None,Power Phial 6,None,350,70,50,90,70,70,0,0
+81,Gama Silt I,6,576,160,Blast,150,0,0,None,2,2,None,Power Phial 6,None,300,80,100,40,40,40,0,0
+82,Gama Silt II,7,612,170,Blast,180,0,0,None,2,2,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+83,Gama Escudo I,9,756,210,Blast,210,0,0,None,3,2,None,Power Phial 6,None,350,100,80,30,30,80,30,0
+84,Gama Escudo II,10,864,240,Blast,240,0,0,None,3,2,None,Power Phial 6,None,350,140,30,30,60,50,40,0
+85,Dear Hecatel,6,612,170,Poison,300,0,0,None,2,2,None,Power Phial 6,None,300,90,50,50,80,30,0,0
+86,Dear Hecatelia,7,684,190,Poison,330,0,0,None,2,2,None,Power Phial 6,None,350,70,50,60,120,50,0,0
+87,Dear Rose,9,792,220,Poison,360,10,0,None,2,2,None,Power Phial 6,None,350,90,100,40,50,70,0,0
+88,Dear Rosetta,10,936,260,Poison,390,10,0,None,2,2,None,Power Phial 6,None,350,100,30,30,110,40,40,0
+89,Luna Eostre,12,1044,290,Poison,420,10,0,None,2,2,None,Power Phial 6,None,350,60,80,30,30,80,70,0
+90,Daoras Casca,7,612,170,Ice,150,10,0,None,2,None,None,Power Phial 6,None,350,110,60,80,80,20,0,0
+91,Daoras Thwartoise,8,648,180,Ice,180,15,0,None,2,1,None,Power Phial 6,None,350,90,60,80,80,40,0,0
+92,Daoras Worldbearer,11,936,260,Ice,240,15,0,None,2,1,None,Power Phial 6,None,350,130,30,30,60,50,50,0
+93,Xeno Raatz,8,648,180,Dragon,180,15,0,Low,3,3,None,Power Phial 6,None,350,130,30,60,80,40,10,0
+94,Magda Manus,5,576,160,Blast,180,-10,+20,None,None,None,None,Power Phial 6,None,300,110,50,80,60,0,0,0
+95,Avenging Magda Manus,8,756,210,Blast,210,-10,+20,None,None,None,None,Power Phial 6,None,350,210,30,40,70,0,0,0
+96,Magda Manus Reforged,11,1008,280,Blast,330,-10,+45,None,2,None,None,Power Phial 6,None,350,120,40,40,70,80,0,0
+97,Dragonbone Cutter I,3,360,100,Dragon,270,0,0,Low,None,None,None,Power Phial 6,None,250,110,70,30,40,0,0,0
+98,Dragonbone Cutter II,4,396,110,Dragon,300,0,0,Low,None,None,None,Power Phial 6,None,250,70,70,30,80,0,0,0
+99,Dragonbone Cutter III,6,576,160,Dragon,360,0,0,Low,1,1,None,Power Phial 6,None,350,120,110,40,40,40,0,0
+100,Dragonseal Blade I,10,756,210,Dragon,450,0,0,Average,1,1,None,Power Phial 6,None,350,170,70,20,20,70,0,0
+101,Dragonseal Blade II,11,864,240,Dragon,510,0,0,Average,1,1,None,Power Phial 6,None,350,170,70,20,20,70,0,0
+102,Blacksteel Charger I,5,360,100,Dragon,120,0,0,Low,None,None,None,Power Phial 6,None,300,150,110,40,0,0,0,0
+103,Blacksteel Charger II,6,396,110,Dragon,150,0,0,Low,None,None,None,Power Phial 6,None,300,140,110,40,10,0,0,0
+104,Everfrost Blade I,4,504,140,Ice,150,0,0,None,None,None,None,Power Element Phial 6,None,250,70,50,80,50,0,0,0
+105,Everfrost Blade II,5,540,150,Ice,180,0,0,None,1,1,None,Power Element Phial 6,None,300,100,50,80,70,0,0,0
+106,Gigafrost I,6,576,160,Ice,210,0,0,None,2,2,None,Power Element Phial 6,None,300,100,50,50,80,20,0,0
+107,Gigafrost II,6,612,170,Ice,240,0,0,None,2,2,None,Power Element Phial 6,None,350,90,60,80,80,40,0,0
+108,Gigafrost III,9,720,200,Ice,270,0,0,None,2,2,None,Power Element Phial 6,None,350,70,60,60,100,60,0,0
+109,Weissritter,10,756,210,Ice,300,20,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
+110,Weissritter+,10,864,240,Ice,330,25,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
+111,Elder Wolf Fang,11,900,250,Ice,360,30,0,None,None,None,None,Power Element Phial 6,None,350,100,30,30,110,40,40,0
+112,Tyrants Charge Blade,6,720,200,Dragon,150,-25,0,High,None,None,None,Power Element Phial 6,None,350,60,120,80,60,30,0,0
+113,Oppressors Charge Blade,7,792,220,Dragon,210,-25,0,High,None,None,None,Power Element Phial 6,None,350,50,120,80,60,40,0,0
+114,Fates Curtain,12,1008,280,Dragon,270,-30,0,High,None,None,None,Power Element Phial 6,None,350,150,30,30,60,50,30,0
+115,Empress Alma,7,648,180,Blast,120,0,0,None,2,1,None,Power Phial 6,None,350,100,30,60,80,40,40,0
+116,Empress Alma Blaze,8,648,180,Blast,150,20,0,None,2,1,None,Power Phial 6,Guts,350,100,30,60,80,40,40,0
+117,Soulfire Brand Blaze,12,900,250,Blast,180,20,0,None,2,1,None,Power Phial 6,Guts,350,110,30,90,30,30,60,0
+118,Dantes Devil Sword,8,720,200,Thunder,150,0,0,None,1,1,None,Power Phial 6,None,350,40,50,50,80,130,0,0
+119,Dantes Devil Sword+,12,1008,280,Thunder,210,0,0,None,2,2,None,Power Phial 6,None,350,30,80,30,30,80,100,0
+120,Empress Alma Ruin,8,684,190,Blast,120,0,0,None,2,2,None,Power Phial 6,Hasten Recovery,350,100,30,60,80,40,40,0
+121,Soulfire Brand Ruin,12,972,270,Blast,150,0,0,None,2,2,None,Power Phial 6,Hasten Recovery,350,110,30,90,30,30,60,0
+122,Empress Alma Styx,8,648,180,Blast,210,10,0,None,3,3,None,Power Phial 6,Razor Sharp/Spare Shot,350,100,30,60,80,40,40,0
+123,Soulfire Brand Styx,12,900,250,Blast,240,10,0,None,3,3,None,Power Phial 6,Razor Sharp/Spare Shot,350,110,30,90,30,30,60,0
+124,Defender Shield I,1,468,130,Blast,150,0,0,None,None,None,None,Power Phial 6,None,200,30,60,20,90,0,0,0
+125,Defender Shield II,3,612,170,Blast,180,0,0,None,None,None,None,Power Phial 6,None,250,30,60,20,140,0,0,0
+126,Defender Shield III,5,684,190,Blast,210,0,0,None,None,None,None,Power Phial 6,None,300,50,50,50,80,70,0,0
+127,Defender Shield IV,6,756,210,Blast,240,0,0,None,None,None,None,Power Phial 6,None,300,30,50,50,80,90,0,0
+128,Defender Shield V,7,792,220,Blast,270,0,0,None,None,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
+129,Hidden Guardian I,10,792,220,Hidden Poison,360,15,0,None,None,None,None,Power Phial 6,None,350,100,80,30,30,80,30,0
+130,Hidden Guardian II,10,828,230,Hidden Poison,420,20,0,None,1,None,None,Power Phial 6,None,350,130,20,20,70,40,30,40
+131,Scorching Demander,10,828,230,Fire,240,0,0,None,1,None,None,Power Element Phial 6,None,350,110,30,30,110,40,30,0
+132,Scorching Demander+,10,864,240,Fire,300,0,0,None,1,None,None,Power Element Phial 6,None,350,130,30,30,60,50,50,0
+133,Glavenus Bardred,11,936,260,Fire,390,0,0,None,1,None,None,Power Element Phial 6,None,350,110,30,30,60,50,70,0
+134,Ice Guardian,11,936,260,Ice,210,0,0,None,4,None,None,Power Element Phial 6,None,350,140,30,30,60,50,40,0
+135,Regal Daruq,12,972,270,Ice,240,0,0,None,4,None,None,Power Element Phial 6,None,350,130,30,30,60,50,50,0
+136,Rex Arms I,10,900,250,Hidden Blast,330,-15,0,None,None,None,None,Power Phial 6,None,350,70,30,30,110,40,70,0
+137,Rex Arms II,10,972,270,Hidden Blast,360,-15,0,None,1,None,None,Power Phial 6,None,350,50,30,30,110,40,90,0
+138,Dios Strongarm,10,792,220,Blast,300,0,0,None,None,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
+139,Volatile Blade,11,936,260,Blast,390,0,0,None,1,None,None,Power Phial 6,None,350,80,30,30,110,40,60,0
+140,Inescapable Karma,12,1008,280,Hidden Dragon,390,0,+30,High,1,1,None,Power Phial 6,None,350,160,30,30,60,50,20,0
+141,Rajang Beastblade,11,1044,290,Thunder,60,-15,0,None,4,None,None,Power Phial 6,None,350,100,100,40,50,60,0,0
+142,Rajang Beastblade Ikazuchi,12,1116,310,Thunder,90,-15,0,None,4,None,None,Power Phial 6,None,350,90,100,40,50,70,0,0
+143,Usurpers Lightning,10,864,240,Thunder,330,0,0,None,2,None,None,Power Element Phial 6,None,350,90,80,30,30,80,40,0
+144,Usurpers Lightning+,11,900,250,Thunder,360,0,0,None,2,None,None,Power Element Phial 6,None,350,120,30,90,30,30,50,0
+145,Despots Thundergale,12,936,260,Thunder,390,0,0,None,2,None,None,Power Element Phial 6,None,350,110,30,90,30,30,60,0
+146,Sulfurteinn Machmar,10,972,270,Hidden Paralysis,240,0,0,None,4,None,None,Power Phial 6,None,350,160,100,30,30,30,0,0
+147,The Melting Grasp,11,1044,290,Hidden Paralysis,270,0,0,None,4,None,None,Power Phial 6,None,350,60,50,110,90,40,0,0
+148,Vipers Venom I,9,828,230,Poison,330,15,0,None,1,None,None,Power Phial 6,None,350,90,30,30,110,40,50,0
+149,Vipers Venom II,10,900,250,Poison,360,15,0,None,1,None,None,Power Phial 6,None,350,120,30,90,30,30,50,0
+150,Hydros Kardia,11,972,270,Water,330,10,0,None,None,None,None,Power Phial 6,None,350,70,30,30,110,40,70,0
+151,Deep Schnegel I,9,756,210,Ice,360,0,0,None,2,1,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
+152,Deep Schnegel II,10,900,250,Ice,480,0,0,None,2,1,None,Power Element Phial 6,None,350,70,80,30,30,80,60,0
+153,Nether Candle,10,828,230,Dragon,240,25,0,High,None,None,None,Power Element Phial 6,None,400,100,80,30,30,80,80,0
+154,Grudge,11,864,240,Dragon,330,30,0,High,None,None,None,Power Element Phial 6,None,400,100,80,30,30,80,80,0
+155,Accursed Arms,11,1008,280,Hidden Sleep,240,-30,0,None,1,None,None,Power Phial 6,None,350,90,20,30,90,90,30,0
+156,Black Eagle,10,756,210,Thunder,210,10,0,None,1,1,None,Power Element Phial 6,None,350,20,50,50,50,50,100,30
+157,Black Lightning Eagle,12,864,240,Thunder,270,10,0,None,1,1,None,Power Element Phial 6,None,350,10,10,30,50,50,100,100
+158,Guild Palace Disc,10,900,250,Hidden Water,360,10,+30,None,3,None,None,Power Phial 6,None,350,140,30,30,60,50,40,0
+159,Royal Star Shield,12,972,270,Hidden Water,450,15,+30,None,3,None,None,Power Phial 6,None,350,140,30,30,60,50,40,0
+160,Gold Ice Cutter,6,504,140,Hidden Ice,180,0,+20,None,None,None,None,Power Phial 6,None,350,90,60,80,80,40,0,0
+161,Gold Thunder Cutter,6,504,140,Hidden Thunder,210,0,+20,None,None,None,None,Power Phial 6,None,350,60,60,20,150,60,0,0
+162,Gold Sleep Cutter,6,504,140,Hidden Sleep,120,0,+20,None,None,None,None,Power Phial 6,None,350,110,50,50,80,60,0,0
+163,Glutton Gold Cutter,6,540,150,Sleep,90,0,+20,None,None,None,None,Power Phial 6,None,350,100,120,40,50,40,0,0
+164,Mire Gold Cutter,6,576,160,Water,150,10,+20,None,None,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
+165,Spark Gold Cutter,6,540,150,Thunder,120,15,+20,None,None,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
+166,Numb Gold Cutter,6,504,140,Paralysis,150,30,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+167,Claw Gold Cutter,6,504,140,Hidden Fire,90,25,+20,None,None,None,None,Power Phial 6,None,350,50,120,80,60,40,0,0
+168,Decay Gold Cutter,6,576,160,Dragon,120,10,+20,Average,None,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
+169,King Gold Cutter,6,684,190,Fire,120,20,+20,None,None,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
+170,Horn Gold Cutter,6,684,190,Hidden Ice,120,-30,+25,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
+171,Crusher Gold Cutter,6,540,150,Blast,90,0,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+172,Taroth Strongarm Glutton,7,684,190,Sleep,90,0,+20,None,None,None,None,Power Phial 6,None,350,100,120,40,50,40,0,0
+173,Taroth Strongarm Mire,7,684,190,Water,180,10,+20,None,None,None,None,Power Element Phial 6,None,350,100,60,60,100,30,0,0
+174,Taroth Strongarm Spark,7,684,190,Thunder,150,15,+20,None,None,None,None,Power Element Phial 6,None,350,190,70,20,20,50,0,0
+175,Taroth Strongarm Numb,7,576,160,Paralysis,150,30,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+176,Taroth Strongarm Claw,7,648,180,Hidden Fire,90,25,+20,None,None,None,None,Power Phial 6,None,350,50,120,80,60,40,0,0
+177,Taroth Strongarm Decay,7,684,190,Dragon,120,10,+20,Average,None,None,None,Power Element Phial 6,None,350,200,70,20,20,40,0,0
+178,Taroth Strongarm King,7,684,190,Fire,180,30,+20,None,None,None,None,Power Element Phial 6,None,350,70,50,60,120,50,0,0
+179,Taroth Strongarm Horn,7,828,230,Hidden Ice,210,-30,+25,None,None,None,None,Power Phial 6,None,350,90,50,60,120,30,0,0
+180,Taroth Strongarm Crusher,7,648,180,Blast,90,0,+20,None,None,None,None,Power Phial 6,None,350,110,110,40,40,50,0,0
+181,Taroth Strongarm Ice,8,648,180,Hidden Ice,390,0,+20,None,3,None,None,Power Phial 6,None,350,60,50,60,120,60,0,0
+182,Taroth Strongarm Thunder,8,684,190,Hidden Thunder,420,0,+20,None,3,None,None,Power Phial 6,None,350,70,50,60,120,50,0,0
+183,Taroth Strongarm Sleep,8,684,190,Hidden Sleep,270,0,+20,None,3,None,None,Power Phial 6,None,350,70,50,60,120,50,0,0
+184,Taroth Strongarm Water,8,648,180,Water,300,20,+20,None,3,None,None,Power Element Phial 6,None,350,210,20,20,20,30,50,0
+185,Kjarr Strongarm Spark,8,720,200,Thunder,300,15,0,None,None,None,None,Power Element Phial 6,Critical Element,350,160,70,20,20,80,0,0
+186,Kjarr Strongarm Numb,8,648,180,Paralysis,330,15,0,None,1,None,None,Power Phial 6,Critical Status,350,180,70,20,20,60,0,0
+187,Kjarr Strongarm Decay,8,720,200,Dragon,300,15,0,Average,None,None,None,Power Element Phial 6,Critical Element,350,180,70,20,20,60,0,0
+188,Kjarr Strongarm King,8,720,200,Fire,300,15,0,None,None,None,None,Power Element Phial 6,Critical Element,350,60,50,60,120,60,0,0
+189,Kjarr Strongarm Ice,8,684,190,Ice,480,20,0,None,1,None,None,Power Element Phial 6,Critical Element,350,40,50,60,120,80,0,0
+190,Kjarr Strongarm Crusher,8,720,200,Blast,300,20,0,None,None,None,None,Power Phial 6,Critical Status,350,180,70,20,20,60,0,0
+191,Kjarr Strongarm Water,8,684,190,Water,330,20,0,None,None,None,None,Power Element Phial 6,Critical Element,350,210,20,20,20,30,50,0

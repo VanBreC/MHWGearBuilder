@@ -1,205 +1,205 @@
-Name,Rarity,Attack,True Attack,Element,Element Stat,Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Phial Type,Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
-Proto Iron Axe I,1,2,80,None,0,0,0,None,None,None,None,Power Phial ,None,200,100,50,50,0,0,0,0
-Proto Iron Axe II,1,315,90,None,0,0,0,None,None,None,None,Power Phial ,None,200,80,70,30,20,0,0,0
-Proto Iron Axe III,2,350,100,None,0,0,0,None,None,None,None,Power Phial ,None,200,60,70,30,40,0,0,0
-Improved Steel Axe I,3,385,110,None,0,0,0,None,None,None,None,Poison Phial 30,None,250,70,50,80,50,0,0,0
-Improved Steel Axe II,4,455,130,None,0,0,0,None,None,None,None,Poison Phial 30,None,250,60,50,80,60,0,0,0
-Improved Steel Axe III,5,490,140,Hidden Poison,300,0,0,None,1,None,None,Poison Phial 30,None,300,90,50,50,80,30,0,0
-Perfected Alloy Axe I,6,560,160,Hidden Poison,360,0,0,None,1,None,None,Poison Phial 42,None,300,70,50,50,80,50,0,0
-Perfected Alloy Axe II,6,630,180,Hidden Poison,420,0,0,None,1,1,None,Poison Phial 42,None,350,60,60,20,150,60,0,0
-Chrome Machina I,9,770,220,Hidden Poison,450,0,0,None,1,1,None,Poison Phial 48,None,350,90,80,30,30,80,40,0
-Chrome Machina II,10,840,240,Hidden Poison,480,0,0,None,1,1,None,Poison Phial 48,None,350,80,80,30,30,80,50,0
-Chrome Machina III,11,945,270,Hidden Poison,510,0,0,None,1,1,None,Poison Phial 54,None,350,120,30,30,60,50,60,0
-Bone Axe I,1,315,90,None,0,0,0,None,None,None,None,Power Phial ,None,200,100,60,40,0,0,0,0
-Bone Axe II,1,350,100,None,0,0,0,None,None,None,None,Power Phial ,None,200,90,50,60,0,0,0,0
-Bone Axe III,2,385,110,None,0,0,0,None,None,None,None,Power Phial ,None,200,80,50,50,20,0,0,0
-Bone Smasher I,3,490,140,None,0,0,0,None,None,None,None,Power Phial ,None,250,120,70,30,30,0,0,0
-Bone Smasher II,4,525,150,None,0,0,0,None,None,None,None,Power Phial ,None,250,110,70,30,40,0,0,0
-Bone Smasher III,5,560,160,None,0,0,0,None,2,None,None,Power Phial ,None,300,140,70,30,60,0,0,0
-Power Smasher I,6,595,170,None,0,0,+10,Average,2,None,None,Dragon Phial 30,None,300,100,100,40,40,20,0,0
-Power Smasher II,6,665,190,None,0,10,+10,Average,3,None,None,Dragon Phial 42,None,350,100,120,40,50,40,0,0
-Mighty Gear I,9,805,230,None,0,10,+35,Average,3,None,None,Dragon Phial 48,None,350,100,100,40,50,60,0,0
-Mighty Gear II,10,875,250,None,0,10,+35,Average,3,None,None,Dragon Phial 51,None,350,90,100,40,50,70,0,0
-Mighty Gear III,11,945,270,None,0,10,+35,Average,3,None,None,Dragon Phial 51,None,350,80,100,40,50,80,0,0
-Jagras Axe I,2,385,110,None,0,0,0,None,None,None,None,Exhaust Phial 12,None,200,60,70,30,40,0,0,0
-Jagras Axe II,3,420,120,None,0,0,0,None,None,None,None,Exhaust Phial 12,None,250,70,50,80,50,0,0,0
-Jagras Axe III,4,490,140,None,0,0,0,None,None,None,None,Exhaust Phial 15,None,250,50,50,80,70,0,0,0
-Jagras Raider I,5,560,160,Hidden Sleep,180,0,0,None,1,None,None,Exhaust Phial 18,None,300,110,50,50,80,10,0,0
-Jagras Raider II,6,630,180,Hidden Sleep,210,0,0,None,2,2,None,Exhaust Phial 18,None,300,100,50,50,80,20,0,0
-Jagras Raider III,6,665,190,Hidden Sleep,240,0,0,None,3,2,None,Exhaust Phial 21,None,350,110,120,40,50,30,0,0
-Saber's Bite I,9,805,230,Hidden Sleep,390,0,0,None,3,3,None,Exhaust Phial 24,None,350,100,50,50,80,70,0,0
-Saber's Bite II,10,910,260,Hidden Sleep,420,0,0,None,3,3,None,Exhaust Phial 27,None,350,110,80,30,30,80,20,0
-Datura Garden I,9,700,200,Poison,600,0,0,None,2,1,None,Power Phial ,None,350,70,80,30,30,80,60,0
-Datura Garden II,10,840,240,Poison,660,0,0,None,2,1,None,Power Phial ,None,350,120,30,30,60,50,60,0
-Madness Axe I,2,385,110,Water,150,0,0,None,None,None,None,Power Element Phial ,None,200,80,50,50,20,0,0,0
-Madness Axe II,3,420,120,Water,180,0,0,None,None,None,None,Power Element Phial ,None,250,120,70,30,30,0,0,0
-Madness Axe III,4,490,140,Water,210,0,0,None,None,None,None,Power Element Phial ,None,250,110,70,30,40,0,0,0
-Jyura Drought I,5,560,160,Water,240,0,0,None,1,None,None,Power Element Phial ,None,300,110,60,80,50,0,0,0
-Jyura Drought II,6,630,180,Water,270,0,0,None,1,None,None,Power Element Phial ,None,300,110,100,40,40,10,0,0
-Jyura Drought III,7,665,190,Water,300,0,0,None,1,None,None,Power Element Phial ,None,350,140,110,40,40,20,0,0
-Jyura Cataclysm I,9,805,230,Water,360,0,0,None,3,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
-Jyura Cataclysm II,10,910,260,Water,420,0,0,None,3,1,None,Power Element Phial ,None,350,100,100,40,50,60,0,0
-Carapace Axe I,2,420,120,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,200,90,50,50,10,0,0,0
-Carapace Axe II,3,490,140,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,250,110,70,30,40,0,0,0
-Carapace Axe III,4,560,160,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,250,90,70,30,60,0,0,0
-Barroth Grinder I,5,595,170,Hidden Paralysis,240,-20,+15,None,1,None,None,Paralysis Phial 21,None,300,130,70,30,70,0,0,0
-Barroth Grinder II,6,665,190,Hidden Paralysis,270,-20,+15,None,1,1,None,Paralysis Phial 24,None,300,120,70,30,80,0,0,0
-Barroth Grinder III,6,735,210,Hidden Paralysis,300,-20,+15,None,2,1,None,Paralysis Phial 27,None,350,120,70,30,100,30,0,0
-Barroth Dozer I,9,840,240,Hidden Paralysis,330,-20,+25,None,2,2,None,Paralysis Phial 30,None,350,130,100,30,30,60,0,0
-Barroth Dozer II,10,945,270,Hidden Paralysis,360,-20,+25,None,2,2,None,Paralysis Phial 33,None,350,130,100,30,30,60,0,0
-Flammenbeil,3,455,130,Fire,180,-20,0,None,None,None,None,Power Element Phial ,None,250,120,70,30,30,0,0,0
-Flammenbeil+,5,560,160,Fire,240,-20,0,None,None,None,None,Power Element Phial ,None,300,110,100,40,40,10,0,0
-Gnashing Flammenbeil,7,735,210,Fire,300,-20,0,None,None,None,None,Power Element Phial ,None,350,110,120,40,50,30,0,0
-Gnashing Flammenbeil+,9,805,230,Fire,540,-20,0,None,None,None,None,Power Element Phial ,None,350,80,100,40,50,80,0,0
-Lohenbeil,10,945,270,Fire,600,-20,0,None,None,None,None,Power Element Phial ,None,350,80,100,40,50,80,0,0
-Nergal Gash,7,665,190,Dragon,120,0,0,High,1,None,None,Power Phial ,None,400,120,120,40,50,70,0,0
-Dying Light,8,700,200,Dragon,150,0,0,High,1,None,None,Power Phial ,None,400,110,120,40,50,80,0,0
-Ruinous Light,12,1015,290,Dragon,210,0,0,High,1,None,None,Power Phial ,None,400,80,30,30,110,40,110,0
-Dragonmaiden Axe,9,805,230,Poison,330,10,0,None,1,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
-Dragonmaiden Axe+,10,910,260,Poison,360,10,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
-Golden Crescent,12,1015,290,Poison,390,15,0,None,1,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
-Lumu Axe I,3,420,120,None,0,10,0,None,None,None,None,Power Phial ,None,250,120,70,30,30,0,0,0
-Lumu Axe II,4,490,140,None,0,10,0,None,None,None,None,Power Phial ,None,250,100,70,30,50,0,0,0
-Lumu Smasher I,5,525,150,Hidden Blast,360,20,0,None,1,None,None,Power Phial ,None,300,130,70,30,70,0,0,0
-Lumu Smasher II,6,560,160,Hidden Blast,390,20,0,None,2,None,None,Power Phial ,None,300,90,100,40,40,30,0,0
-Lumu Smasher III,7,595,170,Hidden Blast,420,20,0,None,3,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
-Mechanical Lumu I,9,805,230,Hidden Blast,480,20,0,None,3,1,None,Power Phial ,None,350,90,100,40,50,70,0,0
-Mechanical Lumu II,10,875,250,Hidden Blast,540,20,0,None,3,1,None,Power Phial ,None,350,150,30,30,60,50,30,0
-Glacial Axe I,4,455,130,Ice,210,0,0,None,None,None,None,Power Element Phial ,None,250,60,50,80,60,0,0,0
-Glacial Axe II,5,490,140,Ice,240,0,0,None,None,None,None,Power Element Phial ,None,300,100,50,50,80,20,0,0
-Frostreaver,6,525,150,Ice,270,0,0,None,None,None,None,Power Element Phial ,None,300,90,50,50,80,30,0,0
-Legia Frostreaver,7,560,160,Ice,300,0,0,None,None,None,None,Power Element Phial ,None,350,130,30,60,80,40,10,0
-Legia Frostreaver+,10,735,210,Ice,420,0,0,None,None,None,None,Power Element Phial ,None,350,90,80,30,30,80,40,0
-Hoarcry Frostreaver,10,770,220,Ice,510,0,0,None,None,None,None,Power Element Phial ,None,350,80,80,30,30,80,50,0
-Hector Glacia,11,840,240,Ice,540,0,0,None,None,None,None,Power Element Phial ,None,350,60,20,30,90,90,60,0
-Hazak Demios I,7,665,190,Dragon,180,0,0,Average,2,None,None,Power Element Phial ,None,350,140,110,40,40,20,0,0
-Hazak Demios II,7,700,200,Dragon,210,0,0,Average,2,None,None,Power Element Phial ,None,350,200,70,20,20,40,0,0
-Deathedge Vaal Demios,11,875,250,Dragon,510,0,0,Average,2,2,None,Power Element Phial ,None,350,80,80,30,30,80,50,0
-Rathalos Axe I,4,455,130,Fire,120,10,0,None,None,None,None,Power Phial ,None,250,60,50,80,60,0,0,0
-Rathalos Axe II,5,490,140,Fire,120,10,0,None,1,None,None,Power Phial ,None,300,100,50,80,70,0,0,0
-Rathbringer Axe I,6,560,160,Fire,150,15,0,None,1,None,None,Power Phial ,None,300,90,50,50,80,30,0,0
-Rathbringer Axe II,7,665,190,Fire,150,15,0,None,1,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
-Rathbringer Axe III,10,770,220,Fire,210,15,0,None,1,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
-Azure Rathbringer,10,840,240,Fire,240,20,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
-Silver Rathbringer,12,945,270,Fire,300,20,0,None,2,None,None,Power Phial ,None,350,130,30,30,60,50,50,0
-Diablos Axe I,4,595,170,None,0,-30,+10,None,None,None,None,Power Phial ,None,250,100,70,30,50,0,0,0
-Diablos Axe II,5,630,180,Hidden Ice,90,-30,+10,None,1,None,None,Power Phial ,None,300,140,70,30,60,0,0,0
-Axe Semper Tyrannis,6,735,210,Hidden Ice,120,-30,+15,None,1,None,None,Power Phial ,None,300,110,50,50,80,10,0,0
-Peal,4,385,110,Thunder,360,0,0,None,None,None,None,Power Element Phial ,None,250,60,50,80,60,0,0,0
-Peal+,7,490,140,Thunder,390,0,0,None,None,None,None,Power Element Phial ,None,350,110,20,20,150,50,0,0
-Kirin Thunderpeal,8,560,160,Thunder,420,0,0,None,None,None,None,Power Element Phial ,None,350,110,20,20,140,60,0,0
-Archbeast Kirin,11,840,240,Thunder,540,0,0,None,None,None,None,Power Element Phial ,None,350,60,80,30,30,80,70,0
-Motor Chopper I,6,630,180,Fire,120,0,+30,None,1,None,None,Power Phial ,None,300,90,50,50,80,30,0,0
-Motor Chopper II,7,735,210,Fire,120,0,+30,None,1,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
-Gigan Motor I,10,910,260,Fire,210,0,+35,None,3,None,None,Power Phial ,None,350,110,50,50,80,60,0,0
-Gigan Motor II,10,1015,290,Fire,240,0,+35,None,3,None,None,Power Phial ,None,350,100,50,50,80,70,0,0
-Axe of Thanatos,7,770,220,Hidden Ice,150,-30,+15,None,1,None,None,Power Phial ,None,350,140,110,40,40,20,0,0
-Axe of Demons,8,805,230,Hidden Ice,180,-30,+15,None,1,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
-Axe of Demons+,10,910,260,Hidden Ice,240,-30,+35,None,2,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
-Axe of Hades,10,1015,290,Hidden Ice,270,-30,+35,None,2,None,None,Power Phial ,None,350,70,50,90,70,70,0,0
-Teostra's Arx,7,630,180,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,110,60,80,80,20,0,0
-Teostra's Castle,8,665,190,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,90,60,60,100,40,0,0
-Teostra's Hellebarde,11,910,260,Blast,360,10,0,None,None,None,None,Power Phial ,None,350,100,80,30,30,80,30,0
-Xeno Martshu,8,595,170,Dragon,150,15,0,Low,3,3,None,Power Phial ,None,350,130,30,60,80,40,10,0
-Bazel Raider I,6,665,190,Blast,150,-15,0,None,1,None,None,Power Phial ,None,300,100,50,50,80,20,0,0
-Bazel Raider II,7,700,200,Blast,180,-15,0,None,1,None,None,Power Phial ,None,350,70,120,80,60,20,0,0
-Bazelheart,11,875,250,Blast,270,-15,0,None,2,1,None,Power Phial ,None,350,170,30,30,60,50,10,0
-Dragonbone Slicer I,3,350,100,Dragon,210,0,0,Low,None,None,None,Power Element Phial ,None,250,110,70,30,40,0,0,0
-Dragonbone Slicer II,4,385,110,Dragon,270,0,0,Low,None,None,None,Power Element Phial ,None,250,70,70,30,80,0,0,0
-Dragonbone Slicer III,6,560,160,Dragon,330,0,0,Low,1,1,None,Power Element Phial ,None,350,120,110,40,40,40,0,0
-Dragonseal Axe I,10,735,210,Dragon,540,0,0,Average,1,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
-Dragonseal Axe II,11,840,240,Dragon,600,0,0,Average,1,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
-Blacksteel Switch Axe I,5,350,100,Dragon,120,15,0,Low,None,None,None,Power Phial ,None,300,150,110,40,0,0,0,0
-Blacksteel Switch Axe II,6,385,110,Dragon,150,15,0,Low,None,None,None,Power Phial ,None,300,140,110,40,10,0,0,0
-Thunder Axe I,3,420,120,Thunder,90,0,0,None,None,None,None,Power Phial ,None,250,90,50,80,30,0,0,0
-Thunder Axe II,4,490,140,Thunder,90,0,0,None,None,None,None,Power Phial ,None,250,80,50,80,40,0,0,0
-Lightning Chopper I,5,560,160,Thunder,120,0,0,None,1,None,None,Power Phial ,None,300,110,50,80,60,0,0,0
-Lightning Chopper II,6,595,170,Thunder,150,0,0,None,2,None,None,Power Phial ,None,300,100,50,50,80,20,0,0
-Lightning Chopper III,6,630,180,Thunder,180,0,0,None,2,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
-Lightning Chopper IV,9,700,200,Thunder,240,0,0,None,2,None,None,Power Phial ,None,350,110,80,30,30,80,20,0
-Thundercleave I,10,840,240,Thunder,300,0,0,None,2,None,None,Power Element Phial ,None,350,100,80,30,30,80,30,0
-Thundercleave II,11,875,250,Thunder,420,0,0,None,2,1,None,Power Element Phial ,None,350,130,30,90,30,30,40,0
-Tyrannos,6,700,200,Dragon,120,-25,0,High,None,None,None,Power Phial ,None,350,60,120,80,60,30,0,0
-Terror Tyrannos,7,770,220,Dragon,180,-25,0,High,None,None,None,Power Phial ,None,350,50,120,80,60,40,0,0
-Saligia Vileaxe,12,980,280,Dragon,330,-30,0,High,None,None,None,Power Phial ,None,350,160,30,30,60,50,20,0
-Empress Axe,7,630,180,Blast,150,0,0,None,2,1,None,Power Phial ,None,350,110,30,60,80,40,30,0
-Empress Axe Blaze,8,630,180,Blast,180,20,0,None,2,1,None,Power Phial ,Guts,350,110,30,60,80,40,30,0
-Soulfire Scourge Blaze,12,875,250,Blast,270,20,0,None,2,1,None,Power Phial ,Guts,350,120,30,90,30,30,50,0
-Empress Axe Ruin,8,665,190,Blast,150,0,0,None,2,2,None,Power Phial ,Hasten Recovery,350,110,30,60,80,40,30,0
-Soulfire Scourge Ruin,12,945,270,Blast,210,0,0,None,2,2,None,Power Phial ,Hasten Recovery,350,120,30,90,30,30,50,0
-Empress Axe Styx,8,630,180,Blast,240,10,0,None,3,3,None,Power Phial ,Razor Sharp/Spare Shot,350,110,30,60,80,40,30,0
-Soulfire Scourge Styx,12,875,250,Blast,330,10,0,None,3,3,None,Power Phial ,Razor Sharp/Spare Shot,350,120,30,90,30,30,50,0
-Defender Switch Axe I,1,455,130,Blast,180,0,0,None,None,None,None,Power Phial ,None,200,30,60,20,90,0,0,0
-Defender Switch Axe II,3,595,170,Blast,210,0,0,None,None,None,None,Power Phial ,None,250,30,60,20,140,0,0,0
-Defender Switch Axe III,5,665,190,Blast,240,0,0,None,None,None,None,Power Phial ,None,300,50,50,50,80,70,0,0
-Defender Switch Axe IV,6,735,210,Blast,270,0,0,None,None,None,None,Power Phial ,None,300,30,50,50,80,90,0,0
-Defender Switch Axe V,7,770,220,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,90,30,30,110,40,50,0
-Mammoth Halberd I,9,875,250,Hidden Ice,360,0,0,None,4,None,None,Power Phial ,None,350,90,50,50,80,80,0,0
-Mammoth Halberd II,10,980,280,Hidden Ice,450,0,0,None,4,None,None,Power Phial ,None,350,90,50,50,80,80,0,0
-Hidden Axe,10,770,220,Hidden Poison,360,10,0,None,None,None,None,Power Phial ,None,350,80,80,30,30,80,50,0
-Hidden Axe+,10,805,230,Hidden Poison,450,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
-Night's Crescent,11,840,240,Hidden Poison,540,20,0,None,None,None,None,Power Phial ,None,350,140,20,20,70,40,30,30
-Glavenus Smasher I,10,805,230,Fire,330,0,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
-Glavenus Smasher II,10,875,250,Fire,420,0,0,None,1,1,None,Power Phial ,None,350,130,30,30,60,50,50,0
-Deep Lagoon I,9,770,220,Water,510,0,0,None,2,None,None,Power Element Phial ,None,350,70,80,30,30,80,60,0
-Deep Lagoon II,10,840,240,Water,540,0,0,None,2,None,None,Power Element Phial ,None,350,120,30,30,60,50,60,0
-Icerood,11,910,260,Ice,270,0,0,None,4,None,None,Power Phial ,None,350,150,30,30,60,50,30,0
-Wicked Niddoq,12,945,270,Ice,300,0,0,None,4,None,None,Power Phial ,None,350,140,30,30,60,50,40,0
-Rex Raider I,10,875,250,Hidden Blast,390,-15,0,None,None,None,None,Power Phial ,None,350,70,30,30,110,40,70,0
-Rex Raider II,10,945,270,Hidden Blast,420,-15,0,None,1,None,None,Power Phial ,None,350,50,30,30,110,40,90,0
-Donnerbeil,10,840,240,Thunder,210,10,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
-Donnerbeil+,10,875,250,Thunder,240,15,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
-Fulguration's Bite,11,910,260,Thunder,270,20,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
-Nyx Smasher I,9,770,220,Sleep,360,0,0,None,2,None,None,Power Phial ,None,350,80,30,30,110,40,60,0
-Nyx Smasher II,10,840,240,Sleep,450,0,0,None,2,None,None,Power Phial ,None,350,80,30,30,110,40,60,0
-Dios Smasher I,10,840,240,Blast,360,0,0,None,None,None,None,Power Phial ,None,350,90,100,40,50,70,0,0
-Dios Smasher II,10,875,250,Blast,480,0,0,None,1,None,None,Power Phial ,None,350,100,30,30,110,40,40,0
-Evanescent Glow,12,980,280,Hidden Dragon,510,0,+30,High,1,1,None,Power Phial ,None,350,170,30,30,60,50,10,0
-Undying Axe,11,1015,290,Thunder,90,-15,0,None,4,None,None,Power Phial ,None,350,110,100,40,50,50,0,0
-Undying Light,12,1085,310,Thunder,120,-15,0,None,4,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
-Blackwing Switch Axe I,10,910,260,Poison,210,20,0,None,3,None,None,Power Phial ,None,350,150,30,90,30,30,20,0
-Blackwing Switch Axe II,11,945,270,Poison,240,25,0,None,3,None,None,Power Phial ,None,350,150,30,90,30,30,20,0
-Amber Slash,10,805,230,Ice,210,15,0,None,None,None,None,Power Phial ,None,350,90,100,40,50,70,0,0
-Amber Slash+,10,840,240,Ice,300,20,0,None,None,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
-Amber Hoarfrost,11,875,250,Ice,390,30,0,None,None,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
-Acid Smasher I,10,945,270,Hidden Paralysis,360,0,0,None,4,None,None,Power Phial ,None,350,160,100,30,30,30,0,0
-Acid Smasher II,11,1015,290,Hidden Paralysis,390,0,0,None,4,None,None,Power Phial ,None,350,60,50,110,90,40,0,0
-Hydra Strobila,11,910,260,Water,210,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
-Black Strobila,12,980,280,Water,270,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
-Accursed Raider,11,980,280,Hidden Sleep,270,-30,0,None,1,None,None,Exhaust Phial 30,None,350,90,20,30,90,90,30,0
-Guild Palace Cleaver,10,875,250,Hidden Water,420,10,+30,None,3,None,None,Power Phial ,None,350,150,30,30,60,50,30,0
-Royal Titan Axe,12,945,270,Hidden Water,510,15,+30,None,3,None,None,Power Phial ,None,350,140,30,30,60,50,40,0
-Gold Thunder Chopper,6,455,130,Hidden Thunder,240,10,+20,None,None,None,None,Power Phial ,None,350,110,20,20,140,60,0,0
-Gold Paralysis Chopper,6,525,150,Hidden Paralysis,210,-20,+25,None,None,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
-Gold Sleep Chopper,6,490,140,Hidden Sleep,180,0,+20,None,None,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
-Glutton Gold Chopper,6,560,160,Sleep,90,0,+20,None,None,None,None,Power Phial ,None,350,110,120,40,50,30,0,0
-Mire Gold Chopper,6,560,160,Water,150,0,+20,None,None,None,None,Power Element Phial ,None,350,90,120,40,50,50,0,0
-Mud Gold Chopper,6,560,160,Paralysis,90,-20,+25,None,None,None,None,Power Phial ,None,350,120,70,30,100,30,0,0
-Drifter Gold Chopper,6,525,150,Hidden Blast,210,25,+20,None,None,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
-Stream Gold Chopper,6,455,130,Ice,150,10,+20,None,None,None,None,Power Element Phial ,None,350,90,100,40,40,80,0,0
-Decay Gold Chopper,6,525,150,Dragon,90,0,+20,Average,None,None,None,Power Element Phial ,None,350,250,20,20,20,30,10,0
-King Gold Chopper,6,490,140,Fire,90,15,+20,None,None,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
-Horn Gold Chopper,6,665,190,Hidden Ice,120,-30,+25,None,None,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
-Gyre Gold Chopper,6,560,160,Fire,60,10,+40,None,None,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
-Bomber Gold Chopper,6,595,170,Blast,90,0,+20,None,None,None,None,Power Phial ,None,350,100,100,40,40,70,0,0
-Taroth Axe Glutton,7,665,190,Sleep,150,0,+20,None,None,None,None,Power Phial ,None,350,110,120,40,50,30,0,0
-Taroth Axe Mire,7,665,190,Water,300,0,+20,None,None,None,None,Power Element Phial ,None,350,90,120,40,50,50,0,0
-Taroth Axe Mud,7,735,210,Paralysis,180,-20,+25,None,None,None,None,Power Phial ,None,350,120,70,30,100,30,0,0
-Taroth Axe Drifter,7,595,170,Hidden Blast,420,25,+20,None,None,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
-Taroth Axe Stream,7,560,160,Ice,300,10,+20,None,None,None,None,Power Element Phial ,None,350,90,100,40,40,80,0,0
-Taroth Axe Decay,7,595,170,Dragon,210,0,+20,Average,None,None,None,Power Element Phial ,None,350,250,20,20,20,30,10,0
-Taroth Axe King,7,665,190,Fire,210,15,+20,None,None,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
-Taroth Axe Horn,7,805,230,Hidden Ice,240,-30,+25,None,None,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
-Taroth Axe Gyre,7,735,210,Fire,120,10,+40,None,None,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
-Taroth Axe Bomber,7,630,180,Blast,180,0,+20,None,None,None,None,Power Phial ,None,350,100,100,40,40,70,0,0
-Taroth Axe Thunder,8,560,160,Hidden Thunder,480,10,+20,None,3,None,None,Power Phial ,None,350,120,30,60,80,40,20,0
-Taroth Axe Paralysis,8,735,210,Hidden Paralysis,450,0,+30,None,3,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
-Taroth Axe Sleep,8,665,190,Hidden Sleep,360,0,+20,None,3,None,None,Power Phial ,None,350,60,50,60,120,60,0,0
-Taroth Axe Water,8,700,200,Hidden Water,480,0,+20,None,3,None,None,Power Phial ,None,350,70,60,60,100,60,0,0
-Kjarr Axe Stream,8,595,170,Ice,330,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,110,30,60,80,40,30,0
-Kjarr Axe Decay,8,595,170,Dragon,270,10,0,Average,1,None,None,Power Element Phial ,Critical Element,350,220,20,20,20,30,40,0
-Kjarr Axe King,8,665,190,Fire,300,20,0,None,1,None,None,Power Element Phial ,Critical Element,350,80,60,60,100,50,0,0
-Kjarr Axe Bomber,8,665,190,Blast,270,10,0,None,1,None,None,Power Phial ,Critical Status,350,90,100,40,40,80,0,0
-Kjarr Axe Thunder,8,595,170,Thunder,330,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,100,30,60,80,40,40,0
-Kjarr Axe Water,8,665,190,Water,360,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,50,50,60,120,70,0,0
-Kjarr Axe Paralysis,8,700,200,Paralysis,330,10,0,None,None,None,None,Power Phial ,Critical Status,350,80,100,40,40,90,0,0
+Order,Name,Rarity,Attack,True Attack,Element,Element Stat,Affinity(%),Defense,Elderseal,Gem Slot 1(Lvl),Gem Slot 2(Lvl),Gem Slot 3(Lvl),Phial Type,Skill,Max Sharpness,Red Sharpness,Orange Sharpness,Yellow Sharpness,Green Sharpness,Blue Sharpness,White Sharpness,Purple Sharpness
+1,Proto Iron Axe I,1,2,80,None,0,0,0,None,None,None,None,Power Phial ,None,200,100,50,50,0,0,0,0
+2,Proto Iron Axe II,1,315,90,None,0,0,0,None,None,None,None,Power Phial ,None,200,80,70,30,20,0,0,0
+3,Proto Iron Axe III,2,350,100,None,0,0,0,None,None,None,None,Power Phial ,None,200,60,70,30,40,0,0,0
+4,Improved Steel Axe I,3,385,110,None,0,0,0,None,None,None,None,Poison Phial 30,None,250,70,50,80,50,0,0,0
+5,Improved Steel Axe II,4,455,130,None,0,0,0,None,None,None,None,Poison Phial 30,None,250,60,50,80,60,0,0,0
+6,Improved Steel Axe III,5,490,140,Hidden Poison,300,0,0,None,1,None,None,Poison Phial 30,None,300,90,50,50,80,30,0,0
+7,Perfected Alloy Axe I,6,560,160,Hidden Poison,360,0,0,None,1,None,None,Poison Phial 42,None,300,70,50,50,80,50,0,0
+8,Perfected Alloy Axe II,6,630,180,Hidden Poison,420,0,0,None,1,1,None,Poison Phial 42,None,350,60,60,20,150,60,0,0
+9,Chrome Machina I,9,770,220,Hidden Poison,450,0,0,None,1,1,None,Poison Phial 48,None,350,90,80,30,30,80,40,0
+10,Chrome Machina II,10,840,240,Hidden Poison,480,0,0,None,1,1,None,Poison Phial 48,None,350,80,80,30,30,80,50,0
+11,Chrome Machina III,11,945,270,Hidden Poison,510,0,0,None,1,1,None,Poison Phial 54,None,350,120,30,30,60,50,60,0
+12,Bone Axe I,1,315,90,None,0,0,0,None,None,None,None,Power Phial ,None,200,100,60,40,0,0,0,0
+13,Bone Axe II,1,350,100,None,0,0,0,None,None,None,None,Power Phial ,None,200,90,50,60,0,0,0,0
+14,Bone Axe III,2,385,110,None,0,0,0,None,None,None,None,Power Phial ,None,200,80,50,50,20,0,0,0
+15,Bone Smasher I,3,490,140,None,0,0,0,None,None,None,None,Power Phial ,None,250,120,70,30,30,0,0,0
+16,Bone Smasher II,4,525,150,None,0,0,0,None,None,None,None,Power Phial ,None,250,110,70,30,40,0,0,0
+17,Bone Smasher III,5,560,160,None,0,0,0,None,2,None,None,Power Phial ,None,300,140,70,30,60,0,0,0
+18,Power Smasher I,6,595,170,None,0,0,+10,Average,2,None,None,Dragon Phial 30,None,300,100,100,40,40,20,0,0
+19,Power Smasher II,6,665,190,None,0,10,+10,Average,3,None,None,Dragon Phial 42,None,350,100,120,40,50,40,0,0
+20,Mighty Gear I,9,805,230,None,0,10,+35,Average,3,None,None,Dragon Phial 48,None,350,100,100,40,50,60,0,0
+21,Mighty Gear II,10,875,250,None,0,10,+35,Average,3,None,None,Dragon Phial 51,None,350,90,100,40,50,70,0,0
+22,Mighty Gear III,11,945,270,None,0,10,+35,Average,3,None,None,Dragon Phial 51,None,350,80,100,40,50,80,0,0
+23,Jagras Axe I,2,385,110,None,0,0,0,None,None,None,None,Exhaust Phial 12,None,200,60,70,30,40,0,0,0
+24,Jagras Axe II,3,420,120,None,0,0,0,None,None,None,None,Exhaust Phial 12,None,250,70,50,80,50,0,0,0
+25,Jagras Axe III,4,490,140,None,0,0,0,None,None,None,None,Exhaust Phial 15,None,250,50,50,80,70,0,0,0
+26,Jagras Raider I,5,560,160,Hidden Sleep,180,0,0,None,1,None,None,Exhaust Phial 18,None,300,110,50,50,80,10,0,0
+27,Jagras Raider II,6,630,180,Hidden Sleep,210,0,0,None,2,2,None,Exhaust Phial 18,None,300,100,50,50,80,20,0,0
+28,Jagras Raider III,6,665,190,Hidden Sleep,240,0,0,None,3,2,None,Exhaust Phial 21,None,350,110,120,40,50,30,0,0
+29,Sabers Bite I,9,805,230,Hidden Sleep,390,0,0,None,3,3,None,Exhaust Phial 24,None,350,100,50,50,80,70,0,0
+30,Sabers Bite II,10,910,260,Hidden Sleep,420,0,0,None,3,3,None,Exhaust Phial 27,None,350,110,80,30,30,80,20,0
+31,Datura Garden I,9,700,200,Poison,600,0,0,None,2,1,None,Power Phial ,None,350,70,80,30,30,80,60,0
+32,Datura Garden II,10,840,240,Poison,660,0,0,None,2,1,None,Power Phial ,None,350,120,30,30,60,50,60,0
+33,Madness Axe I,2,385,110,Water,150,0,0,None,None,None,None,Power Element Phial ,None,200,80,50,50,20,0,0,0
+34,Madness Axe II,3,420,120,Water,180,0,0,None,None,None,None,Power Element Phial ,None,250,120,70,30,30,0,0,0
+35,Madness Axe III,4,490,140,Water,210,0,0,None,None,None,None,Power Element Phial ,None,250,110,70,30,40,0,0,0
+36,Jyura Drought I,5,560,160,Water,240,0,0,None,1,None,None,Power Element Phial ,None,300,110,60,80,50,0,0,0
+37,Jyura Drought II,6,630,180,Water,270,0,0,None,1,None,None,Power Element Phial ,None,300,110,100,40,40,10,0,0
+38,Jyura Drought III,7,665,190,Water,300,0,0,None,1,None,None,Power Element Phial ,None,350,140,110,40,40,20,0,0
+39,Jyura Cataclysm I,9,805,230,Water,360,0,0,None,3,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
+40,Jyura Cataclysm II,10,910,260,Water,420,0,0,None,3,1,None,Power Element Phial ,None,350,100,100,40,50,60,0,0
+41,Carapace Axe I,2,420,120,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,200,90,50,50,10,0,0,0
+42,Carapace Axe II,3,490,140,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,250,110,70,30,40,0,0,0
+43,Carapace Axe III,4,560,160,None,0,-20,+10,None,None,None,None,Paralysis Phial 18,None,250,90,70,30,60,0,0,0
+44,Barroth Grinder I,5,595,170,Hidden Paralysis,240,-20,+15,None,1,None,None,Paralysis Phial 21,None,300,130,70,30,70,0,0,0
+45,Barroth Grinder II,6,665,190,Hidden Paralysis,270,-20,+15,None,1,1,None,Paralysis Phial 24,None,300,120,70,30,80,0,0,0
+46,Barroth Grinder III,6,735,210,Hidden Paralysis,300,-20,+15,None,2,1,None,Paralysis Phial 27,None,350,120,70,30,100,30,0,0
+47,Barroth Dozer I,9,840,240,Hidden Paralysis,330,-20,+25,None,2,2,None,Paralysis Phial 30,None,350,130,100,30,30,60,0,0
+48,Barroth Dozer II,10,945,270,Hidden Paralysis,360,-20,+25,None,2,2,None,Paralysis Phial 33,None,350,130,100,30,30,60,0,0
+49,Flammenbeil,3,455,130,Fire,180,-20,0,None,None,None,None,Power Element Phial ,None,250,120,70,30,30,0,0,0
+50,Flammenbeil+,5,560,160,Fire,240,-20,0,None,None,None,None,Power Element Phial ,None,300,110,100,40,40,10,0,0
+51,Gnashing Flammenbeil,7,735,210,Fire,300,-20,0,None,None,None,None,Power Element Phial ,None,350,110,120,40,50,30,0,0
+52,Gnashing Flammenbeil+,9,805,230,Fire,540,-20,0,None,None,None,None,Power Element Phial ,None,350,80,100,40,50,80,0,0
+53,Lohenbeil,10,945,270,Fire,600,-20,0,None,None,None,None,Power Element Phial ,None,350,80,100,40,50,80,0,0
+54,Nergal Gash,7,665,190,Dragon,120,0,0,High,1,None,None,Power Phial ,None,400,120,120,40,50,70,0,0
+55,Dying Light,8,700,200,Dragon,150,0,0,High,1,None,None,Power Phial ,None,400,110,120,40,50,80,0,0
+56,Ruinous Light,12,1015,290,Dragon,210,0,0,High,1,None,None,Power Phial ,None,400,80,30,30,110,40,110,0
+57,Dragonmaiden Axe,9,805,230,Poison,330,10,0,None,1,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
+58,Dragonmaiden Axe+,10,910,260,Poison,360,10,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
+59,Golden Crescent,12,1015,290,Poison,390,15,0,None,1,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
+60,Lumu Axe I,3,420,120,None,0,10,0,None,None,None,None,Power Phial ,None,250,120,70,30,30,0,0,0
+61,Lumu Axe II,4,490,140,None,0,10,0,None,None,None,None,Power Phial ,None,250,100,70,30,50,0,0,0
+62,Lumu Smasher I,5,525,150,Hidden Blast,360,20,0,None,1,None,None,Power Phial ,None,300,130,70,30,70,0,0,0
+63,Lumu Smasher II,6,560,160,Hidden Blast,390,20,0,None,2,None,None,Power Phial ,None,300,90,100,40,40,30,0,0
+64,Lumu Smasher III,7,595,170,Hidden Blast,420,20,0,None,3,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
+65,Mechanical Lumu I,9,805,230,Hidden Blast,480,20,0,None,3,1,None,Power Phial ,None,350,90,100,40,50,70,0,0
+66,Mechanical Lumu II,10,875,250,Hidden Blast,540,20,0,None,3,1,None,Power Phial ,None,350,150,30,30,60,50,30,0
+67,Glacial Axe I,4,455,130,Ice,210,0,0,None,None,None,None,Power Element Phial ,None,250,60,50,80,60,0,0,0
+68,Glacial Axe II,5,490,140,Ice,240,0,0,None,None,None,None,Power Element Phial ,None,300,100,50,50,80,20,0,0
+69,Frostreaver,6,525,150,Ice,270,0,0,None,None,None,None,Power Element Phial ,None,300,90,50,50,80,30,0,0
+70,Legia Frostreaver,7,560,160,Ice,300,0,0,None,None,None,None,Power Element Phial ,None,350,130,30,60,80,40,10,0
+71,Legia Frostreaver+,10,735,210,Ice,420,0,0,None,None,None,None,Power Element Phial ,None,350,90,80,30,30,80,40,0
+72,Hoarcry Frostreaver,10,770,220,Ice,510,0,0,None,None,None,None,Power Element Phial ,None,350,80,80,30,30,80,50,0
+73,Hector Glacia,11,840,240,Ice,540,0,0,None,None,None,None,Power Element Phial ,None,350,60,20,30,90,90,60,0
+74,Hazak Demios I,7,665,190,Dragon,180,0,0,Average,2,None,None,Power Element Phial ,None,350,140,110,40,40,20,0,0
+75,Hazak Demios II,7,700,200,Dragon,210,0,0,Average,2,None,None,Power Element Phial ,None,350,200,70,20,20,40,0,0
+76,Deathedge Vaal Demios,11,875,250,Dragon,510,0,0,Average,2,2,None,Power Element Phial ,None,350,80,80,30,30,80,50,0
+77,Rathalos Axe I,4,455,130,Fire,120,10,0,None,None,None,None,Power Phial ,None,250,60,50,80,60,0,0,0
+78,Rathalos Axe II,5,490,140,Fire,120,10,0,None,1,None,None,Power Phial ,None,300,100,50,80,70,0,0,0
+79,Rathbringer Axe I,6,560,160,Fire,150,15,0,None,1,None,None,Power Phial ,None,300,90,50,50,80,30,0,0
+80,Rathbringer Axe II,7,665,190,Fire,150,15,0,None,1,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
+81,Rathbringer Axe III,10,770,220,Fire,210,15,0,None,1,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
+82,Azure Rathbringer,10,840,240,Fire,240,20,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
+83,Silver Rathbringer,12,945,270,Fire,300,20,0,None,2,None,None,Power Phial ,None,350,130,30,30,60,50,50,0
+84,Diablos Axe I,4,595,170,None,0,-30,+10,None,None,None,None,Power Phial ,None,250,100,70,30,50,0,0,0
+85,Diablos Axe II,5,630,180,Hidden Ice,90,-30,+10,None,1,None,None,Power Phial ,None,300,140,70,30,60,0,0,0
+86,Axe Semper Tyrannis,6,735,210,Hidden Ice,120,-30,+15,None,1,None,None,Power Phial ,None,300,110,50,50,80,10,0,0
+87,Peal,4,385,110,Thunder,360,0,0,None,None,None,None,Power Element Phial ,None,250,60,50,80,60,0,0,0
+88,Peal+,7,490,140,Thunder,390,0,0,None,None,None,None,Power Element Phial ,None,350,110,20,20,150,50,0,0
+89,Kirin Thunderpeal,8,560,160,Thunder,420,0,0,None,None,None,None,Power Element Phial ,None,350,110,20,20,140,60,0,0
+90,Archbeast Kirin,11,840,240,Thunder,540,0,0,None,None,None,None,Power Element Phial ,None,350,60,80,30,30,80,70,0
+91,Motor Chopper I,6,630,180,Fire,120,0,+30,None,1,None,None,Power Phial ,None,300,90,50,50,80,30,0,0
+92,Motor Chopper II,7,735,210,Fire,120,0,+30,None,1,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
+93,Gigan Motor I,10,910,260,Fire,210,0,+35,None,3,None,None,Power Phial ,None,350,110,50,50,80,60,0,0
+94,Gigan Motor II,10,1015,290,Fire,240,0,+35,None,3,None,None,Power Phial ,None,350,100,50,50,80,70,0,0
+95,Axe of Thanatos,7,770,220,Hidden Ice,150,-30,+15,None,1,None,None,Power Phial ,None,350,140,110,40,40,20,0,0
+96,Axe of Demons,8,805,230,Hidden Ice,180,-30,+15,None,1,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
+97,Axe of Demons+,10,910,260,Hidden Ice,240,-30,+35,None,2,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
+98,Axe of Hades,10,1015,290,Hidden Ice,270,-30,+35,None,2,None,None,Power Phial ,None,350,70,50,90,70,70,0,0
+99,Teostras Arx,7,630,180,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,110,60,80,80,20,0,0
+100,Teostras Castle,8,665,190,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,90,60,60,100,40,0,0
+101,Teostras Hellebarde,11,910,260,Blast,360,10,0,None,None,None,None,Power Phial ,None,350,100,80,30,30,80,30,0
+102,Xeno Martshu,8,595,170,Dragon,150,15,0,Low,3,3,None,Power Phial ,None,350,130,30,60,80,40,10,0
+103,Bazel Raider I,6,665,190,Blast,150,-15,0,None,1,None,None,Power Phial ,None,300,100,50,50,80,20,0,0
+104,Bazel Raider II,7,700,200,Blast,180,-15,0,None,1,None,None,Power Phial ,None,350,70,120,80,60,20,0,0
+105,Bazelheart,11,875,250,Blast,270,-15,0,None,2,1,None,Power Phial ,None,350,170,30,30,60,50,10,0
+106,Dragonbone Slicer I,3,350,100,Dragon,210,0,0,Low,None,None,None,Power Element Phial ,None,250,110,70,30,40,0,0,0
+107,Dragonbone Slicer II,4,385,110,Dragon,270,0,0,Low,None,None,None,Power Element Phial ,None,250,70,70,30,80,0,0,0
+108,Dragonbone Slicer III,6,560,160,Dragon,330,0,0,Low,1,1,None,Power Element Phial ,None,350,120,110,40,40,40,0,0
+109,Dragonseal Axe I,10,735,210,Dragon,540,0,0,Average,1,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
+110,Dragonseal Axe II,11,840,240,Dragon,600,0,0,Average,1,1,None,Power Element Phial ,None,350,130,100,30,30,60,0,0
+111,Blacksteel Switch Axe I,5,350,100,Dragon,120,15,0,Low,None,None,None,Power Phial ,None,300,150,110,40,0,0,0,0
+112,Blacksteel Switch Axe II,6,385,110,Dragon,150,15,0,Low,None,None,None,Power Phial ,None,300,140,110,40,10,0,0,0
+113,Thunder Axe I,3,420,120,Thunder,90,0,0,None,None,None,None,Power Phial ,None,250,90,50,80,30,0,0,0
+114,Thunder Axe II,4,490,140,Thunder,90,0,0,None,None,None,None,Power Phial ,None,250,80,50,80,40,0,0,0
+115,Lightning Chopper I,5,560,160,Thunder,120,0,0,None,1,None,None,Power Phial ,None,300,110,50,80,60,0,0,0
+116,Lightning Chopper II,6,595,170,Thunder,150,0,0,None,2,None,None,Power Phial ,None,300,100,50,50,80,20,0,0
+117,Lightning Chopper III,6,630,180,Thunder,180,0,0,None,2,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
+118,Lightning Chopper IV,9,700,200,Thunder,240,0,0,None,2,None,None,Power Phial ,None,350,110,80,30,30,80,20,0
+119,Thundercleave I,10,840,240,Thunder,300,0,0,None,2,None,None,Power Element Phial ,None,350,100,80,30,30,80,30,0
+120,Thundercleave II,11,875,250,Thunder,420,0,0,None,2,1,None,Power Element Phial ,None,350,130,30,90,30,30,40,0
+121,Tyrannos,6,700,200,Dragon,120,-25,0,High,None,None,None,Power Phial ,None,350,60,120,80,60,30,0,0
+122,Terror Tyrannos,7,770,220,Dragon,180,-25,0,High,None,None,None,Power Phial ,None,350,50,120,80,60,40,0,0
+123,Saligia Vileaxe,12,980,280,Dragon,330,-30,0,High,None,None,None,Power Phial ,None,350,160,30,30,60,50,20,0
+124,Empress Axe,7,630,180,Blast,150,0,0,None,2,1,None,Power Phial ,None,350,110,30,60,80,40,30,0
+125,Empress Axe Blaze,8,630,180,Blast,180,20,0,None,2,1,None,Power Phial ,Guts,350,110,30,60,80,40,30,0
+126,Soulfire Scourge Blaze,12,875,250,Blast,270,20,0,None,2,1,None,Power Phial ,Guts,350,120,30,90,30,30,50,0
+127,Empress Axe Ruin,8,665,190,Blast,150,0,0,None,2,2,None,Power Phial ,Hasten Recovery,350,110,30,60,80,40,30,0
+128,Soulfire Scourge Ruin,12,945,270,Blast,210,0,0,None,2,2,None,Power Phial ,Hasten Recovery,350,120,30,90,30,30,50,0
+129,Empress Axe Styx,8,630,180,Blast,240,10,0,None,3,3,None,Power Phial ,Razor Sharp/Spare Shot,350,110,30,60,80,40,30,0
+130,Soulfire Scourge Styx,12,875,250,Blast,330,10,0,None,3,3,None,Power Phial ,Razor Sharp/Spare Shot,350,120,30,90,30,30,50,0
+131,Defender Switch Axe I,1,455,130,Blast,180,0,0,None,None,None,None,Power Phial ,None,200,30,60,20,90,0,0,0
+132,Defender Switch Axe II,3,595,170,Blast,210,0,0,None,None,None,None,Power Phial ,None,250,30,60,20,140,0,0,0
+133,Defender Switch Axe III,5,665,190,Blast,240,0,0,None,None,None,None,Power Phial ,None,300,50,50,50,80,70,0,0
+134,Defender Switch Axe IV,6,735,210,Blast,270,0,0,None,None,None,None,Power Phial ,None,300,30,50,50,80,90,0,0
+135,Defender Switch Axe V,7,770,220,Blast,300,0,0,None,None,None,None,Power Phial ,None,350,90,30,30,110,40,50,0
+136,Mammoth Halberd I,9,875,250,Hidden Ice,360,0,0,None,4,None,None,Power Phial ,None,350,90,50,50,80,80,0,0
+137,Mammoth Halberd II,10,980,280,Hidden Ice,450,0,0,None,4,None,None,Power Phial ,None,350,90,50,50,80,80,0,0
+138,Hidden Axe,10,770,220,Hidden Poison,360,10,0,None,None,None,None,Power Phial ,None,350,80,80,30,30,80,50,0
+139,Hidden Axe+,10,805,230,Hidden Poison,450,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
+140,Nights Crescent,11,840,240,Hidden Poison,540,20,0,None,None,None,None,Power Phial ,None,350,140,20,20,70,40,30,30
+141,Glavenus Smasher I,10,805,230,Fire,330,0,0,None,1,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
+142,Glavenus Smasher II,10,875,250,Fire,420,0,0,None,1,1,None,Power Phial ,None,350,130,30,30,60,50,50,0
+143,Deep Lagoon I,9,770,220,Water,510,0,0,None,2,None,None,Power Element Phial ,None,350,70,80,30,30,80,60,0
+144,Deep Lagoon II,10,840,240,Water,540,0,0,None,2,None,None,Power Element Phial ,None,350,120,30,30,60,50,60,0
+145,Icerood,11,910,260,Ice,270,0,0,None,4,None,None,Power Phial ,None,350,150,30,30,60,50,30,0
+146,Wicked Niddoq,12,945,270,Ice,300,0,0,None,4,None,None,Power Phial ,None,350,140,30,30,60,50,40,0
+147,Rex Raider I,10,875,250,Hidden Blast,390,-15,0,None,None,None,None,Power Phial ,None,350,70,30,30,110,40,70,0
+148,Rex Raider II,10,945,270,Hidden Blast,420,-15,0,None,1,None,None,Power Phial ,None,350,50,30,30,110,40,90,0
+149,Donnerbeil,10,840,240,Thunder,210,10,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
+150,Donnerbeil+,10,875,250,Thunder,240,15,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
+151,Fulgurations Bite,11,910,260,Thunder,270,20,0,None,None,None,None,Power Phial ,None,350,80,100,40,50,80,0,0
+152,Nyx Smasher I,9,770,220,Sleep,360,0,0,None,2,None,None,Power Phial ,None,350,80,30,30,110,40,60,0
+153,Nyx Smasher II,10,840,240,Sleep,450,0,0,None,2,None,None,Power Phial ,None,350,80,30,30,110,40,60,0
+154,Dios Smasher I,10,840,240,Blast,360,0,0,None,None,None,None,Power Phial ,None,350,90,100,40,50,70,0,0
+155,Dios Smasher II,10,875,250,Blast,480,0,0,None,1,None,None,Power Phial ,None,350,100,30,30,110,40,40,0
+156,Evanescent Glow,12,980,280,Hidden Dragon,510,0,+30,High,1,1,None,Power Phial ,None,350,170,30,30,60,50,10,0
+157,Undying Axe,11,1015,290,Thunder,90,-15,0,None,4,None,None,Power Phial ,None,350,110,100,40,50,50,0,0
+158,Undying Light,12,1085,310,Thunder,120,-15,0,None,4,None,None,Power Phial ,None,350,100,100,40,50,60,0,0
+159,Blackwing Switch Axe I,10,910,260,Poison,210,20,0,None,3,None,None,Power Phial ,None,350,150,30,90,30,30,20,0
+160,Blackwing Switch Axe II,11,945,270,Poison,240,25,0,None,3,None,None,Power Phial ,None,350,150,30,90,30,30,20,0
+161,Amber Slash,10,805,230,Ice,210,15,0,None,None,None,None,Power Phial ,None,350,90,100,40,50,70,0,0
+162,Amber Slash+,10,840,240,Ice,300,20,0,None,None,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
+163,Amber Hoarfrost,11,875,250,Ice,390,30,0,None,None,None,None,Power Phial ,None,350,110,30,30,110,40,30,0
+164,Acid Smasher I,10,945,270,Hidden Paralysis,360,0,0,None,4,None,None,Power Phial ,None,350,160,100,30,30,30,0,0
+165,Acid Smasher II,11,1015,290,Hidden Paralysis,390,0,0,None,4,None,None,Power Phial ,None,350,60,50,110,90,40,0,0
+166,Hydra Strobila,11,910,260,Water,210,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
+167,Black Strobila,12,980,280,Water,270,15,0,None,None,None,None,Power Phial ,None,350,70,80,30,30,80,60,0
+168,Accursed Raider,11,980,280,Hidden Sleep,270,-30,0,None,1,None,None,Exhaust Phial 30,None,350,90,20,30,90,90,30,0
+169,Guild Palace Cleaver,10,875,250,Hidden Water,420,10,+30,None,3,None,None,Power Phial ,None,350,150,30,30,60,50,30,0
+170,Royal Titan Axe,12,945,270,Hidden Water,510,15,+30,None,3,None,None,Power Phial ,None,350,140,30,30,60,50,40,0
+171,Gold Thunder Chopper,6,455,130,Hidden Thunder,240,10,+20,None,None,None,None,Power Phial ,None,350,110,20,20,140,60,0,0
+172,Gold Paralysis Chopper,6,525,150,Hidden Paralysis,210,-20,+25,None,None,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
+173,Gold Sleep Chopper,6,490,140,Hidden Sleep,180,0,+20,None,None,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
+174,Glutton Gold Chopper,6,560,160,Sleep,90,0,+20,None,None,None,None,Power Phial ,None,350,110,120,40,50,30,0,0
+175,Mire Gold Chopper,6,560,160,Water,150,0,+20,None,None,None,None,Power Element Phial ,None,350,90,120,40,50,50,0,0
+176,Mud Gold Chopper,6,560,160,Paralysis,90,-20,+25,None,None,None,None,Power Phial ,None,350,120,70,30,100,30,0,0
+177,Drifter Gold Chopper,6,525,150,Hidden Blast,210,25,+20,None,None,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
+178,Stream Gold Chopper,6,455,130,Ice,150,10,+20,None,None,None,None,Power Element Phial ,None,350,90,100,40,40,80,0,0
+179,Decay Gold Chopper,6,525,150,Dragon,90,0,+20,Average,None,None,None,Power Element Phial ,None,350,250,20,20,20,30,10,0
+180,King Gold Chopper,6,490,140,Fire,90,15,+20,None,None,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
+181,Horn Gold Chopper,6,665,190,Hidden Ice,120,-30,+25,None,None,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
+182,Gyre Gold Chopper,6,560,160,Fire,60,10,+40,None,None,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
+183,Bomber Gold Chopper,6,595,170,Blast,90,0,+20,None,None,None,None,Power Phial ,None,350,100,100,40,40,70,0,0
+184,Taroth Axe Glutton,7,665,190,Sleep,150,0,+20,None,None,None,None,Power Phial ,None,350,110,120,40,50,30,0,0
+185,Taroth Axe Mire,7,665,190,Water,300,0,+20,None,None,None,None,Power Element Phial ,None,350,90,120,40,50,50,0,0
+186,Taroth Axe Mud,7,735,210,Paralysis,180,-20,+25,None,None,None,None,Power Phial ,None,350,120,70,30,100,30,0,0
+187,Taroth Axe Drifter,7,595,170,Hidden Blast,420,25,+20,None,None,None,None,Power Phial ,None,350,140,100,30,30,50,0,0
+188,Taroth Axe Stream,7,560,160,Ice,300,10,+20,None,None,None,None,Power Element Phial ,None,350,90,100,40,40,80,0,0
+189,Taroth Axe Decay,7,595,170,Dragon,210,0,+20,Average,None,None,None,Power Element Phial ,None,350,250,20,20,20,30,10,0
+190,Taroth Axe King,7,665,190,Fire,210,15,+20,None,None,None,None,Power Phial ,None,350,90,60,80,80,40,0,0
+191,Taroth Axe Horn,7,805,230,Hidden Ice,240,-30,+25,None,None,None,None,Power Phial ,None,350,90,50,60,120,30,0,0
+192,Taroth Axe Gyre,7,735,210,Fire,120,10,+40,None,None,None,None,Power Phial ,None,350,80,50,80,100,40,0,0
+193,Taroth Axe Bomber,7,630,180,Blast,180,0,+20,None,None,None,None,Power Phial ,None,350,100,100,40,40,70,0,0
+194,Taroth Axe Thunder,8,560,160,Hidden Thunder,480,10,+20,None,3,None,None,Power Phial ,None,350,120,30,60,80,40,20,0
+195,Taroth Axe Paralysis,8,735,210,Hidden Paralysis,450,0,+30,None,3,None,None,Power Phial ,None,350,110,100,40,40,60,0,0
+196,Taroth Axe Sleep,8,665,190,Hidden Sleep,360,0,+20,None,3,None,None,Power Phial ,None,350,60,50,60,120,60,0,0
+197,Taroth Axe Water,8,700,200,Hidden Water,480,0,+20,None,3,None,None,Power Phial ,None,350,70,60,60,100,60,0,0
+198,Kjarr Axe Stream,8,595,170,Ice,330,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,110,30,60,80,40,30,0
+199,Kjarr Axe Decay,8,595,170,Dragon,270,10,0,Average,1,None,None,Power Element Phial ,Critical Element,350,220,20,20,20,30,40,0
+200,Kjarr Axe King,8,665,190,Fire,300,20,0,None,1,None,None,Power Element Phial ,Critical Element,350,80,60,60,100,50,0,0
+201,Kjarr Axe Bomber,8,665,190,Blast,270,10,0,None,1,None,None,Power Phial ,Critical Status,350,90,100,40,40,80,0,0
+202,Kjarr Axe Thunder,8,595,170,Thunder,330,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,100,30,60,80,40,40,0
+203,Kjarr Axe Water,8,665,190,Water,360,15,0,None,None,None,None,Power Element Phial ,Critical Element,350,50,50,60,120,70,0,0
+204,Kjarr Axe Paralysis,8,700,200,Paralysis,330,10,0,None,None,None,None,Power Phial ,Critical Status,350,80,100,40,40,90,0,0

@@ -45,6 +45,12 @@ p {
     <a href="Dual-Blades">Dual Blades</a>
     <a href="Long-Swords">Long Swords</a>
     <a href="Hammers">Hammers</a>
+    <a href="Hunting-Horns">Hunting Horns</a>
+    <a href="Lances">Lances</a>
+    <a href="Gun-Lances">Gun Lances</a>
+    <a href="Switch-Axes">Switch Axes</a>
+    <a href="Charge-Blades">Charge Blades</a>
+    <a href="Insect-Glaives">Insect Glaives</a>
 
     <!--Dropdown box form-->
     <form method='POST'>
@@ -92,6 +98,60 @@ p {
             {% endfor %}
         </select>
         {% endif %}
+
+        {% if Hunting_Horns %}
+        <p><label for="HuntingHorns">Hunting Horns:</label></p>
+        <select id="HuntingHorns" name="HHName" style="width: 15%;">
+            {% for row in Hunting_Horns %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Lances %}
+        <p><label for="Lancez">Lances:</label></p>
+        <select id="Lancez" name="LName" style="width: 15%;">
+            {% for row in Lances %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Gun_Lances %}
+        <p><label for="GunLances">Lances:</label></p>
+        <select id="GunLances" name="GLName" style="width: 15%;">
+            {% for row in Gun_Lances %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Switch_Axes %}
+        <p><label for="SwitchAxes">Switch Axes:</label></p>
+        <select id="SwitchAxes" name="SAName" style="width: 15%;">
+            {% for row in Switch_Axes %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Charge_Blades %}
+        <p><label for="ChargeBlades">Charge Blades:</label></p>
+        <select id="ChargeBlades" name="CBName" style="width: 15%;">
+            {% for row in Charge_Blades %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+
+        {% if Insect_Glaives %}
+        <p><label for="InsectGlaives">Insect Glaives:</label></p>
+        <select id="InsectGlaives" name="IGName" style="width: 15%;">
+            {% for row in Insect_Glaives %}
+            <option value="{{row.Name}}, {{row.Rarity}}">{{row.Name}} {{row.Rarity}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
         <input type="submit">
            
         
@@ -107,6 +167,10 @@ p {
             <th>True Damage</th>
             <th>Element Type</th>
             <th>Element Damage</th>
+            {% if SelectedDualBlade %}
+            <th>2nd Element Type</th>
+            <th>2nd Element Damage</th>
+            {% endif %}
             <th>Affinity(%)</th>
             <th>Defense</th>
             <th>Elderseal</th>
@@ -252,6 +316,180 @@ p {
             <td> {{ row.Gem_Slot_1 }}</td>
             <td> {{ row.Gem_Slot_2 }}</td>
             <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedHuntingHorn %}
+        {% for row in SelectedHuntingHorn %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Notes }}</td>
+            <td> {{ row.Melodies }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedLance %}
+        {% for row in SelectedLance %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedGunLance %}
+        {% for row in SelectedGunLance %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Shelling }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedSwitchAxe %}
+        {% for row in SelectedSwitchAxe %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Phial_Type }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedChargeBlade %}
+        {% for row in SelectedChargeBlade %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Phial_Type }}</td>
+            <td> {{ row.Skill }}</td>
+            <td> {{ row.Max_Sharpness }}</td>
+            <td> {{ row.Red_Sharpness }}</td>
+            <td> {{ row.Orange_Sharpness }}</td>
+            <td> {{ row.Yellow_Sharpness }}</td>
+            <td> {{ row.Green_Sharpness }}</td>
+            <td> {{ row.Blue_Sharpness }}</td>
+            <td> {{ row.White_Sharpness }}</td>
+            <td> {{ row.Purple_Sharpness }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        {% if SelectedInsectGlaive %}
+        {% for row in SelectedInsectGlaive %}
+        <tr>
+            <td> {{ row.Name }}</td>
+            <td> {{ row.Rarity }}</td>
+            <td> {{ row.Damage }}</td>
+            <td> {{ row.True_Damage }}</td>
+            <td> {{ row.Element_Type }}</td>
+            <td> {{ row.Element_Damage }}</td>
+            <td> {{ row.Affinity_Percent }}</td>
+            <td> {{ row.Defense }}</td>
+            <td> {{ row.Elderseal }}</td>
+            <td> {{ row.Gem_Slot_1 }}</td>
+            <td> {{ row.Gem_Slot_2 }}</td>
+            <td> {{ row.Gem_Slot_3 }}</td>
+            <td> {{ row.Kinsect_Bonus }}</td>
             <td> {{ row.Skill }}</td>
             <td> {{ row.Max_Sharpness }}</td>
             <td> {{ row.Red_Sharpness }}</td>

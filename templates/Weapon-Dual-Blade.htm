@@ -44,6 +44,12 @@ p {
     <a href="Dual-Blades">Dual Blades</a>
     <a href="Long-Swords">Long Swords</a>
     <a href="Hammers">Hammers</a>
+    <a href="Hunting-Horns">Hunting Horns</a>
+    <a href="Lances">Lances</a>
+    <a href="Gun-Lances">Gun Lances</a>
+    <a href="Switch-Axes">Switch Axes</a>
+    <a href="Charge-Blades">Charge Blades</a>
+    <a href="Insect-Glaives">Insect Glaives</a>
 
     <p>Search: <input type="text" id="WeaponInput" onkeyup="WeaponSearch()" placeholder="Enter a name..." title="Type in a name"></p>
 
@@ -80,10 +86,10 @@ p {
             <td> {{ row.Rarity }}</td>
             <td> {{ row.Damage }}</td>
             <td> {{ row.True_Damage }}</td>
-            <td> {{ row._1st_Element_Type }}</td>
-            <td> {{ row._1st_Element_Damage }}</td>
-            <td> {{ row._2nd_Element_Type }}</td>
-            <td> {{ row._2nd_Element_Damage }}</td>
+            <td> {{ row.First_Element_Type }}</td>
+            <td> {{ row.First_Element_Damage }}</td>
+            <td> {{ row.Second_Element_Type }}</td>
+            <td> {{ row.Second_Element_Damage }}</td>
             <td> {{ row.Affinity_Percentage }}</td>
             <td> {{ row.Defense }}</td>
             <td> {{ row.Elderseal }}</td>
