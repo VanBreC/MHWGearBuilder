@@ -102,6 +102,34 @@ def showGreatSwords():
     db = Database("Weapons")
     pieces = db.list_Weapons("Great_Swords")
     return render_template('Weapon-Great-Sword.htm',result = pieces)
+@app.route('/Great-Swords',methods=['POST'])
+def GSDamage():
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('Sharp')
+    print("Sharpness Color is: " + Sharpness)
+    AttackValue = request.form.get('AV')
+    print("Attack Value is: " + AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    db = Database("Weapons")
+    pieces = db.list_Weapons("Great_Swords")
+    return render_template('Weapon-Great-Sword.htm',result = pieces,DR = CalculatedDamage)
+
 
 #Sword & Shield table
 @app.route('/Sword-Shields')
