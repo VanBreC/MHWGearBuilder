@@ -1,5 +1,6 @@
 CREATE TABLE Great_Swords(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR (40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -23,11 +24,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_GreatSword.csv' INTO TABLE Great_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_GreatSword.csv' INTO TABLE Great_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE GS_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_GSAttack.csv' INTO TABLE GS_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Sword_Shields(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -51,11 +70,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_SwordShield.csv' INTO TABLE Sword_Shields FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_SwordShield.csv' INTO TABLE Sword_Shields FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE SH_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_SHAttack.csv' INTO TABLE SH_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Dual_Blades(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -81,11 +118,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_DualBlades.csv' INTO TABLE Dual_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_DualBlades.csv' INTO TABLE Dual_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE DB_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_DBAttack.csv' INTO TABLE DB_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Long_Swords(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -109,11 +164,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_LongSword.csv' INTO TABLE Long_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_LongSword.csv' INTO TABLE Long_Swords FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE LS_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_LSAttack.csv' INTO TABLE LS_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Hammers(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -137,11 +210,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_Hammer.csv' INTO TABLE Hammers FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_Hammer.csv' INTO TABLE Hammers FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE H_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_HAttack.csv' INTO TABLE H_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Hunting_Horns(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -167,11 +258,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_HuntingHorn.csv' INTO TABLE Hunting_Horns FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_HuntingHorn.csv' INTO TABLE Hunting_Horns FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE HH_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_HHAttack.csv' INTO TABLE HH_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Lances(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -195,11 +304,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_Lance.csv' INTO TABLE Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_Lance.csv' INTO TABLE Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE L_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_LAttack.csv' INTO TABLE L_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Gun_Lances(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -224,11 +351,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_GunLance.csv' INTO TABLE Gun_Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_GunLance.csv' INTO TABLE Gun_Lances FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE GL_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_GLAttack.csv' INTO TABLE GL_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Switch_Axes(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -253,11 +398,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_SwitchAxe.csv' INTO TABLE Switch_Axes FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_SwitchAxe.csv' INTO TABLE Switch_Axes FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE SA_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_SAAttack.csv' INTO TABLE SA_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Charge_Blades(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -282,11 +445,29 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_ChargeBlade.csv' INTO TABLE Charge_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_ChargeBlade.csv' INTO TABLE Charge_Blades FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE CB_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_CBAttack.csv' INTO TABLE CB_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
 CREATE TABLE Insect_Glaives(
-Name VARCHAR(40) PRIMARY KEY,
+ID SMALLINT PRIMARY KEY,
+Name VARCHAR(40),
 Rarity SMALLINT NOT NULL,
 Damage SMALLINT NOT NULL,
 True_Damage SMALLINT NOT NULL,
@@ -311,6 +492,23 @@ Purple_Sharpness SMALLINT NOT NULL
 );
 
 LOAD DATA LOCAL INFILE
-'/home/$USER/SENG3210-Project/Python\ Scraper/MHWData_InsectGlaive.csv' INTO TABLE Insect_Glaives FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_InsectGlaive.csv' INTO TABLE Insect_Glaives FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+--------------------------------------------------------------
+
+CREATE TABLE IG_Attacks(
+ID SMALLINT PRIMARY KEY,
+Move VARCHAR (40),
+Power SMALLINT NOT NULL,
+Stun SMALLINT,
+Exhaust SMALLINT,
+Mount SMALLINT,
+Element_Multiplier DECIMAL(3,2),
+Ailment_Multiplier DECIMAL(3,2),
+Part_Break_Multiplier DECIMAL(3,2),
+Tenderize SMALLINT
+);
+
+LOAD DATA LOCAL INFILE
+'/home/brendan/SENG3210-Project/Python\ Scraper/MHWData_IGAttack.csv' INTO TABLE IG_Attacks FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 --------------------------------------------------------------
 
