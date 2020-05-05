@@ -32,6 +32,11 @@ class Database:
         result = self.cur.fetchall()
         return result
 
+    def attack_power(self,table,Name):
+        self.cur.execute("SELECT Power FROM "+table+" WHERE Move = '"+Name+"'")
+        result = self.cur.fetchall()
+        return result
+
 
 #Pages
 #Homepage
@@ -99,17 +104,25 @@ def showTables():
 #Great Sword table
 @app.route('/Great-Swords')
 def showGreatSwords():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("GS_Attacks")
     pieces = db.list_Weapons("Great_Swords")
-    return render_template('Weapon-Great-Sword.htm',result = pieces)
+    return render_template('Weapon-Great-Sword.htm',result = pieces, SharpC = SharpColors, GS_Attacks = Attacks)
 @app.route('/Great-Swords',methods=['POST'])
 def GSDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("GS_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     TrueDamage = request.form.get('TD')
     print("True Damage is: " + TrueDamage)
-    Sharpness = request.form.get('Sharp')
+    Sharpness = request.form.get('SharpMod')
     print("Sharpness Color is: " + Sharpness)
-    AttackValue = request.form.get('AV')
-    print("Attack Value is: " + AttackValue)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("GS_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
     MonsterArmor = request.form.get('MA')
     print("Monster Armor is: " + MonsterArmor)
     if Sharpness == "Red":
@@ -126,80 +139,419 @@ def GSDamage():
         Sharpness = 1.32
     CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
     print("Calculated Damage: ", CalculatedDamage)
-    db = Database("Weapons")
     pieces = db.list_Weapons("Great_Swords")
-    return render_template('Weapon-Great-Sword.htm',result = pieces,DR = CalculatedDamage)
+    return render_template('Weapon-Great-Sword.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, GS_Attacks = Attacks)
 
 
 #Sword & Shield table
 @app.route('/Sword-Shields')
 def showSwordShields():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("SH_Attacks")
     pieces = db.list_Weapons("Sword_Shields")
-    return render_template('Weapon-Sword-Shield.htm',result = pieces)
+    return render_template('Weapon-Sword-Shield.htm',result = pieces, SharpC = SharpColors, SH_Attacks = Attacks)
+@app.route('/Sword-Shields',methods=['POST'])
+def SHDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("SH_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("SH_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Sword_Shields")
+    return render_template('Weapon-Sword-Shield.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, SH_Attacks = Attacks)
 
 #Dual Blades table
 @app.route('/Dual-Blades')
 def showDualBlades():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("DB_Attacks")
     pieces = db.list_Weapons("Dual_Blades")
-    return render_template('Weapon-Dual-Blade.htm',result = pieces)
+    return render_template('Weapon-Dual-Blade.htm',result = pieces, SharpC = SharpColors, DB_Attacks = Attacks)
+@app.route('/Dual-Blades',methods=['POST'])
+def DBDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("DB_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("DB_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Dual_Blades")
+    return render_template('Weapon-Dual-Blade.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, DB_Attacks = Attacks)
 
 #Long Sword table
 @app.route('/Long-Swords')
 def showLongSwords():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("LS_Attacks")
     pieces = db.list_Weapons("Long_Swords")
-    return render_template('Weapon-Long-Sword.htm',result = pieces)
+    return render_template('Weapon-Long-Sword.htm',result = pieces, SharpC = SharpColors, LS_Attacks = Attacks)
+@app.route('/Long-Swords',methods=['POST'])
+def LSDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("LS_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("LS_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Long_Swords")
+    return render_template('Weapon-Long-Sword.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, LS_Attacks = Attacks)
 
 #Hammer table
 @app.route('/Hammers')
 def showHammers():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("H_Attacks")
     pieces = db.list_Weapons("Hammers")
-    return render_template('Weapon-Hammer.htm',result = pieces)
+    return render_template('Weapon-Hammer.htm',result = pieces, SharpC = SharpColors, H_Attacks = Attacks)
+@app.route('/Hammers',methods=['POST'])
+def HDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("H_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("H_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Hammers")
+    return render_template('Weapon-Hammer.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, H_Attacks = Attacks)
 
 #Hunting Horn table
 @app.route('/Hunting-Horns')
 def showHuntingHorns():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("HH_Attacks")
     pieces = db.list_Weapons("Hunting_Horns")
-    return render_template('Weapon-Hunting-Horn.htm',result = pieces)
+    return render_template('Weapon-Hunting-Horn.htm',result = pieces, SharpC = SharpColors, HH_Attacks = Attacks)
+@app.route('/Hunting-Horns',methods=['POST'])
+def HHDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("HH_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("HH_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Hunting_Horns")
+    return render_template('Weapon-Hunting-Horn.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, HH_Attacks = Attacks)
 
 #Lance table
 @app.route('/Lances')
 def showLances():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("L_Attacks")
     pieces = db.list_Weapons("Lances")
-    return render_template('Weapon-Lance.htm',result = pieces)
+    return render_template('Weapon-Lance.htm',result = pieces, SharpC = SharpColors, L_Attacks = Attacks)
+@app.route('/Lances',methods=['POST'])
+def LDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("L_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("L_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Lances")
+    return render_template('Weapon-Lance.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, L_Attacks = Attacks)
 
 #Gun Lance table
 @app.route('/Gun-Lances')
 def showGunLances():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("GL_Attacks")
     pieces = db.list_Weapons("Gun_Lances")
-    return render_template('Weapon-Gun-Lance.htm',result = pieces)
+    return render_template('Weapon-Gun-Lance.htm',result = pieces, SharpC = SharpColors, GL_Attacks = Attacks)
+@app.route('/Gun-Lances',methods=['POST'])
+def GLDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("GL_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("GL_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Gun_Lances")
+    return render_template('Weapon-Gun-Lance.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, GL_Attacks = Attacks)
 
 #Switch Axe table
 @app.route('/Switch-Axes')
 def showSwitchAxes():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("SA_Attacks")
     pieces = db.list_Weapons("Switch_Axes")
-    return render_template('Weapon-Switch-Axe.htm',result = pieces)
+    return render_template('Weapon-Switch-Axe.htm',result = pieces, SharpC = SharpColors, SA_Attacks = Attacks)
+@app.route('/Switch-Axes',methods=['POST'])
+def SADamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("SA_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("SA_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Switch_Axes")
+    return render_template('Weapon-Switch-Axe.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, SA_Attacks = Attacks)
 
 #Charge Blade table
 @app.route('/Charge-Blades')
 def showChargeBlades():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("CB_Attacks")
     pieces = db.list_Weapons("Charge_Blades")
-    return render_template('Weapon-Charge-Blade.htm',result = pieces)
+    return render_template('Weapon-Charge-Blade.htm',result = pieces, SharpC = SharpColors, CB_Attacks = Attacks)
+@app.route('/Charge-Blades',methods=['POST'])
+def CBDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("CB_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("CB_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Charge_Blades")
+    return render_template('Weapon-Charge-Blade.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, CB_Attacks = Attacks)
 
 #Insect Glaive table
 @app.route('/Insect-Glaives')
 def showInsectGlaives():
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
     db = Database("Weapons")
+    Attacks = db.list_Weapons("IG_Attacks")
     pieces = db.list_Weapons("Insect_Glaives")
-    return render_template('Weapon-Insect-Glaive.htm',result = pieces)
+    return render_template('Weapon-Insect-Glaive.htm',result = pieces, SharpC = SharpColors, IG_Attacks = Attacks)
+@app.route('/Insect-Glaives',methods=['POST'])
+def IGDamage():
+    db = Database("Weapons")
+    Attacks = db.list_Weapons("IG_Attacks")
+    SharpColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'White', 'Purple']
+    TrueDamage = request.form.get('TD')
+    print("True Damage is: " + TrueDamage)
+    Sharpness = request.form.get('SharpMod')
+    print("Sharpness Color is: " + Sharpness)
+    AttackName = request.form.get('AttackValue')
+    AttackValue = db.attack_power("IG_Attacks", AttackName)
+    AttackValue = str(AttackValue[0])
+    AttackValue = re.sub("\D", "", AttackValue)
+    print("Attack Value is: ", AttackValue)
+    MonsterArmor = request.form.get('MA')
+    print("Monster Armor is: " + MonsterArmor)
+    if Sharpness == "Red":
+        Sharpness = 0.5
+    elif Sharpness == "Orange":
+        Sharpness = 0.75
+    elif Sharpness == "Yellow":
+        Sharpness = 1
+    elif Sharpness == "Green":
+        Sharpness = 1.05
+    elif Sharpness == "Blue":
+        Sharpness = 1.2
+    elif Sharpness == "White":
+        Sharpness = 1.32
+    CalculatedDamage = round(int(TrueDamage)*Sharpness*(int(AttackValue)/100)*(int(MonsterArmor)/100))
+    print("Calculated Damage: ", CalculatedDamage)
+    pieces = db.list_Weapons("Insect_Glaives")
+    return render_template('Weapon-Insect-Glaive.htm', result = pieces, DR = CalculatedDamage, SharpC = SharpColors, IG_Attacks = Attacks)
 
 if __name__ == "__main__":
     app.run()
