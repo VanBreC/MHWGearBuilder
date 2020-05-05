@@ -52,6 +52,34 @@ p {
     <a href="Insect-Glaives">Insect Glaives</a>
 
     <p>Search: <input type="text" id="WeaponInput" onkeyup="WeaponSearch()" placeholder="Enter a name..." title="Type in a name"></p>
+    <form method='POST'>
+        <p>Dual Blades Damage Calculator</p>
+        <p>Monster Hit Data: http://mhgen.kiranico.com/monster</p>
+        <p>True Damage: <input type="text" name="TD" id='TrueDamage' placeholder="Enter True Damage Number" title="True Damage Box">
+            
+            {% if SharpC %}
+            Sharpness: <select id="SharpnessDrop" name="SharpMod" title="Sharpness Box">
+                {% for color in SharpC %}
+                <option value="{{color}}">{{color}}</option>
+                {% endfor %}
+            </select>
+            {% endif %}
+            
+            {% if DB_Attacks %}
+            Attack: <select id='AttackDrop' name="AttackValue" title="Attack Value Box">
+                {% for row in DB_Attacks %}
+                <option value="{{row.Move}}">{{row.Move}}</option>
+                {% endfor %}
+            </select>
+            {% endif %}
+            
+            Monster Armor: <input type="text" name="MA" id='MonsterArmor' placeholder="Enter Hit Data" title="Monster Armor Box">
+            <input type='submit'>
+            {% if DR %}
+                <p>{{ DR }}</p>
+            {% endif %}
+        </p>
+    </form>
 
     <table id="Weapons" style="width:100%">
         {% if result %}
