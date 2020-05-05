@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Aliment,Part Break,Tenderize
+1,Overhead Slash,48,0,0,0,1,1,1,0
+2,Wide Slash,26,0,0,0,1,1,1,0
+3,Rising Slash,38,0,0,0,1,1,1,0
+4,Side Blow,16,20,15,0,1,1,1,0
+5,Charged Slash III,110,0,0,0,1.5,1.5,1,0
+6,Strong Charged Slash III,131,0,0,0,1.7,1.7,1,0
+7,True Charged Slash III,211,0,0,0,1.7,1.7,1.5,0
+8,True Charged Slash (Power),264,0,0,0,1.8,1.8,1.3,0
+9,Charged Slash (Mount),89,0,0,0,1.5,1.5,1,0
+10,Weapon Attack (Clutch Claw),48,0,0,0,1,1,0,30

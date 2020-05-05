@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Reaping Slash,18,0,0,0,0.8,0.8,1,0
+2,Overhead Smash,30,0,0,0,0.8,0.8,1,0
+3,Strong Rising Slash Combo,16,0,0,0,0.8,0.8,1,0
+4,Tornado Slash,42,0,0,0,0.8,0.8,1,0
+5,Jumping Slash,15,0,0,30,1,1,1,0
+6,Strong Jumping Slash,8,0,0,20,0.6,0.6,1,0
+7,Jumping Advancing Slash,28,0,0,5,1,1,1,0
+8,Strong Jumping Advancing Slash,32,0,0,10,1,1,1,0
+9,Slash Flurry (Mount),32,0,0,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),32,0,0,0,1,1,1,20

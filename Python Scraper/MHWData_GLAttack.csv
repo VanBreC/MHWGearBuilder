@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Lunging Upthrust,30,0,0,0,1,1,1,0
+2,Lateral Thrust I,24,0,0,0,1,1,1,0
+3,Guard Thrust I,18,0,0,0,1,1,1,0
+4,Rising Slash,30,0,0,0,1,1,1,0
+5,Jumping Smash,44,0,0,20,1,1,1,0
+6,Overhead Smash,48,0,0,0,1,1,1,0
+7,Wide Sweep,68,0,0,0,1,1,1,0
+8,Wyrmstake Cannon,28,0,0,0,1,1,1,0
+9,Burst Fire,25,0,0,0,1,1,0,0
+10,Weapon Attack (Clutch Claw),45,0,0,0,1,1,0,50

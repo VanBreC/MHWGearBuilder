@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Aliment,Part Break,Tenderize
+1,Lunging Strike,5,0,0,0,0.5,0.4,1,0
+2,Rising Slash,9,0,0,0,0.7,0.6,1,0
+3,Double Slash,10,0,0,0,0.5,0.4,1,0
+4,Circle Slash,11,0,0,0,0.6,0.5,1,0
+5,Jumping Doubleslash,12,0,0,20,0.5,0.4,1,0
+6,Spinning Blade Dance Finisher,20,0,0,0,0.7,0.7,1,0
+7,Demon Flurry,17,0,0,0,0.8,0.7,1,0
+8,Midair Spinning Blade Dance,20,0,0,0,0.7,0.7,1,0
+9,Blade Dance,20,0,0,0,1,0.8,1,0
+10,Spinning Rising Slash (Clutch Claw),23,0,0,0,1,1,1.1,5

@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Mid Thrust I,20,0,0,0,0.7,0.7,1,0
+2,Mid Thrust III,27,0,0,0,0.7,0.7,1,0
+3,High Thrust I,22,0,0,0,0.7,0.7,1,0
+4,High Thrust III,27,0,0,0,0.7,0.7,1,0
+5,Jumping Thrust,30,0,0,55,0.7,0.7,1,0
+6,Finishing Thrust,50,0,0,0,0.8,0.8,1,0
+7,Counter-thrust,40,0,0,0,0.7,0.7,1,0
+8,Finishing Twin Thrust,50,0,0,0,0.8,0.8,1,0
+9,Finishing Thrust (Mount),40,0,0,0,1,0.7,0,0
+10,Weapon Attack (Clutch Claw),45,0,0,0,1,0.8,1,50

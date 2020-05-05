@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Step Slash,24,0,0,0,1,1,1,0
+2,Overhead Slash,21,0,0,0,1,1,1,0
+3,Thrust,12,0,0,0,1,1,1,0
+4,Rising Slash,18,0,0,0,1,1,1,0
+5,Fade Slash,22,0,0,0,1,1,1,0
+6,Spirit Helm Breaker,25,0,0,0,0.3,0.3,0.9,0
+7,Iai Slash,86,0,0,0,1,1,1.5,0
+8,Jumping Rising Slash,20,0,0,30,1,1,1,0
+9,Spirit Storm (Mount),34,0,0,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),15,0,0,0,1,1,0,35

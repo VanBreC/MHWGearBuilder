@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Sword: Forward Slash,20,0,0,0,1,1,1,0
+2,Sword: Shield Thrust,12,0,0,0,1,1,1,0
+3,Sword: Sliding Slash,30,0,0,0,1,1,1,0
+4,Sword: Charged Double Slash,27,0,0,0,1,1,1,0
+5,Axe: Jumping Morph Slash,55,0,0,55,1,1,1,0
+6,Sword: Condensed Element Slash,60,0,0,0,1,1,1,0
+7,Axe: Super Amped Element Discharge,82,0,0,0,1,1,1,0
+8,Savage Axe Slash,30,0,0,0,1,1,1,0
+9,Axe: Super Amped Element Discharge (Mount),150,0,0,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),48,0,0,0,1,1,0,50

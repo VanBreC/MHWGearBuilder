@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Axe: Overhead Slash,45,0,0,0,1,1,1,0
+2,Axe: Forward Slash,19,0,0,0,1,1,1,0
+3,Axe: Wild Swing,23,0,0,0,0.8,0.8,1,0
+4,Axe: Heavy Slam,72,0,0,0,1,1,1.5,0
+5,Axe: Jumping Slash,43,0,0,60,1,1,1,0
+6,Sword: Overhead Slash,29,0,0,0,1,1,1,0
+7,Sword: Double Slash,22,0,0,0,1,1,1,0
+8,Sword: Heavenward Flurry,35,0,0,0,1,1,1,0
+9,Element Discharge Finisher (Mount),100,0,0,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),45,0,0,0,1,1,1,75

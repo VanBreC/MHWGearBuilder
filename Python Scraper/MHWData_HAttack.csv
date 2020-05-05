@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Ailment,Part Break,Tenderize
+1,Overhead Smash I,37,20,10,0,1,1,1,0
+2,Side Smash,15,20,5,0,1,1,1,0
+3,Upswing,86,50,10,0,1,1,1,0
+4,Big Bang Finisher,100,15,15,0,1,1,1,0
+5,Spinning Bludgeon,55,25,10,0,1,1,1,0
+6,Jumping Charged Attack III,80,55,10,55,1,1,1,0
+7,Jumping Smash,37,20,10,55,1,1,1,0
+8,Midair Spinning Bludgeon,100,60,30,0,1,1,1,0
+9,Charged Attack (Mount),111,30,5,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),55,55,10,0,1,1,1,80

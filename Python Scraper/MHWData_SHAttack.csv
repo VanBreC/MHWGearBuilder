@@ -1,0 +1,11 @@
+Order,Move,Power,Stun,Exhaust,Mount,Element,Aliment,Part Break,Tenderize
+1,Chop,14,0,0,0,1,1,1,0
+2,Side Slash,13,0,0,0,1,1,1,0
+3,Roundslash,30,0,0,0,1,1,1,0
+4,Lateral Slash,22,0,0,0,1,1,1,0
+5,Return Stroke,21,0,0,0,1,1,1,0
+6,Jumping Slash,20,0,0,55,1,1,1,0
+7,Charged Slash,40,0,0,0,1,1,1,0
+8,Scaling Slash,35,0,0,0,1,1,1,0
+9,Triple Strike Finisher (Mount),45,0,0,0,1,1,1,0
+10,Weapon Attack (Clutch Claw),28,0,0,0,1,1,1,15
